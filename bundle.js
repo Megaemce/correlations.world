@@ -128,39 +128,47 @@ function correlationCoefficient(key1, key2, jsonData) {
     let corrWeaknes = "";
     if (correlation < 0.2 && corrWeaknes > -0.2) {
         corrWeaknes = "no";
-        imgCorrelation.content = "url(/img/no.svg)";
+        imgCorrelation.content = "url(/WorldOfCorrelations/img/no.svg)";
     }
     if (correlation >= 0.2) {
         corrWeaknes = "weak positive";
-        imgCorrelation.content = "url(/img/weakPositive.svg)";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/weakPositive.svg)";
     }
     if (correlation >= 0.4) {
         corrWeaknes = "moderate positive";
-        imgCorrelation.content = "url(/img/moderatePositive.svg)";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/moderatePositive.svg)";
     }
     if (correlation >= 0.7) {
         corrWeaknes = "strong positive";
-        imgCorrelation.content = "url(/img/strongPositive.svg)";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/strongPositive.svg)";
     }
     if (correlation >= 0.9) {
         corrWeaknes = "very strong positive";
-        imgCorrelation.content = "url(/img/veryStrongPositive.svg)";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/veryStrongPositive.svg)";
     }
     if (correlation <= -0.2) {
         corrWeaknes = "weak negative";
-        imgCorrelation.content = "url(/img/weakNegative.svg)";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/weakNegative.svg)";
     }
     if (correlation <= -0.4) {
         corrWeaknes = "moderate negative";
-        imgCorrelation.content = "url(/img/moderateNegative.svg)";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/moderateNegative.svg)";
     }
     if (correlation <= -0.7) {
         corrWeaknes = "strong negative";
-        imgCorrelation.content = "url(/img/strongNegative.svg)";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/strongNegative.svg)";
     }
     if (correlation <= -0.9) {
         corrWeaknes = "very strong negative";
-        imgCorrelation.content = "url(/img/veryStrongNegative.svg)";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/veryStrongNegative.svg)";
     }
 
     return `${correlation.toFixed(2)} - ${corrWeaknes} correlation`;
