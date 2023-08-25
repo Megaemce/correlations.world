@@ -94,7 +94,7 @@ function showCorrelationResult() {
     }
 
     correlationWeakness.innerText = corrWeakness + " ";
-    correlationAbbr.title = `Based on data from ${correlationCountries}`;
+    correlationAbbr.title = `Based on data from ${correlationCountries} countries`;
     correlationResult.innerText = correlationValue;
 }
 
