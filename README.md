@@ -19,4 +19,6 @@ and cannot be meaningfully compared or correlated.
 
 That's why I collect all the data [worlddata.info](https://www.worlddata.info/), [World Bank Group](https://data.worldbank.org/) and the some [other data](https://www.science.org/doi/10.1126/science.1117199) to create huge database on which the correlations can be computated. 
 
-Enjoy!
+Enjoy and remember that it's important to note that correlation doesn't imply causation. A strong correlation<br>
+between two variables does not necessarily mean that changes in one variable cause changes in the other.<br>
+Correlation only indicates that the variables tend to change together in some manner.
