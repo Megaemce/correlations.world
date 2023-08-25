@@ -4,7 +4,7 @@ Have you ever wonder if there is a correlation between IQ and the size of the pe
 Or have you ever dream to know if there is a strong correlation between neuroticism and women bra size?<br>
 
 **You probably have not!**<br>
-But if you ever did (ory ou are curious now) then you probably notice that some of those question are very close <br>
+But if you ever did (or you are curious now) then you probably notice that some of those question are very close <br>
 to being a taboo, and software like chatpGTP will not even try to answer your question even tho the data <br>
 is publicly available, and the result is just a statistical result of simple computation.
 
