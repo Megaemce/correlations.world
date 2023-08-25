@@ -15,7 +15,7 @@
             }
 
             p {
-                margin: 5px;
+                margin: 0px;
             }
 
             /* Style the select element */
@@ -45,6 +45,7 @@
                 justify-items: center;
                 flex-direction: column;
                 align-items: center;
+                padding-bottom: 20px;
             }
 
             div.choose {
@@ -61,7 +62,43 @@
 
             div.statistics {
                 display: flex;
+                flex-direction: column;
                 align-items: center;
+                padding-top: 20px;
+                border-top: solid;
+                width: 95%;
+
+                .head {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                }
+                .body {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+
+                    .column {
+                        display: flex;
+                        flex-direction: column;
+                        width: 25%;
+                        min-width: 200px;
+
+                        .row1 {
+                            display: flex;
+                            justify-content: space-around;
+                            font-size: 25px;
+                            padding-bottom: 10px;
+                        }
+                        .row2 {
+                            display: flex;
+                            flex-wrap: wrap;
+                            flex-direction: column;
+                            align-content: flex-start;
+                        }
+                    }
+                }
             }
 
             /* Style the dropdown arrow icon */
@@ -93,40 +130,6 @@
             select:focus {
                 border-color: #007bff;
                 box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
-            }
-
-            .tg {
-                border: none;
-                border-collapse: collapse;
-                border-spacing: 0;
-            }
-            .tg td {
-                border-style: solid;
-                border-width: 0px;
-                overflow: hidden;
-                padding: 10px 5px;
-                word-break: normal;
-            }
-            .tg th {
-                border-style: solid;
-                border-width: 0px;
-                overflow: hidden;
-                padding: 10px 5px;
-                word-break: normal;
-            }
-            .tg .tg-qlhy {
-                text-align: center;
-                vertical-align: top;
-                font-size: 30px;
-            }
-            .tg .tg-x2jv {
-                text-align: center;
-                vertical-align: top;
-                font-size: 24px;
-            }
-            .tg .tg-73oq {
-                text-align: left;
-                vertical-align: top;
             }
         </style>
     </head>
@@ -255,134 +258,153 @@
                     <img alt="No correlation" id="imgCorrelation" />
                 </div>
             </div>
-            <!-- <p>
-            It's important to note that correlation doesn't imply causation.
-            <br />A strong correlation between two variables does not
-            necessarily mean that changes in one variable cause changes in the
-            other. Correlation only indicates that the variables tend to change
-            together in some manner.
-        </p> -->
             <div class="statistics">
-                <!-- <hr /> -->
-                <table class="tg">
-                    <thead>
-                        <tr>
-                            <th class="tg-qlhy" colspan="5">
-                                🗺️ World average statistics
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="tg-x2jv">👨🏻‍👩🏻‍👧🏻</td>
-                            <td class="tg-x2jv">👩🏻</td>
-                            <td class="tg-x2jv">👨🏻</td>
-                            <td class="tg-x2jv">🏳️</td>
-                        </tr>
-                        <tr>
-                            <td class="tg-73oq">
-                                <p>IQ is <b id="IQ"></b></p>
-                                <p>
-                                    Life expectancy is
-                                    <b id="AvgLifeExpectancy"></b> years
-                                </p>
-                                <p>
-                                    Birth rate is <b id="BirthRate"></b> ‰
-                                    [births per 1000 inhabitants/year]
-                                </p>
-                                <p>
-                                    Death rate is <b id="DeathRate"></b> ‰
-                                    [deaths per 1000 inhabitants/year]
-                                </p>
+                <div class="head">
+                    <h2>🗺️ World average statistics</h2>
+                </div>
+                <div class="body">
+                    <div class="column">
+                        <div class="row1">👨🏻‍👩🏻‍👧🏻</div>
+                        <div class="row2">
+                            <p>IQ is <b id="IQ"></b></p>
+                            <p>
+                                Life expectancy is
+                                <b id="AvgLifeExpectancy"></b> years
+                            </p>
+                            <p>
+                                Birth rate is
+                                <abbr title="births per 1000 inhabitants/year"
+                                    ><b id="BirthRate"></b> ‰</abbr
+                                >
+                            </p>
+                            <p>
+                                Death rate is
+                                <abbr title="deaths per 1000 inhabitants/year"
+                                    ><b id="DeathRate"></b> ‰</abbr
+                                >
+                            </p>
+                            <p>
+                                Neuroticism rate is
+                                <abbr title="0 - no trait, 100 very high trait"
+                                    ><b id="Neuroticism"></b
+                                ></abbr>
+                            </p>
+                            <p>
+                                Extraversion rate is
 
-                                <p>
-                                    Neuroticism rate is <b id="Neuroticism"></b>
-                                    [0 - no trait, 100 very high trait]
-                                </p>
-                                <p>
-                                    Extraversion rate is
-                                    <b id="Extraversion"></b>
-                                    [0 - no trait, 100 very high trait]
-                                </p>
-                                <p>
-                                    Openness rate is <b id="Openness"></b>
-                                    [0 - no trait, 100 very high trait]
-                                </p>
-                                <p>
-                                    Agreeableness rate is
-                                    <b id="Agreeableness"></b>
-                                    [0 - no trait, 100 very high trait]
-                                </p>
-                                <p>
-                                    Conscientiousness rate is
-                                    <b id="Conscientiousness"></b>
-                                    [0 - no trait, 100 very high trait]
-                                </p>
-                            </td>
-                            <td class="tg-73oq">
-                                <p>
-                                    Life expectancy is
-                                    <b id="FemaleLifeExpectancy"></b> years
-                                </p>
-                                <p>Bra size is <b id="BraSize"></b></p>
-                                <p>Height is <b id="FemaleHeight"></b> m</p>
-                                <p>Weight is <b id="FemaleWeight"></b> kg</p>
-                                <p>BMI is <b id="FemaleBMI"></b></p>
-                            </td>
-                            <td class="tg-73oq">
-                                <p>
-                                    Life expectancy is
-                                    <b id="MaleLifeExpectancy"></b> years
-                                </p>
-                                <p>
-                                    Penis length is <b id="PenisLength"></b> cm
-                                </p>
-                                <p>Height is <b id="MaleHeight"></b> m</p>
-                                <p>Weight is <b id="MaleWeight"></b> kg</p>
-                                <p>BMI is <b id="MaleBMI"></b></p>
-                            </td>
-                            <td class="tg-73oq">
-                                <p>Yearly income is <b id="Income"></b> $</p>
-                                <p>
-                                    Political and economic stability is
-                                    <b id="Stability"></b> [0 - anarchy, 100 -
-                                    ants nest]
-                                </p>
-                                <p>
-                                    Legal system and civil rights is
-                                    <b id="HumanRights"></b> [0 - really bad,
-                                    100 - amazing]
-                                </p>
-                                <p>
-                                    Health services are
-                                    <b id="HealthServices"></b> [0 - deadly
-                                    insufficient, 100 - amazing]
-                                </p>
-                                <p>
-                                    Safety is <b id="Safety"></b> [0 - deadly
-                                    unsafe, 100 - heaven]
-                                </p>
-                                <p>
-                                    Climate is <b id="Climate"></b> [0 - really
-                                    bad weather, 100 - amazing weather]
-                                </p>
-                                <p>
-                                    Costs of living is <b id="Costs"></b> [0 -
-                                    really expensive, 100 - amazingly cheap]
-                                </p>
-                                <p>
-                                    Popularity is <b id="Popularity"></b> [0 -
-                                    no one goes there, 100 - everyone goes
-                                    there]
-                                </p>
-                                <p>
-                                    Corruption is <b id="Corruption"></b> [0 -
-                                    no corruption, 100 - high corruption]
-                                </p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                                <abbr title="0 - no trait, 100 very high trait"
+                                    ><b id="Extraversion"></b
+                                ></abbr>
+                            </p>
+                            <p>
+                                Openness rate is
+                                <abbr title="0 - no trait, 100 very high trait"
+                                    ><b id="Openness"></b>
+                                </abbr>
+                            </p>
+                            <p>
+                                Agreeableness rate is
+                                <abbr title="0 - no trait, 100 very high trait"
+                                    ><b id="Agreeableness"></b
+                                ></abbr>
+                            </p>
+                            <p>
+                                Conscientiousness rate is
+                                <abbr title="0 - no trait, 100 very high trait"
+                                    ><b id="Conscientiousness"></b
+                                ></abbr>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="row1">👩🏻</div>
+                        <div class="row2">
+                            <p>
+                                Life expectancy is
+                                <b id="FemaleLifeExpectancy"></b> years
+                            </p>
+                            <p>Bra size is <b id="BraSize"></b></p>
+                            <p>Height is <b id="FemaleHeight"></b> m</p>
+                            <p>Weight is <b id="FemaleWeight"></b> kg</p>
+                            <p>BMI is <b id="FemaleBMI"></b></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="row1">👨🏻</div>
+                        <div class="row2">
+                            <p>
+                                Life expectancy is
+                                <b id="MaleLifeExpectancy"></b> years
+                            </p>
+                            <p>Penis length is <b id="PenisLength"></b> cm</p>
+                            <p>Height is <b id="MaleHeight"></b> m</p>
+                            <p>Weight is <b id="MaleWeight"></b> kg</p>
+                            <p>BMI is <b id="MaleBMI"></b></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="row1">🏳️</div>
+                        <div class="row2">
+                            <p>Yearly income is <b id="Income"></b> $</p>
+                            <p>
+                                Political and economic stability is
+
+                                <abbr title="0 - anarchy, 100 - ants nest"
+                                    ><b id="Stability"></b
+                                ></abbr>
+                            </p>
+                            <p>
+                                Legal system and civil rights are
+
+                                <abbr title="0 - really bad, 100 - amazing"
+                                    ><b id="HumanRights"></b
+                                ></abbr>
+                            </p>
+                            <p>
+                                Health services are
+
+                                <abbr
+                                    title="0 - deadly insufficient, 100 - amazing"
+                                    ><b id="HealthServices"></b
+                                ></abbr>
+                            </p>
+                            <p>
+                                Safety is
+                                <abbr title="0 - deadly unsafe, 100 - heaven"
+                                    ><b id="Safety"></b
+                                ></abbr>
+                            </p>
+                            <p>
+                                Climate is
+                                <abbr
+                                    title="0 - really bad weather, 100 - amazing weather"
+                                    ><b id="Climate"></b
+                                ></abbr>
+                            </p>
+                            <p>
+                                Costs of living are
+                                <abbr
+                                    title="0 - really expensive, 100 - amazingly cheap"
+                                    ><b id="Costs"></b
+                                ></abbr>
+                            </p>
+                            <p>
+                                Popularity is
+                                <abbr
+                                    title="0 - no one goes there, 100 - everyone goes there"
+                                    ><b id="Popularity"></b
+                                ></abbr>
+                            </p>
+                            <p>
+                                Corruption is
+                                <abbr
+                                    title="0 - no corruption, 100 - high corruption"
+                                    ><b id="Corruption"></b
+                                ></abbr>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <script src="bundle.js"></script>
