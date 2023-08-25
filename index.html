@@ -18,6 +18,12 @@
                 margin: 0px;
             }
 
+            p.weaknes,
+            p.value {
+                margin-right: 6px;
+                margin-left: 6px;
+            }
+
             /* Style the select element */
             select {
                 padding: 7px;
@@ -52,6 +58,12 @@
                 display: flex;
                 flex-direction: row;
                 align-items: center;
+            }
+
+            div.result {
+                display: flex;
+                font-size: 25px;
+                font-weight: bold;
             }
 
             div.image {
@@ -261,7 +273,14 @@
                     </select>
                     is
                 </div>
-                <h2 id="correlationResult"></h2>
+                <div class="result">
+                    <abbr id="correlationAbbr" title="">
+                        <p class="value" id="correlationResult"></p
+                    ></abbr>
+                    —
+                    <p id="correlationWeaknes" class="weaknes"></p>
+                    correlation
+                </div>
                 <div class="image">
                     <img alt="No correlation" id="imgCorrelation" />
                 </div>

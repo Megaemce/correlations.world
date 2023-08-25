@@ -27,8 +27,7 @@ fetch("src/iqCorrelation.json")
 
         // update from the beggining
         updateSwitch2Options();
-        document.getElementById("correlationResult").innerText =
-            correlationCoefficient(option1, option2, data);
+        showCorrelationResult();
     })
     .catch((error) => {
         console.error("Fetch error:", error);
@@ -37,8 +36,66 @@ fetch("src/iqCorrelation.json")
 function showCorrelationResult() {
     option2 = switch2.value;
 
-    document.getElementById("correlationResult").innerText =
-        correlationCoefficient(option1, option2, data);
+    const correlationResult = document.getElementById("correlationResult");
+    const correlationAbbr = document.getElementById("correlationAbbr");
+    const correlationWeaknes = document.getElementById("correlationWeaknes");
+    const correlationValue = correlationCoefficient(option1, option2, data)[0];
+    const correlationCountries = correlationCoefficient(
+        option1,
+        option2,
+        data
+    )[1];
+    const imgCorrelation = document.getElementById("imgCorrelation").style;
+
+    let corrWeaknes = "";
+    if (correlationValue < 0.2 && correlationValue > -0.2) {
+        corrWeaknes = "no";
+        imgCorrelation.content = "url(/WorldOfCorrelations/img/no.svg)";
+    }
+    if (correlationValue >= 0.2) {
+        corrWeaknes = "weak positive";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/weakPositive.svg)";
+    }
+    if (correlationValue >= 0.4) {
+        corrWeaknes = "moderate positive";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/moderatePositive.svg)";
+    }
+    if (correlationValue >= 0.7) {
+        corrWeaknes = "strong positive";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/strongPositive.svg)";
+    }
+    if (correlationValue >= 0.9) {
+        corrWeaknes = "very strong positive";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/veryStrongPositive.svg)";
+    }
+    if (correlationValue <= -0.2) {
+        corrWeaknes = "weak negative";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/weakNegative.svg)";
+    }
+    if (correlationValue <= -0.4) {
+        corrWeaknes = "moderate negative";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/moderateNegative.svg)";
+    }
+    if (correlationValue <= -0.7) {
+        corrWeaknes = "strong negative";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/strongNegative.svg)";
+    }
+    if (correlationValue <= -0.9) {
+        corrWeaknes = "very strong negative";
+        imgCorrelation.content =
+            "url(/WorldOfCorrelations/img/veryStrongNegative.svg)";
+    }
+
+    correlationWeaknes.innerText = corrWeaknes + " ";
+    correlationAbbr.title = `Based on data from ${correlationCountries}`;
+    correlationResult.innerText = correlationValue + " — ";
 }
 
 function updateSwitch2Options() {
@@ -126,55 +183,8 @@ function correlationCoefficient(key1, key2, jsonData) {
 
     const denominator = Math.sqrt(xSquaredSum) * Math.sqrt(ySquaredSum);
     const correlation = numerator / denominator;
-    const imgCorrelation = document.getElementById("imgCorrelation").style;
 
-    let corrWeaknes = "";
-    if (correlation < 0.2 && corrWeaknes > -0.2) {
-        corrWeaknes = "no";
-        imgCorrelation.content = "url(/WorldOfCorrelations/img/no.svg)";
-    }
-    if (correlation >= 0.2) {
-        corrWeaknes = "weak positive";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/weakPositive.svg)";
-    }
-    if (correlation >= 0.4) {
-        corrWeaknes = "moderate positive";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/moderatePositive.svg)";
-    }
-    if (correlation >= 0.7) {
-        corrWeaknes = "strong positive";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/strongPositive.svg)";
-    }
-    if (correlation >= 0.9) {
-        corrWeaknes = "very strong positive";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/veryStrongPositive.svg)";
-    }
-    if (correlation <= -0.2) {
-        corrWeaknes = "weak negative";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/weakNegative.svg)";
-    }
-    if (correlation <= -0.4) {
-        corrWeaknes = "moderate negative";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/moderateNegative.svg)";
-    }
-    if (correlation <= -0.7) {
-        corrWeaknes = "strong negative";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/strongNegative.svg)";
-    }
-    if (correlation <= -0.9) {
-        corrWeaknes = "very strong negative";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/veryStrongNegative.svg)";
-    }
-
-    return `${correlation.toFixed(2)} — ${corrWeaknes} correlation`;
+    return [correlation.toFixed(2), x.length];
 }
 
 // function arrayToTable(tableData) {
