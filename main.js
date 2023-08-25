@@ -37,7 +37,7 @@ function showCorrelationResult() {
 
     const correlationResult = document.getElementById("correlationResult");
     const correlationAbbr = document.getElementById("correlationAbbr");
-    const correlationWeaknes = document.getElementById("correlationWeaknes");
+    const correlationWeakness = document.getElementById("correlationWeakness");
     const correlationValue = correlationCoefficient(option1, option2, data)[0];
     const correlationCountries = correlationCoefficient(
         option1,
@@ -46,55 +46,55 @@ function showCorrelationResult() {
     )[1];
     const imgCorrelation = document.getElementById("imgCorrelation").style;
 
-    let corrWeaknes = "";
+    let corrWeakness = "";
     if (correlationValue < 0.2 && correlationValue > -0.2) {
-        corrWeaknes = "no";
+        corrWeakness = "no";
         imgCorrelation.content = "url(/WorldOfCorrelations/img/no.svg)";
     }
     if (correlationValue >= 0.2) {
-        corrWeaknes = "weak positive";
+        corrWeakness = "weak positive";
         imgCorrelation.content =
             "url(/WorldOfCorrelations/img/weakPositive.svg)";
     }
     if (correlationValue >= 0.4) {
-        corrWeaknes = "moderate positive";
+        corrWeakness = "moderate positive";
         imgCorrelation.content =
             "url(/WorldOfCorrelations/img/moderatePositive.svg)";
     }
     if (correlationValue >= 0.7) {
-        corrWeaknes = "strong positive";
+        corrWeakness = "strong positive";
         imgCorrelation.content =
             "url(/WorldOfCorrelations/img/strongPositive.svg)";
     }
     if (correlationValue >= 0.9) {
-        corrWeaknes = "very strong positive";
+        corrWeakness = "very strong positive";
         imgCorrelation.content =
             "url(/WorldOfCorrelations/img/veryStrongPositive.svg)";
     }
     if (correlationValue <= -0.2) {
-        corrWeaknes = "weak negative";
+        corrWeakness = "weak negative";
         imgCorrelation.content =
             "url(/WorldOfCorrelations/img/weakNegative.svg)";
     }
     if (correlationValue <= -0.4) {
-        corrWeaknes = "moderate negative";
+        corrWeakness = "moderate negative";
         imgCorrelation.content =
             "url(/WorldOfCorrelations/img/moderateNegative.svg)";
     }
     if (correlationValue <= -0.7) {
-        corrWeaknes = "strong negative";
+        corrWeakness = "strong negative";
         imgCorrelation.content =
             "url(/WorldOfCorrelations/img/strongNegative.svg)";
     }
     if (correlationValue <= -0.9) {
-        corrWeaknes = "very strong negative";
+        corrWeakness = "very strong negative";
         imgCorrelation.content =
             "url(/WorldOfCorrelations/img/veryStrongNegative.svg)";
     }
 
-    correlationWeaknes.innerText = corrWeaknes + " ";
+    correlationWeakness.innerText = corrWeakness + " ";
     correlationAbbr.title = `Based on data from ${correlationCountries}`;
-    correlationResult.innerText = correlationValue + " — ";
+    correlationResult.innerText = correlationValue;
 }
 
 function updateSwitch2Options() {
