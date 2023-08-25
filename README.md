@@ -1,4 +1,4 @@
-## World of correlations - Check the correlations between various world data
+## World of correlations — Check the correlations between various world data
 
 Have you ever wonder if there is a correlation between IQ and the size of the penis?<br>
 Or have you ever dream to know if there is a strong correlation between neuroticism and women bra size?<br>
@@ -17,7 +17,17 @@ Intelligence (IQ) and physical attributes like penis size are unrelated
 and cannot be meaningfully compared or correlated.
 ````
 
-That's why I collect all the data [worlddata.info](https://www.worlddata.info/), [World Bank Group](https://data.worldbank.org/) and the some [other data](https://www.science.org/doi/10.1126/science.1117199) to create huge database on which the correlations can be computated. 
+That's why I collect all the data [worlddata.info](https://www.worlddata.info/), [World Bank Group](https://data.worldbank.org/) and some [other data](https://www.science.org/doi/10.1126/science.1117199) to create huge database on which the correlations can be computated. 
+
+Now I can give you the answer straight away — there is a **weak negative corrleation** between IQ and size of the penis
+
+![image](https://github.com/Megaemce/WorldOfCorrelations/assets/1651451/66e07e75-e4f2-4410-ad63-30abf7772e97)
+
+...and there is **no correlation** between neuroticism and bra size
+
+![image](https://github.com/Megaemce/WorldOfCorrelations/assets/1651451/e1018742-eac2-4f6e-a5d7-afa5deeb1b2b)
+
+You are welcome! 
 
 Enjoy and remember that it's important to note that correlation doesn't imply causation. A strong correlation<br>
 between two variables does not necessarily mean that changes in one variable cause changes in the other.<br>
