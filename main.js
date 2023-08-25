@@ -64,7 +64,10 @@ function showMean(key, jsonData) {
         .filter((value) => value !== null);
 
     const bold = document.getElementById(key);
+    const abbr = document.getElementById(`${key}Abbr`);
     const mean = calculateMean(values).toFixed(2);
+
+    if (abbr) abbr.title += ` Based on data from ${values.length} countries`;
 
     if (key === "BraSize") {
         if (mean < 3.5) bold.innerText = "C";
