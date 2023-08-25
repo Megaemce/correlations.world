@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table and Chart Example</title>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+        />
+        <style>
+            /* Set font for the whole body */
+            body {
+                font-family: "Roboto", sans-serif;
+                font-weight: 400; /* Normal font weight */
+                line-height: 1.6; /* Adjust line height as needed */
+            }
+
+            p {
+                margin: 5px;
+            }
+
+            /* Style the select element */
+            select {
+                padding: 7px;
+                margin-left: 5px;
+                margin-right: 5px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                background-color: #fff;
+                appearance: none; /* Remove default appearance */
+                -webkit-appearance: none; /* For Safari and Chrome */
+                width: 180px; /* Set a fixed width or adjust as needed */
+            }
+
+            div.main {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            div.correlation {
+                display: flex;
+                justify-items: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            div.choose {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            div.image {
+                display: flex;
+                align-items: center;
+                width: 30%;
+            }
+
+            div.statistics {
+                display: flex;
+                align-items: center;
+            }
+
+            /* Style the dropdown arrow icon */
+            select::-ms-expand {
+                display: none; /* Hide arrow in IE10+ */
+            }
+
+            select::after {
+                content: "\25BC"; /* Unicode arrow-down character */
+                position: absolute;
+                top: 50%;
+                right: 10px;
+                transform: translateY(-50%);
+                pointer-events: none;
+            }
+
+            /* Hover effect */
+            select:hover {
+                border-color: #aaa;
+            }
+
+            img {
+                content: url(/img/no.svg);
+                max-height: 100%;
+                max-width: 100%;
+            }
+
+            /* Focus effect */
+            select:focus {
+                border-color: #007bff;
+                box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+            }
+
+            .tg {
+                border: none;
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+            .tg td {
+                border-style: solid;
+                border-width: 0px;
+                overflow: hidden;
+                padding: 10px 5px;
+                word-break: normal;
+            }
+            .tg th {
+                border-style: solid;
+                border-width: 0px;
+                overflow: hidden;
+                padding: 10px 5px;
+                word-break: normal;
+            }
+            .tg .tg-qlhy {
+                text-align: center;
+                vertical-align: top;
+                font-size: 30px;
+            }
+            .tg .tg-x2jv {
+                text-align: center;
+                vertical-align: top;
+                font-size: 24px;
+            }
+            .tg .tg-73oq {
+                text-align: left;
+                vertical-align: top;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="correlation">
+                <div class="choose">
+                    <label for="switch1">Correlation between </label>
+                    <select id="switch1">
+                        <option selected value="IQ">💡 IQ</option>
+                        <option value="AvgLifeExpectancy">
+                            ⏳ Life expectancy
+                        </option>
+                        <optgroup label="───────────"></optgroup>
+                        <optgroup label="Country">
+                            <option value="Income">💵 Income</option>
+                            <option value="BirthRate">🍼 Birth rate</option>
+                            <option value="DeathRate">🪦 Death rate</option>
+                            <option value="Stability">💣 Stability</option>
+                            <option value="HumanRights">⚖️ Human rights</option>
+                            <option value="HealthServices">
+                                🩺 Health services
+                            </option>
+                            <option value="Safety">🛟 Safety</option>
+                            <option value="Climate">⛱️ Climate</option>
+                            <option value="Costs">🪙 Costs of living</option>
+                            <option value="Popularity">🧳 Popularity</option>
+                            <option value="Corruption">🫰🏻 Corruption</option>
+                        </optgroup>
+                        <optgroup label="───────────"></optgroup>
+                        <optgroup label="Big five traits">
+                            <option value="Neuroticism">😡 Neuroticism</option>
+                            <option value="Extraversion">
+                                🥳 Extraversion
+                            </option>
+                            <option value="Openness">🤗 Openness</option>
+                            <option value="Agreeableness">
+                                🤝🏻 Agreeableness
+                            </option>
+                            <option value="Conscientiousness">
+                                👷🏻 Conscientiousness
+                            </option>
+                        </optgroup>
+                        <optgroup label="───────────"></optgroup>
+                        <optgroup label="Men">
+                            <option value="PenisLength">🤏🏻 Penis length</option>
+                            <option value="MaleLifeExpectancy">
+                                👴🏻 Life expectancy
+                            </option>
+                            <option value="MaleHeight">📏 Height</option>
+                            <option value="MaleWeight">🏋🏻‍♂️ Weight</option>
+                            <option value="MaleBMI">🫃🏻 BMI</option>
+                        </optgroup>
+                        <optgroup label="───────────"></optgroup>
+                        <optgroup label="Women">
+                            <option value="BraSize">👐🏻 Bra size</option>
+                            <option value="FemaleLifeExpectancy">
+                                🧓🏻 Life expectancy
+                            </option>
+                            <option value="FemaleHeight">📏 Height</option>
+                            <option value="FemaleWeight">🏋🏻‍♀️ Weight</option>
+                            <option value="FemaleBMI">🤰🏻 BMI</option>
+                        </optgroup>
+                    </select>
+                    <label for="switch2"> and</label>
+                    <select id="switch2">
+                        <option value="IQ">💡 IQ</option>
+                        <option selected value="AvgLifeExpectancy">
+                            ⏳ Life expectancy
+                        </option>
+                        <optgroup label="───────────"></optgroup>
+                        <optgroup label="Country">
+                            <option value="Income">💵 Income</option>
+                            <option value="BirthRate">🍼 Birth rate</option>
+                            <option value="DeathRate">🪦 Death rate</option>
+                            <option value="Stability">💣 Stability</option>
+                            <option value="HumanRights">⚖️ Human rights</option>
+                            <option value="HealthServices">
+                                🩺 Health services
+                            </option>
+                            <option value="Safety">🛟 Safety</option>
+                            <option value="Climate">⛱️ Climate</option>
+                            <option value="Costs">🪙 Costs of living</option>
+                            <option value="Popularity">🧳 Popularity</option>
+                            <option value="Corruption">🫰🏻 Corruption</option>
+                        </optgroup>
+                        <optgroup label="───────────"></optgroup>
+                        <optgroup label="Big five traits">
+                            <option value="Neuroticism">😡 Neuroticism</option>
+                            <option value="Extraversion">
+                                🥳 Extraversion
+                            </option>
+                            <option value="Openness">🤗 Openness</option>
+                            <option value="Agreeableness">
+                                🤝🏻 Agreeableness
+                            </option>
+                            <option value="Conscientiousness">
+                                👷🏻 Conscientiousness
+                            </option>
+                        </optgroup>
+                        <optgroup label="───────────"></optgroup>
+                        <optgroup label="Men">
+                            <option value="PenisLength">🤏🏻 Penis length</option>
+                            <option value="MaleLifeExpectancy">
+                                👴🏻 Life expectancy
+                            </option>
+                            <option value="MaleHeight">📏 Height</option>
+                            <option value="MaleWeight">🏋🏻‍♂️ Weight</option>
+                            <option value="MaleBMI">🫃🏻 BMI</option>
+                        </optgroup>
+                        <optgroup label="───────────"></optgroup>
+                        <optgroup label="Women">
+                            <option value="BraSize">👐🏻 Bra size</option>
+                            <option value="FemaleLifeExpectancy">
+                                🧓🏻 Life expectancy
+                            </option>
+                            <option value="FemaleHeight">📏 Height</option>
+                            <option value="FemaleWeight">🏋🏻‍♀️ Weight</option>
+                            <option value="FemaleBMI">🤰🏻 BMI</option>
+                        </optgroup>
+                    </select>
+                    is
+                </div>
+                <h2 id="correlationResult"></h2>
+                <div class="image">
+                    <img alt="No correlation" id="imgCorrelation" />
+                </div>
+            </div>
+            <!-- <p>
+            It's important to note that correlation doesn't imply causation.
+            <br />A strong correlation between two variables does not
+            necessarily mean that changes in one variable cause changes in the
+            other. Correlation only indicates that the variables tend to change
+            together in some manner.
+        </p> -->
+            <div class="statistics">
+                <!-- <hr /> -->
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-qlhy" colspan="5">
+                                🗺️ World average statistics
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-x2jv">👨🏻‍👩🏻‍👧🏻</td>
+                            <td class="tg-x2jv">👩🏻</td>
+                            <td class="tg-x2jv">👨🏻</td>
+                            <td class="tg-x2jv">🏳️</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-73oq">
+                                <p>IQ is <b id="IQ"></b></p>
+                                <p>
+                                    Life expectancy is
+                                    <b id="AvgLifeExpectancy"></b> years
+                                </p>
+                                <p>
+                                    Birth rate is <b id="BirthRate"></b> ‰
+                                    [births per 1000 inhabitants/year]
+                                </p>
+                                <p>
+                                    Death rate is <b id="DeathRate"></b> ‰
+                                    [deaths per 1000 inhabitants/year]
+                                </p>
+
+                                <p>
+                                    Neuroticism rate is <b id="Neuroticism"></b>
+                                    [0 - no trait, 100 very high trait]
+                                </p>
+                                <p>
+                                    Extraversion rate is
+                                    <b id="Extraversion"></b>
+                                    [0 - no trait, 100 very high trait]
+                                </p>
+                                <p>
+                                    Openness rate is <b id="Openness"></b>
+                                    [0 - no trait, 100 very high trait]
+                                </p>
+                                <p>
+                                    Agreeableness rate is
+                                    <b id="Agreeableness"></b>
+                                    [0 - no trait, 100 very high trait]
+                                </p>
+                                <p>
+                                    Conscientiousness rate is
+                                    <b id="Conscientiousness"></b>
+                                    [0 - no trait, 100 very high trait]
+                                </p>
+                            </td>
+                            <td class="tg-73oq">
+                                <p>
+                                    Life expectancy is
+                                    <b id="FemaleLifeExpectancy"></b> years
+                                </p>
+                                <p>Bra size is <b id="BraSize"></b></p>
+                                <p>Height is <b id="FemaleHeight"></b> m</p>
+                                <p>Weight is <b id="FemaleWeight"></b> kg</p>
+                                <p>BMI is <b id="FemaleBMI"></b></p>
+                            </td>
+                            <td class="tg-73oq">
+                                <p>
+                                    Life expectancy is
+                                    <b id="MaleLifeExpectancy"></b> years
+                                </p>
+                                <p>
+                                    Penis length is <b id="PenisLength"></b> cm
+                                </p>
+                                <p>Height is <b id="MaleHeight"></b> m</p>
+                                <p>Weight is <b id="MaleWeight"></b> kg</p>
+                                <p>BMI is <b id="MaleBMI"></b></p>
+                            </td>
+                            <td class="tg-73oq">
+                                <p>Yearly income is <b id="Income"></b> $</p>
+                                <p>
+                                    Political and economic stability is
+                                    <b id="Stability"></b> [0 - anarchy, 100 -
+                                    ants nest]
+                                </p>
+                                <p>
+                                    Legal system and civil rights is
+                                    <b id="HumanRights"></b> [0 - really bad,
+                                    100 - amazing]
+                                </p>
+                                <p>
+                                    Health services are
+                                    <b id="HealthServices"></b> [0 - deadly
+                                    insufficient, 100 - amazing]
+                                </p>
+                                <p>
+                                    Safety is <b id="Safety"></b> [0 - deadly
+                                    unsafe, 100 - heaven]
+                                </p>
+                                <p>
+                                    Climate is <b id="Climate"></b> [0 - really
+                                    bad weather, 100 - amazing weather]
+                                </p>
+                                <p>
+                                    Costs of living is <b id="Costs"></b> [0 -
+                                    really expensive, 100 - amazingly cheap]
+                                </p>
+                                <p>
+                                    Popularity is <b id="Popularity"></b> [0 -
+                                    no one goes there, 100 - everyone goes
+                                    there]
+                                </p>
+                                <p>
+                                    Corruption is <b id="Corruption"></b> [0 -
+                                    no corruption, 100 - high corruption]
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="bundle.js"></script>
+
+        <!--
+            https://www.science.org/doi/10.1126/science.1117199 
+            <a href="https://www.flaticon.com/free-icons/good-quality" title="good quality icons">Good quality icons created by Freepik - Flaticon</a> -->
+    </body>
+</html>
