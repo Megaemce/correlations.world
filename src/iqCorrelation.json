@@ -28,7 +28,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.5
  },
  {
    "Country": "Albania",
@@ -59,7 +60,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Algeria",
@@ -90,7 +92,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3
  },
  {
    "Country": "American Samoa",
@@ -121,7 +124,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Andorra",
@@ -152,7 +156,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.3
  },
  {
    "Country": "Angola",
@@ -183,7 +188,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 5.5
  },
  {
    "Country": "Antigua and Barbuda",
@@ -214,7 +220,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2
  },
  {
    "Country": "Argentina",
@@ -245,7 +252,8 @@
    "Extraversion": 52.6,
    "Openness": 52.3,
    "Agreeableness": 42.4,
-   "Conscientiousness": 42
+   "Conscientiousness": 42,
+   "FertilityRate": 2.3
  },
  {
    "Country": "Armenia",
@@ -276,7 +284,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.8
  },
  {
    "Country": "Aruba",
@@ -307,7 +316,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Australia",
@@ -338,7 +348,8 @@
    "Extraversion": 58.1,
    "Openness": 50.5,
    "Agreeableness": 54.1,
-   "Conscientiousness": 49.7
+   "Conscientiousness": 49.7,
+   "FertilityRate": 1.7
  },
  {
    "Country": "Austria",
@@ -369,7 +380,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.5
  },
  {
    "Country": "Azerbaijan",
@@ -400,7 +412,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.7
  },
  {
    "Country": "Bahamas",
@@ -431,7 +444,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.8
  },
  {
    "Country": "Bahrain",
@@ -462,7 +476,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2
  },
  {
    "Country": "Bangladesh",
@@ -493,7 +508,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2
  },
  {
    "Country": "Barbados",
@@ -524,7 +540,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Belarus",
@@ -555,7 +572,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.4
  },
  {
    "Country": "Belgium",
@@ -586,7 +604,8 @@
    "Extraversion": 48.4,
    "Openness": 48.2,
    "Agreeableness": 49.9,
-   "Conscientiousness": 55.4
+   "Conscientiousness": 55.4,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Belize",
@@ -617,7 +636,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.3
  },
  {
    "Country": "Benin",
@@ -648,7 +668,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.8
  },
  {
    "Country": "Bermuda",
@@ -679,7 +700,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Bhutan",
@@ -710,7 +732,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2
  },
  {
    "Country": "Bolivia",
@@ -741,7 +764,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.7
  },
  {
    "Country": "Bosnia and Herzegovina",
@@ -772,7 +796,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.3
  },
  {
    "Country": "Botswana",
@@ -803,7 +828,8 @@
    "Extraversion": 48.4,
    "Openness": 52.4,
    "Agreeableness": 57.9,
-   "Conscientiousness": 50.6
+   "Conscientiousness": 50.6,
+   "FertilityRate": 2.9
  },
  {
    "Country": "Brazil",
@@ -834,7 +860,8 @@
    "Extraversion": 56.7,
    "Openness": 55.1,
    "Agreeableness": 53,
-   "Conscientiousness": 48.2
+   "Conscientiousness": 48.2,
+   "FertilityRate": 1.7
  },
  {
    "Country": "Brunei",
@@ -865,7 +892,8 @@
    "Extraversion": 54.2,
    "Openness": 51.6,
    "Agreeableness": 59.9,
-   "Conscientiousness": 58.6
+   "Conscientiousness": 58.6,
+   "FertilityRate": 1.8
  },
  {
    "Country": "Bulgaria",
@@ -896,7 +924,8 @@
    "Extraversion": 52.2,
    "Openness": 55.1,
    "Agreeableness": 58.6,
-   "Conscientiousness": 52.7
+   "Conscientiousness": 52.7,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Burkina Faso",
@@ -927,7 +956,8 @@
    "Extraversion": 54.2,
    "Openness": 51.6,
    "Agreeableness": 59.9,
-   "Conscientiousness": 58.6
+   "Conscientiousness": 58.6,
+   "FertilityRate": 5.2
  },
  {
    "Country": "Burundi",
@@ -958,7 +988,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 5.4
  },
  {
    "Country": "Cambodia",
@@ -989,7 +1020,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.5
  },
  {
    "Country": "Cameroon",
@@ -1020,7 +1052,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.6
  },
  {
    "Country": "Canada",
@@ -1051,7 +1084,8 @@
    "Extraversion": 52.2,
    "Openness": 55.1,
    "Agreeableness": 58.6,
-   "Conscientiousness": 52.7
+   "Conscientiousness": 52.7,
+   "FertilityRate": 1.5
  },
  {
    "Country": "Capo Verde",
@@ -1082,7 +1116,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Chad",
@@ -1113,7 +1148,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 5.7
  },
  {
    "Country": "Chile",
@@ -1144,7 +1180,8 @@
    "Extraversion": 43.2,
    "Openness": 42.6,
    "Agreeableness": 48.9,
-   "Conscientiousness": 38.4
+   "Conscientiousness": 38.4,
+   "FertilityRate": 1.6
  },
  {
    "Country": "China",
@@ -1175,7 +1212,8 @@
    "Extraversion": 41.6,
    "Openness": 43.5,
    "Agreeableness": 51.1,
-   "Conscientiousness": 51
+   "Conscientiousness": 51,
+   "FertilityRate": 1.7
  },
  {
    "Country": "Colombia",
@@ -1206,7 +1244,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.8
  },
  {
    "Country": "Congo (Dem. Republic)",
@@ -1237,7 +1276,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 5.9
  },
  {
    "Country": "Cook Islands",
@@ -1268,7 +1308,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Costa Rica",
@@ -1299,7 +1340,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.8
  },
  {
    "Country": "Croatia",
@@ -1330,7 +1372,8 @@
    "Extraversion": 47.5,
    "Openness": 43.9,
    "Agreeableness": 47.5,
-   "Conscientiousness": 40.8
+   "Conscientiousness": 40.8,
+   "FertilityRate": 1.5
  },
  {
    "Country": "Cuba",
@@ -1361,7 +1404,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Cyprus",
@@ -1392,7 +1436,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.3
  },
  {
    "Country": "Czechia",
@@ -1423,7 +1468,8 @@
    "Extraversion": 44.3,
    "Openness": 46.2,
    "Agreeableness": 45.2,
-   "Conscientiousness": 49.2
+   "Conscientiousness": 49.2,
+   "FertilityRate": 1.7
  },
  {
    "Country": "Denmark",
@@ -1454,7 +1500,8 @@
    "Extraversion": 46.6,
    "Openness": 46.2,
    "Agreeableness": 47.6,
-   "Conscientiousness": 55.5
+   "Conscientiousness": 55.5,
+   "FertilityRate": 1.7
  },
  {
    "Country": "Dijbouti",
@@ -1485,7 +1532,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.7
  },
  {
    "Country": "Dominica",
@@ -1516,7 +1564,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.9
  },
  {
    "Country": "Dominican Republic",
@@ -1547,7 +1596,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.3
  },
  {
    "Country": "East Timor",
@@ -1578,7 +1628,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Ecuador",
@@ -1609,7 +1660,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.4
  },
  {
    "Country": "Egypt",
@@ -1640,7 +1692,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.3
  },
  {
    "Country": "El Salvador",
@@ -1671,7 +1724,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2
  },
  {
    "Country": "Equatorial Guine",
@@ -1702,7 +1756,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.5
  },
  {
    "Country": "Eritrea",
@@ -1733,7 +1788,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.1
  },
  {
    "Country": "Estonia",
@@ -1764,7 +1820,8 @@
    "Extraversion": 38.1,
    "Openness": 43.3,
    "Agreeableness": 45.3,
-   "Conscientiousness": 55.9
+   "Conscientiousness": 55.9,
+   "FertilityRate": 1.7
  },
  {
    "Country": "Eswatini",
@@ -1795,7 +1852,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3
  },
  {
    "Country": "Ethiopia",
@@ -1826,7 +1884,8 @@
    "Extraversion": 46.2,
    "Openness": 51.2,
    "Agreeableness": 55.9,
-   "Conscientiousness": 49.1
+   "Conscientiousness": 49.1,
+   "FertilityRate": 4.2
  },
  {
    "Country": "Fiji",
@@ -1857,7 +1916,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.8
  },
  {
    "Country": "Finland",
@@ -1888,7 +1948,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.4
  },
  {
    "Country": "France",
@@ -1919,7 +1980,8 @@
    "Extraversion": 46.9,
    "Openness": 51.5,
    "Agreeableness": 46.9,
-   "Conscientiousness": 50
+   "Conscientiousness": 50,
+   "FertilityRate": 1.9
  },
  {
    "Country": "French Polynesia",
@@ -1950,7 +2012,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Gabon",
@@ -1981,7 +2044,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4
  },
  {
    "Country": "Gambia",
@@ -2012,7 +2076,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 5.2
  },
  {
    "Country": "Georgia",
@@ -2043,7 +2108,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.1
  },
  {
    "Country": "Germany",
@@ -2074,7 +2140,8 @@
    "Extraversion": 44.7,
    "Openness": 43.7,
    "Agreeableness": 45.8,
-   "Conscientiousness": 59.5
+   "Conscientiousness": 59.5,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Ghana",
@@ -2105,7 +2172,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.9
  },
  {
    "Country": "Greece",
@@ -2136,7 +2204,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.4
  },
  {
    "Country": "Greenland",
@@ -2167,7 +2236,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Grenada",
@@ -2198,7 +2268,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.1
  },
  {
    "Country": "Guatemala",
@@ -2229,7 +2300,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.9
  },
  {
    "Country": "Guinea",
@@ -2260,7 +2332,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.7
  },
  {
    "Country": "Haiti",
@@ -2291,7 +2364,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.9
  },
  {
    "Country": "Honduras",
@@ -2322,7 +2396,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.5
  },
  {
    "Country": "Hong Kong",
@@ -2353,7 +2428,8 @@
    "Extraversion": 48,
    "Openness": 45.5,
    "Agreeableness": 42.4,
-   "Conscientiousness": 53
+   "Conscientiousness": 53,
+   "FertilityRate": 1.1
  },
  {
    "Country": "Hungary",
@@ -2384,7 +2460,8 @@
    "Extraversion": 42,
    "Openness": 46.4,
    "Agreeableness": 46,
-   "Conscientiousness": 45.9
+   "Conscientiousness": 45.9,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Iceland",
@@ -2415,7 +2492,8 @@
    "Extraversion": 51.3,
    "Openness": 54.8,
    "Agreeableness": 45.7,
-   "Conscientiousness": 49.4
+   "Conscientiousness": 49.4,
+   "FertilityRate": 1.7
  },
  {
    "Country": "India",
@@ -2446,7 +2524,8 @@
    "Extraversion": 55.5,
    "Openness": 59.5,
    "Agreeableness": 59.3,
-   "Conscientiousness": 55.1
+   "Conscientiousness": 55.1,
+   "FertilityRate": 2.2
  },
  {
    "Country": "Indonesia",
@@ -2477,7 +2556,8 @@
    "Extraversion": 41.3,
    "Openness": 44.1,
    "Agreeableness": 52.6,
-   "Conscientiousness": 34.3
+   "Conscientiousness": 34.3,
+   "FertilityRate": 2.3
  },
  {
    "Country": "Iran",
@@ -2508,7 +2588,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.1
  },
  {
    "Country": "Iraq",
@@ -2539,7 +2620,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.7
  },
  {
    "Country": "Ireland",
@@ -2570,7 +2652,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.8
  },
  {
    "Country": "Israel",
@@ -2601,7 +2684,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.1
  },
  {
    "Country": "Italy",
@@ -2632,7 +2716,8 @@
    "Extraversion": 55.2,
    "Openness": 54.4,
    "Agreeableness": 50.8,
-   "Conscientiousness": 44
+   "Conscientiousness": 44,
+   "FertilityRate": 1.3
  },
  {
    "Country": "Ivory Coast",
@@ -2663,7 +2748,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.6
  },
  {
    "Country": "Jamaica",
@@ -2694,7 +2780,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2
  },
  {
    "Country": "Japan",
@@ -2725,7 +2812,8 @@
    "Extraversion": 39.5,
    "Openness": 40.8,
    "Agreeableness": 53.5,
-   "Conscientiousness": 53.7
+   "Conscientiousness": 53.7,
+   "FertilityRate": 1.4
  },
  {
    "Country": "Jordan",
@@ -2756,7 +2844,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.8
  },
  {
    "Country": "Kazakhstan",
@@ -2787,7 +2876,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.8
  },
  {
    "Country": "Kenya",
@@ -2818,7 +2908,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.5
  },
  {
    "Country": "Kiribati",
@@ -2849,7 +2940,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.6
  },
  {
    "Country": "Kuwait",
@@ -2880,7 +2972,8 @@
    "Extraversion": 55.4,
    "Openness": 56.4,
    "Agreeableness": 56.5,
-   "Conscientiousness": 53
+   "Conscientiousness": 53,
+   "FertilityRate": 2.1
  },
  {
    "Country": "Kyrgyzstan",
@@ -2911,7 +3004,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.3
  },
  {
    "Country": "Laos",
@@ -2942,7 +3036,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.7
  },
  {
    "Country": "Latvia",
@@ -2973,7 +3068,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Lebanon",
@@ -3004,7 +3100,8 @@
    "Extraversion": 53.4,
    "Openness": 52.6,
    "Agreeableness": 44.6,
-   "Conscientiousness": 45.2
+   "Conscientiousness": 45.2,
+   "FertilityRate": 2.1
  },
  {
    "Country": "Lesotho",
@@ -3035,7 +3132,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.1
  },
  {
    "Country": "Liberia",
@@ -3066,7 +3164,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.3
  },
  {
    "Country": "Libya",
@@ -3097,7 +3196,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.2
  },
  {
    "Country": "Lithuania",
@@ -3128,7 +3228,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Luxembourg",
@@ -3159,7 +3260,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.4
  },
  {
    "Country": "Macao",
@@ -3190,7 +3292,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.2
  },
  {
    "Country": "Madagascar",
@@ -3221,7 +3324,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.1
  },
  {
    "Country": "Malaysia",
@@ -3252,7 +3356,8 @@
    "Extraversion": 47.7,
    "Openness": 51.9,
    "Agreeableness": 55.9,
-   "Conscientiousness": 48.5
+   "Conscientiousness": 48.5,
+   "FertilityRate": 2
  },
  {
    "Country": "Maldives",
@@ -3283,7 +3388,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.9
  },
  {
    "Country": "Malta",
@@ -3314,7 +3420,8 @@
    "Extraversion": 53.2,
    "Openness": 44.3,
    "Agreeableness": 48.6,
-   "Conscientiousness": 48.3
+   "Conscientiousness": 48.3,
+   "FertilityRate": 1.2
  },
  {
    "Country": "Mauritius",
@@ -3345,7 +3452,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.4
  },
  {
    "Country": "Mexico",
@@ -3376,7 +3484,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.1
  },
  {
    "Country": "Micronesia",
@@ -3407,7 +3516,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.1
  },
  {
    "Country": "Moldova",
@@ -3438,7 +3548,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.3
  },
  {
    "Country": "Mongolia",
@@ -3469,7 +3580,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.9
  },
  {
    "Country": "Montenegro",
@@ -3500,7 +3612,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.7
  },
  {
    "Country": "Morocco",
@@ -3531,7 +3644,8 @@
    "Extraversion": 48.4,
    "Openness": 47.5,
    "Agreeableness": 48.6,
-   "Conscientiousness": 44.5
+   "Conscientiousness": 44.5,
+   "FertilityRate": 2.4
  },
  {
    "Country": "Mozambique",
@@ -3562,7 +3676,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.9
  },
  {
    "Country": "Myanmar",
@@ -3593,7 +3708,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.2
  },
  {
    "Country": "Namibia",
@@ -3624,7 +3740,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.4
  },
  {
    "Country": "Nauru",
@@ -3655,7 +3772,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Nepal",
@@ -3686,7 +3804,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.9
  },
  {
    "Country": "Netherlands",
@@ -3717,7 +3836,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.6
  },
  {
    "Country": "New Zealand",
@@ -3748,7 +3868,8 @@
    "Extraversion": 57.2,
    "Openness": 54.1,
    "Agreeableness": 53.9,
-   "Conscientiousness": 50.5
+   "Conscientiousness": 50.5,
+   "FertilityRate": 2
  },
  {
    "Country": "Nicaragua",
@@ -3779,7 +3900,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.7
  },
  {
    "Country": "Niger",
@@ -3810,7 +3932,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 6.9
  },
  {
    "Country": "Nigeria",
@@ -3841,7 +3964,8 @@
    "Extraversion": 56.2,
    "Openness": 57.3,
    "Agreeableness": 46.2,
-   "Conscientiousness": 49.5
+   "Conscientiousness": 49.5,
+   "FertilityRate": 5.4
  },
  {
    "Country": "Niue",
@@ -3872,7 +3996,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Nort Macedonia",
@@ -3903,7 +4028,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.5
  },
  {
    "Country": "North Korea",
@@ -3934,7 +4060,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.9
  },
  {
    "Country": "Norway",
@@ -3965,7 +4092,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Oman",
@@ -3996,7 +4124,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.9
  },
  {
    "Country": "Pakistan",
@@ -4027,7 +4156,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.5
  },
  {
    "Country": "Panama",
@@ -4058,7 +4188,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.5
  },
  {
    "Country": "Palau",
@@ -4089,7 +4220,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.2
  },
  {
    "Country": "Paraguay",
@@ -4120,7 +4252,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.4
  },
  {
    "Country": "Peru",
@@ -4151,7 +4284,8 @@
    "Extraversion": 51,
    "Openness": 47.9,
    "Agreeableness": 47.8,
-   "Conscientiousness": 43
+   "Conscientiousness": 43,
+   "FertilityRate": 2.3
  },
  {
    "Country": "Philippines",
@@ -4182,7 +4316,8 @@
    "Extraversion": 55.3,
    "Openness": 53.3,
    "Agreeableness": 53.9,
-   "Conscientiousness": 52.3
+   "Conscientiousness": 52.3,
+   "FertilityRate": 2.6
  },
  {
    "Country": "Poland",
@@ -4213,7 +4348,8 @@
    "Extraversion": 47.2,
    "Openness": 46.5,
    "Agreeableness": 45.3,
-   "Conscientiousness": 46.8
+   "Conscientiousness": 46.8,
+   "FertilityRate": 1.5
  },
  {
    "Country": "Portugal",
@@ -4244,7 +4380,8 @@
    "Extraversion": 52.6,
    "Openness": 47.1,
    "Agreeableness": 55.5,
-   "Conscientiousness": 46.2
+   "Conscientiousness": 46.2,
+   "FertilityRate": 1.4
  },
  {
    "Country": "Puerto Rico",
@@ -4275,7 +4412,8 @@
    "Extraversion": 60.6,
    "Openness": 56.2,
    "Agreeableness": 52.7,
-   "Conscientiousness": 48.4
+   "Conscientiousness": 48.4,
+   "FertilityRate": null
  },
  {
    "Country": "Qatar",
@@ -4306,7 +4444,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.9
  },
  {
    "Country": "Romania",
@@ -4337,7 +4476,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.8
  },
  {
    "Country": "Russia",
@@ -4368,7 +4508,8 @@
    "Extraversion": 56.6,
    "Openness": 61.6,
    "Agreeableness": 56.5,
-   "Conscientiousness": 45.9
+   "Conscientiousness": 45.9,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Rwanda",
@@ -4399,7 +4540,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4
  },
  {
    "Country": "Saint Lucia",
@@ -4430,7 +4572,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.4
  },
  {
    "Country": "Samoa",
@@ -4461,7 +4604,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.9
  },
  {
    "Country": "San Marino",
@@ -4492,7 +4636,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Saudi Arabia",
@@ -4523,7 +4668,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.3
  },
  {
    "Country": "Senegal",
@@ -4554,7 +4700,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.6
  },
  {
    "Country": "Serbia",
@@ -4585,7 +4732,8 @@
    "Extraversion": 56.8,
    "Openness": 47.1,
    "Agreeableness": 45.5,
-   "Conscientiousness": 44.7
+   "Conscientiousness": 44.7,
+   "FertilityRate": 1.5
  },
  {
    "Country": "Sierra Leone",
@@ -4616,7 +4764,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.3
  },
  {
    "Country": "Singapore",
@@ -4647,7 +4796,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.1
  },
  {
    "Country": "Slovakia",
@@ -4678,7 +4828,8 @@
    "Extraversion": 47.3,
    "Openness": 45.6,
    "Agreeableness": 55.6,
-   "Conscientiousness": 48.2
+   "Conscientiousness": 48.2,
+   "FertilityRate": 1.5
  },
  {
    "Country": "Slovenia",
@@ -4709,7 +4860,8 @@
    "Extraversion": 41.4,
    "Openness": 44.2,
    "Agreeableness": 46.9,
-   "Conscientiousness": 55.6
+   "Conscientiousness": 55.6,
+   "FertilityRate": 1.6
  },
  {
    "Country": "Somalia",
@@ -4740,7 +4892,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "South Africa",
@@ -4771,7 +4924,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.4
  },
  {
    "Country": "South Korea",
@@ -4802,7 +4956,8 @@
    "Extraversion": 49.2,
    "Openness": 49.2,
    "Agreeableness": 55.7,
-   "Conscientiousness": 51.6
+   "Conscientiousness": 51.6,
+   "FertilityRate": 1
  },
  {
    "Country": "Spain",
@@ -4833,7 +4988,8 @@
    "Extraversion": 57.8,
    "Openness": 50.8,
    "Agreeableness": 50.2,
-   "Conscientiousness": 41.9
+   "Conscientiousness": 41.9,
+   "FertilityRate": 1.3
  },
  {
    "Country": "Sri Lanka",
@@ -4864,7 +5020,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.2
  },
  {
    "Country": "Sudan",
@@ -4895,7 +5052,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.4
  },
  {
    "Country": "Sweden",
@@ -4926,7 +5084,8 @@
    "Extraversion": 43.7,
    "Openness": 47.2,
    "Agreeableness": 54,
-   "Conscientiousness": 59.8
+   "Conscientiousness": 59.8,
+   "FertilityRate": 1.8
  },
  {
    "Country": "Switzerland",
@@ -4957,7 +5116,8 @@
    "Extraversion": 42.2,
    "Openness": 44.5,
    "Agreeableness": 49.1,
-   "Conscientiousness": 62.7
+   "Conscientiousness": 62.7,
+   "FertilityRate": 1.5
  },
  {
    "Country": "Syria",
@@ -4988,7 +5148,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.8
  },
  {
    "Country": "Taiwan",
@@ -5019,7 +5180,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Tanzania",
@@ -5050,7 +5212,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Tajikistan",
@@ -5081,7 +5244,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.6
  },
  {
    "Country": "Thailand",
@@ -5112,7 +5276,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.5
  },
  {
    "Country": "Togo",
@@ -5143,7 +5308,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.3
  },
  {
    "Country": "Tokelau",
@@ -5174,7 +5340,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Tonga",
@@ -5205,7 +5372,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.6
  },
  {
    "Country": "Trinidad and Tobago",
@@ -5236,7 +5404,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.7
  },
  {
    "Country": "Tunisia",
@@ -5267,7 +5436,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.2
  },
  {
    "Country": "Turkey",
@@ -5298,7 +5468,8 @@
    "Extraversion": 45.9,
    "Openness": 42.3,
    "Agreeableness": 50.6,
-   "Conscientiousness": 41.6
+   "Conscientiousness": 41.6,
+   "FertilityRate": 2.1
  },
  {
    "Country": "Tuvalu",
@@ -5329,7 +5500,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": null
  },
  {
    "Country": "Uganda",
@@ -5360,7 +5532,8 @@
    "Extraversion": 52.2,
    "Openness": 52.5,
    "Agreeableness": 47.8,
-   "Conscientiousness": 47.7
+   "Conscientiousness": 47.7,
+   "FertilityRate": 5
  },
  {
    "Country": "Ukraine",
@@ -5391,7 +5564,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.3
  },
  {
    "Country": "United Arab Emirates",
@@ -5422,7 +5596,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 1.4
  },
  {
    "Country": "United Kingdom",
@@ -5453,7 +5628,8 @@
    "Extraversion": 43.9,
    "Openness": 45.8,
    "Agreeableness": 46.5,
-   "Conscientiousness": 52.9
+   "Conscientiousness": 52.9,
+   "FertilityRate": 1.7
  },
  {
    "Country": "United States",
@@ -5484,7 +5660,8 @@
    "Extraversion": 52.9,
    "Openness": 51,
    "Agreeableness": 42.5,
-   "Conscientiousness": 48.6
+   "Conscientiousness": 48.6,
+   "FertilityRate": 1.7
  },
  {
    "Country": "Uruguay",
@@ -5515,7 +5692,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2
  },
  {
    "Country": "Uzbekistan",
@@ -5546,7 +5724,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.4
  },
  {
    "Country": "Venezuela",
@@ -5577,7 +5756,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2.3
  },
  {
    "Country": "Vietnam",
@@ -5608,7 +5788,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 2
  },
  {
    "Country": "Yemen",
@@ -5639,7 +5820,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.8
  },
  {
    "Country": "Zambia",
@@ -5670,7 +5852,8 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 4.6
  },
  {
    "Country": "Zimbabwe",
@@ -5701,6 +5884,7 @@
    "Extraversion": null,
    "Openness": null,
    "Agreeableness": null,
-   "Conscientiousness": null
+   "Conscientiousness": null,
+   "FertilityRate": 3.6
  }
 ]
