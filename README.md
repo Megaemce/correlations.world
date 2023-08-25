@@ -25,7 +25,7 @@ Now I can give you the answer straight away — there is a **weak negative corrl
 
 ...and there is **no correlation** between neuroticism and bra size
 
-![image](https://github.com/Megaemce/WorldOfCorrelations/assets/1651451/e1018742-eac2-4f6e-a5d7-afa5deeb1b2b)
+![image](https://github.com/Megaemce/WorldOfCorrelations/assets/1651451/e3d11d4e-4591-4025-a339-490f7f7631eb)
 
 You are welcome! 
 
