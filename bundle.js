@@ -171,7 +171,7 @@ function correlationCoefficient(key1, key2, jsonData) {
             "url(/WorldOfCorrelations/img/veryStrongNegative.svg)";
     }
 
-    return `${correlation.toFixed(2)} - ${corrWeaknes} correlation`;
+    return `${correlation.toFixed(2)} — ${corrWeaknes} correlation`;
 }
 
 // function arrayToTable(tableData) {
