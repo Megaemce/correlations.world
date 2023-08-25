@@ -1,4 +1,4 @@
-## World of correlations - Check the correlations between various world statistics
+## World of correlations - Check the correlations between various world data
 
 Have you ever wonder if there is a correlation between IQ and the size of the penis?<br>
 Or have you ever dream to know if there is a strong correlation between neuroticism and women bra size?<br>
