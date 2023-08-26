@@ -70,24 +70,22 @@ function showCorrelationResult() {
 // Get the strength of correlation based on value
 function getCorrelationStrength(value) {
     const thresholds = [0.2, 0.4, 0.7, 0.9];
-    const strengths = [
-        "no",
-        "weak positive",
-        "moderate positive",
-        "strong positive",
-        "very strong positive",
-    ];
+    const strengths = ["no", "weak", "moderate", "strong", "very strong"];
+
+    let absValue = Math.abs(value);
+    let strengthIndex = 0;
 
     for (let i = 0; i < thresholds.length; i++) {
-        if (value >= thresholds[i]) {
-            return strengths[i + 1];
-        }
-        if (value <= -thresholds[i]) {
-            return strengths[i + 1].replace("positive", "negative");
+        if (absValue >= thresholds[i]) {
+            strengthIndex = i + 1;
         }
     }
 
-    return strengths[0];
+    if (value < 0) {
+        return `${strengths[strengthIndex]} negative`;
+    } else {
+        return `${strengths[strengthIndex]} positive`;
+    }
 }
 
 function updateScatterChart() {
