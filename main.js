@@ -81,6 +81,8 @@ function getCorrelationStrength(value) {
         }
     }
 
+    if (strengthIndex === 0) return "no";
+
     if (value < 0) {
         return `${strengths[strengthIndex]} negative`;
     } else {
@@ -159,7 +161,7 @@ function showScatterChart() {
                 },
                 y: {
                     type: "linear",
-                    position: "left",
+                    position: "right",
                     scaleLabel: {
                         display: true,
                         labelString: scatterLabels[1],
