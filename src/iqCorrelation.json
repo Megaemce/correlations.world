@@ -29,7 +29,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.5
+   "FertilityRate": 4.5,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 20
  },
  {
    "Country": "Albania",
@@ -61,7 +63,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 15,
+   "MaxPrivateTax": 23
  },
  {
    "Country": "Algeria",
@@ -93,7 +97,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3
+   "FertilityRate": 3,
+   "MaxCorporateTax": 26,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "American Samoa",
@@ -125,7 +131,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 34,
+   "MaxPrivateTax": 6
  },
  {
    "Country": "Andorra",
@@ -157,7 +165,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.3
+   "FertilityRate": 1.3,
+   "MaxCorporateTax": 10,
+   "MaxPrivateTax": 10
  },
  {
    "Country": "Angola",
@@ -189,7 +199,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 5.5
+   "FertilityRate": 5.5,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 17
  },
  {
    "Country": "Antigua and Barbuda",
@@ -221,7 +233,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2
+   "FertilityRate": 2,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Argentina",
@@ -253,7 +267,9 @@
    "Openness": 52.3,
    "Agreeableness": 42.4,
    "Conscientiousness": 42,
-   "FertilityRate": 2.3
+   "FertilityRate": 2.3,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Armenia",
@@ -285,7 +301,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.8
+   "FertilityRate": 1.8,
+   "MaxCorporateTax": 18,
+   "MaxPrivateTax": 22
  },
  {
    "Country": "Aruba",
@@ -317,7 +335,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 58.95
  },
  {
    "Country": "Australia",
@@ -349,7 +369,9 @@
    "Openness": 50.5,
    "Agreeableness": 54.1,
    "Conscientiousness": 49.7,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 45
  },
  {
    "Country": "Austria",
@@ -381,7 +403,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.5
+   "FertilityRate": 1.5,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 55
  },
  {
    "Country": "Azerbaijan",
@@ -413,7 +437,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Bahamas",
@@ -445,7 +471,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.8
+   "FertilityRate": 1.8,
+   "MaxCorporateTax": 0,
+   "MaxPrivateTax": 8.8
  },
  {
    "Country": "Bahrain",
@@ -477,7 +505,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2
+   "FertilityRate": 2,
+   "MaxCorporateTax": 0,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Bangladesh",
@@ -509,7 +539,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2
+   "FertilityRate": 2,
+   "MaxCorporateTax": 32.5,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Barbados",
@@ -541,7 +573,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 5.5,
+   "MaxPrivateTax": 38
  },
  {
    "Country": "Belarus",
@@ -573,7 +607,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.4
+   "FertilityRate": 1.4,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 48
  },
  {
    "Country": "Belgium",
@@ -605,7 +641,9 @@
    "Openness": 48.2,
    "Agreeableness": 49.9,
    "Conscientiousness": 55.4,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 79.5
  },
  {
    "Country": "Belize",
@@ -637,7 +675,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.3
+   "FertilityRate": 2.3,
+   "MaxCorporateTax": 19,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Benin",
@@ -669,7 +709,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.8
+   "FertilityRate": 4.8,
+   "MaxCorporateTax": 35,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Bermuda",
@@ -701,7 +743,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 0,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Bhutan",
@@ -733,7 +777,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2
+   "FertilityRate": 2,
+   "MaxCorporateTax": 26,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Bolivia",
@@ -765,7 +811,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.7
+   "FertilityRate": 2.7,
+   "MaxCorporateTax": 29,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Bosnia and Herzegovina",
@@ -797,7 +845,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.3
+   "FertilityRate": 1.3,
+   "MaxCorporateTax": 10,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Botswana",
@@ -829,7 +879,9 @@
    "Openness": 52.4,
    "Agreeableness": 57.9,
    "Conscientiousness": 50.6,
-   "FertilityRate": 2.9
+   "FertilityRate": 2.9,
+   "MaxCorporateTax": 22,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Brazil",
@@ -861,7 +913,9 @@
    "Openness": 55.1,
    "Agreeableness": 53,
    "Conscientiousness": 48.2,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 40,
+   "MaxPrivateTax": 47.5
  },
  {
    "Country": "Brunei",
@@ -893,7 +947,9 @@
    "Openness": 51.6,
    "Agreeableness": 59.9,
    "Conscientiousness": 58.6,
-   "FertilityRate": 1.8
+   "FertilityRate": 1.8,
+   "MaxCorporateTax": 18.5,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Bulgaria",
@@ -925,7 +981,9 @@
    "Openness": 55.1,
    "Agreeableness": 58.6,
    "Conscientiousness": 52.7,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 10,
+   "MaxPrivateTax": 28
  },
  {
    "Country": "Burkina Faso",
@@ -957,7 +1015,9 @@
    "Openness": 51.6,
    "Agreeableness": 59.9,
    "Conscientiousness": 58.6,
-   "FertilityRate": 5.2
+   "FertilityRate": 5.2,
+   "MaxCorporateTax": 27.5,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Burundi",
@@ -989,7 +1049,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 5.4
+   "FertilityRate": 5.4,
+   "MaxCorporateTax": 35,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Cambodia",
@@ -1021,7 +1083,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.5
+   "FertilityRate": 2.5,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 20
  },
  {
    "Country": "Cameroon",
@@ -1053,7 +1117,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.6
+   "FertilityRate": 4.6,
+   "MaxCorporateTax": 31.5,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Canada",
@@ -1085,7 +1151,9 @@
    "Openness": 55.1,
    "Agreeableness": 58.6,
    "Conscientiousness": 52.7,
-   "FertilityRate": 1.5
+   "FertilityRate": 1.5,
+   "MaxCorporateTax": 31,
+   "MaxPrivateTax": 54
  },
  {
    "Country": "Capo Verde",
@@ -1117,7 +1185,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 27.5
  },
  {
    "Country": "Chad",
@@ -1149,7 +1219,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 5.7
+   "FertilityRate": 5.7,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Chile",
@@ -1181,7 +1253,9 @@
    "Openness": 42.6,
    "Agreeableness": 48.9,
    "Conscientiousness": 38.4,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 27,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "China",
@@ -1213,7 +1287,9 @@
    "Openness": 43.5,
    "Agreeableness": 51.1,
    "Conscientiousness": 51,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 45
  },
  {
    "Country": "Colombia",
@@ -1245,7 +1321,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.8
+   "FertilityRate": 1.8,
+   "MaxCorporateTax": 35,
+   "MaxPrivateTax": 39
  },
  {
    "Country": "Congo (Dem. Republic)",
@@ -1277,7 +1355,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 5.9
+   "FertilityRate": 5.9,
+   "MaxCorporateTax": 35,
+   "MaxPrivateTax": 40
  },
  {
    "Country": "Cook Islands",
@@ -1309,7 +1389,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 30
  },
  {
    "Country": "Costa Rica",
@@ -1341,7 +1423,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.8
+   "FertilityRate": 1.8,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Croatia",
@@ -1373,7 +1457,9 @@
    "Openness": 43.9,
    "Agreeableness": 47.5,
    "Conscientiousness": 40.8,
-   "FertilityRate": 1.5
+   "FertilityRate": 1.5,
+   "MaxCorporateTax": 18,
+   "MaxPrivateTax": 40
  },
  {
    "Country": "Cuba",
@@ -1405,7 +1491,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 50
  },
  {
    "Country": "Cyprus",
@@ -1437,7 +1525,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.3
+   "FertilityRate": 1.3,
+   "MaxCorporateTax": 12.5,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Czechia",
@@ -1469,7 +1559,9 @@
    "Openness": 46.2,
    "Agreeableness": 45.2,
    "Conscientiousness": 49.2,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 19,
+   "MaxPrivateTax": 45.7
  },
  {
    "Country": "Denmark",
@@ -1501,7 +1593,9 @@
    "Openness": 46.2,
    "Agreeableness": 47.6,
    "Conscientiousness": 55.5,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 57.11
  },
  {
    "Country": "Dijbouti",
@@ -1533,7 +1627,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.7
+   "FertilityRate": 2.7,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Dominica",
@@ -1565,7 +1661,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.9
+   "FertilityRate": 1.9,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Dominican Republic",
@@ -1597,7 +1695,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.3
+   "FertilityRate": 2.3,
+   "MaxCorporateTax": 27,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "East Timor",
@@ -1629,7 +1729,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 10,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Ecuador",
@@ -1661,7 +1763,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.4
+   "FertilityRate": 2.4,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Egypt",
@@ -1693,7 +1797,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.3
+   "FertilityRate": 3.3,
+   "MaxCorporateTax": 22.5,
+   "MaxPrivateTax": 22.5
  },
  {
    "Country": "El Salvador",
@@ -1725,7 +1831,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2
+   "FertilityRate": 2,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 30
  },
  {
    "Country": "Equatorial Guine",
@@ -1757,7 +1865,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.5
+   "FertilityRate": 4.5,
+   "MaxCorporateTax": 35,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Eritrea",
@@ -1789,7 +1899,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.1
+   "FertilityRate": 4.1,
+   "MaxCorporateTax": 34,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Estonia",
@@ -1821,7 +1933,9 @@
    "Openness": 43.3,
    "Agreeableness": 45.3,
    "Conscientiousness": 55.9,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 0,
+   "MaxPrivateTax": 58.4
  },
  {
    "Country": "Eswatini",
@@ -1853,7 +1967,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3
+   "FertilityRate": 3,
+   "MaxCorporateTax": 27.5,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Ethiopia",
@@ -1885,7 +2001,9 @@
    "Openness": 51.2,
    "Agreeableness": 55.9,
    "Conscientiousness": 49.1,
-   "FertilityRate": 4.2
+   "FertilityRate": 4.2,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Fiji",
@@ -1917,7 +2035,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.8
+   "FertilityRate": 2.8,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 20
  },
  {
    "Country": "Finland",
@@ -1949,7 +2069,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.4
+   "FertilityRate": 1.4,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 66.75
  },
  {
    "Country": "France",
@@ -1981,7 +2103,9 @@
    "Openness": 51.5,
    "Agreeableness": 46.9,
    "Conscientiousness": 50,
-   "FertilityRate": 1.9
+   "FertilityRate": 1.9,
+   "MaxCorporateTax": 26.5,
+   "MaxPrivateTax": 49
  },
  {
    "Country": "French Polynesia",
@@ -2013,7 +2137,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Gabon",
@@ -2045,7 +2171,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4
+   "FertilityRate": 4,
+   "MaxCorporateTax": 35,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Gambia",
@@ -2077,7 +2205,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 5.2
+   "FertilityRate": 5.2,
+   "MaxCorporateTax": 31,
+   "MaxPrivateTax": 30
  },
  {
    "Country": "Georgia",
@@ -2109,7 +2239,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.1
+   "FertilityRate": 2.1,
+   "MaxCorporateTax": 0,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Germany",
@@ -2141,7 +2273,9 @@
    "Openness": 43.7,
    "Agreeableness": 45.8,
    "Conscientiousness": 59.5,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 29.65,
+   "MaxPrivateTax": 47.475
  },
  {
    "Country": "Ghana",
@@ -2173,7 +2307,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.9
+   "FertilityRate": 3.9,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Greece",
@@ -2205,7 +2341,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.4
+   "FertilityRate": 1.4,
+   "MaxCorporateTax": 22,
+   "MaxPrivateTax": 44
  },
  {
    "Country": "Greenland",
@@ -2237,7 +2375,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 28,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Grenada",
@@ -2269,7 +2409,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.1
+   "FertilityRate": 2.1,
+   "MaxCorporateTax": null,
+   "MaxPrivateTax": null
  },
  {
    "Country": "Guatemala",
@@ -2301,7 +2443,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.9
+   "FertilityRate": 2.9,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 7
  },
  {
    "Country": "Guinea",
@@ -2333,7 +2477,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.7
+   "FertilityRate": 4.7,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Haiti",
@@ -2365,7 +2511,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.9
+   "FertilityRate": 2.9,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 30
  },
  {
    "Country": "Honduras",
@@ -2397,7 +2545,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.5
+   "FertilityRate": 2.5,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Hong Kong",
@@ -2429,7 +2579,9 @@
    "Openness": 45.5,
    "Agreeableness": 42.4,
    "Conscientiousness": 53,
-   "FertilityRate": 1.1
+   "FertilityRate": 1.1,
+   "MaxCorporateTax": 16.5,
+   "MaxPrivateTax": 15
  },
  {
    "Country": "Hungary",
@@ -2461,7 +2613,9 @@
    "Openness": 46.4,
    "Agreeableness": 46,
    "Conscientiousness": 45.9,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 9,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Iceland",
@@ -2493,7 +2647,9 @@
    "Openness": 54.8,
    "Agreeableness": 45.7,
    "Conscientiousness": 49.4,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 46
  },
  {
    "Country": "India",
@@ -2525,7 +2681,9 @@
    "Openness": 59.5,
    "Agreeableness": 59.3,
    "Conscientiousness": 55.1,
-   "FertilityRate": 2.2
+   "FertilityRate": 2.2,
+   "MaxCorporateTax": 22,
+   "MaxPrivateTax": 39
  },
  {
    "Country": "Indonesia",
@@ -2557,7 +2715,9 @@
    "Openness": 44.1,
    "Agreeableness": 52.6,
    "Conscientiousness": 34.3,
-   "FertilityRate": 2.3
+   "FertilityRate": 2.3,
+   "MaxCorporateTax": 22,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Iran",
@@ -2589,7 +2749,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.1
+   "FertilityRate": 2.1,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Iraq",
@@ -2621,7 +2783,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.7
+   "FertilityRate": 3.7,
+   "MaxCorporateTax": 15,
+   "MaxPrivateTax": 15
  },
  {
    "Country": "Ireland",
@@ -2653,7 +2817,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.8
+   "FertilityRate": 1.8,
+   "MaxCorporateTax": 12.5,
+   "MaxPrivateTax": 52
  },
  {
    "Country": "Israel",
@@ -2685,7 +2851,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.1
+   "FertilityRate": 3.1,
+   "MaxCorporateTax": 23,
+   "MaxPrivateTax": 50
  },
  {
    "Country": "Italy",
@@ -2717,7 +2885,9 @@
    "Openness": 54.4,
    "Agreeableness": 50.8,
    "Conscientiousness": 44,
-   "FertilityRate": 1.3
+   "FertilityRate": 1.3,
+   "MaxCorporateTax": 27.9,
+   "MaxPrivateTax": 47
  },
  {
    "Country": "Ivory Coast",
@@ -2749,7 +2919,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.6
+   "FertilityRate": 4.6,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Jamaica",
@@ -2781,7 +2953,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2
+   "FertilityRate": 2,
+   "MaxCorporateTax": 33.3,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Japan",
@@ -2813,7 +2987,9 @@
    "Openness": 40.8,
    "Agreeableness": 53.5,
    "Conscientiousness": 53.7,
-   "FertilityRate": 1.4
+   "FertilityRate": 1.4,
+   "MaxCorporateTax": 29.74,
+   "MaxPrivateTax": 55
  },
  {
    "Country": "Jordan",
@@ -2845,7 +3021,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.8
+   "FertilityRate": 2.8,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Kazakhstan",
@@ -2877,7 +3055,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.8
+   "FertilityRate": 2.8,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 15
  },
  {
    "Country": "Kenya",
@@ -2909,7 +3089,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.5
+   "FertilityRate": 3.5,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Kiribati",
@@ -2941,7 +3123,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.6
+   "FertilityRate": 3.6,
+   "MaxCorporateTax": 35,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Kuwait",
@@ -2973,7 +3157,9 @@
    "Openness": 56.4,
    "Agreeableness": 56.5,
    "Conscientiousness": 53,
-   "FertilityRate": 2.1
+   "FertilityRate": 2.1,
+   "MaxCorporateTax": 16,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Kyrgyzstan",
@@ -3005,7 +3191,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.3
+   "FertilityRate": 3.3,
+   "MaxCorporateTax": 10,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Laos",
@@ -3037,7 +3225,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.7
+   "FertilityRate": 2.7,
+   "MaxCorporateTax": 35,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Latvia",
@@ -3069,7 +3259,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 0,
+   "MaxPrivateTax": 31.4
  },
  {
    "Country": "Lebanon",
@@ -3101,7 +3293,9 @@
    "Openness": 52.6,
    "Agreeableness": 44.6,
    "Conscientiousness": 45.2,
-   "FertilityRate": 2.1
+   "FertilityRate": 2.1,
+   "MaxCorporateTax": 17,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Lesotho",
@@ -3133,7 +3327,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.1
+   "FertilityRate": 3.1,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Liberia",
@@ -3165,7 +3361,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.3
+   "FertilityRate": 4.3,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Libya",
@@ -3197,7 +3395,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.2
+   "FertilityRate": 2.2,
+   "MaxCorporateTax": 24.5,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Lithuania",
@@ -3229,7 +3429,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 15,
+   "MaxPrivateTax": 42.77
  },
  {
    "Country": "Luxembourg",
@@ -3261,7 +3463,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.4
+   "FertilityRate": 1.4,
+   "MaxCorporateTax": 28.69,
+   "MaxPrivateTax": 45.78
  },
  {
    "Country": "Macao",
@@ -3293,7 +3497,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.2
+   "FertilityRate": 1.2,
+   "MaxCorporateTax": 12,
+   "MaxPrivateTax": 12
  },
  {
    "Country": "Madagascar",
@@ -3325,7 +3531,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.1
+   "FertilityRate": 4.1,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Malaysia",
@@ -3357,7 +3565,9 @@
    "Openness": 51.9,
    "Agreeableness": 55.9,
    "Conscientiousness": 48.5,
-   "FertilityRate": 2
+   "FertilityRate": 2,
+   "MaxCorporateTax": 24,
+   "MaxPrivateTax": 41.5
  },
  {
    "Country": "Maldives",
@@ -3389,7 +3599,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.9
+   "FertilityRate": 1.9,
+   "MaxCorporateTax": 15,
+   "MaxPrivateTax": 15
  },
  {
    "Country": "Malta",
@@ -3421,7 +3633,9 @@
    "Openness": 44.3,
    "Agreeableness": 48.6,
    "Conscientiousness": 48.3,
-   "FertilityRate": 1.2
+   "FertilityRate": 1.2,
+   "MaxCorporateTax": 35,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Mauritius",
@@ -3453,7 +3667,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.4
+   "FertilityRate": 1.4,
+   "MaxCorporateTax": 15,
+   "MaxPrivateTax": 15
  },
  {
    "Country": "Mexico",
@@ -3485,7 +3701,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.1
+   "FertilityRate": 2.1,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Micronesia",
@@ -3517,7 +3735,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.1
+   "FertilityRate": 3.1,
+   "MaxCorporateTax": 21,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Moldova",
@@ -3549,7 +3769,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.3
+   "FertilityRate": 1.3,
+   "MaxCorporateTax": 12,
+   "MaxPrivateTax": 36
  },
  {
    "Country": "Mongolia",
@@ -3581,7 +3803,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.9
+   "FertilityRate": 2.9,
+   "MaxCorporateTax": 10,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Montenegro",
@@ -3613,7 +3837,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 9,
+   "MaxPrivateTax": 12.65
  },
  {
    "Country": "Morocco",
@@ -3645,7 +3871,9 @@
    "Openness": 47.5,
    "Agreeableness": 48.6,
    "Conscientiousness": 44.5,
-   "FertilityRate": 2.4
+   "FertilityRate": 2.4,
+   "MaxCorporateTax": 31,
+   "MaxPrivateTax": 38
  },
  {
    "Country": "Mozambique",
@@ -3677,7 +3905,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.9
+   "FertilityRate": 4.9,
+   "MaxCorporateTax": 32,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Myanmar",
@@ -3709,7 +3939,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.2
+   "FertilityRate": 2.2,
+   "MaxCorporateTax": 22,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Namibia",
@@ -3741,7 +3973,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.4
+   "FertilityRate": 3.4,
+   "MaxCorporateTax": 32,
+   "MaxPrivateTax": 37
  },
  {
    "Country": "Nauru",
@@ -3773,7 +4007,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Nepal",
@@ -3805,7 +4041,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.9
+   "FertilityRate": 1.9,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 36
  },
  {
    "Country": "Netherlands",
@@ -3837,7 +4075,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 49.5
  },
  {
    "Country": "New Zealand",
@@ -3869,7 +4109,9 @@
    "Openness": 54.1,
    "Agreeableness": 53.9,
    "Conscientiousness": 50.5,
-   "FertilityRate": 2
+   "FertilityRate": 2,
+   "MaxCorporateTax": 28,
+   "MaxPrivateTax": 39
  },
  {
    "Country": "Nicaragua",
@@ -3901,7 +4143,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Niger",
@@ -3933,7 +4177,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 6.9
+   "FertilityRate": 6.9,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Nigeria",
@@ -3965,7 +4211,9 @@
    "Openness": 57.3,
    "Agreeableness": 46.2,
    "Conscientiousness": 49.5,
-   "FertilityRate": 5.4
+   "FertilityRate": 5.4,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 24
  },
  {
    "Country": "Niue",
@@ -3997,7 +4245,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 0,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Nort Macedonia",
@@ -4029,7 +4279,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.5
+   "FertilityRate": 1.5,
+   "MaxCorporateTax": 10,
+   "MaxPrivateTax": 18
  },
  {
    "Country": "North Korea",
@@ -4061,7 +4313,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.9
+   "FertilityRate": 1.9,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 20
  },
  {
    "Country": "Norway",
@@ -4093,7 +4347,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 23,
+   "MaxPrivateTax": 46.4
  },
  {
    "Country": "Oman",
@@ -4125,7 +4381,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.9
+   "FertilityRate": 2.9,
+   "MaxCorporateTax": 15,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Pakistan",
@@ -4157,7 +4415,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.5
+   "FertilityRate": 3.5,
+   "MaxCorporateTax": 29,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Panama",
@@ -4189,7 +4449,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.5
+   "FertilityRate": 2.5,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 27
  },
  {
    "Country": "Palau",
@@ -4221,7 +4483,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.2
+   "FertilityRate": 2.2,
+   "MaxCorporateTax": 0,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Paraguay",
@@ -4253,7 +4517,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.4
+   "FertilityRate": 2.4,
+   "MaxCorporateTax": 10,
+   "MaxPrivateTax": 10
  },
  {
    "Country": "Peru",
@@ -4285,7 +4551,9 @@
    "Openness": 47.9,
    "Agreeableness": 47.8,
    "Conscientiousness": 43,
-   "FertilityRate": 2.3
+   "FertilityRate": 2.3,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 30
  },
  {
    "Country": "Philippines",
@@ -4317,7 +4585,9 @@
    "Openness": 53.3,
    "Agreeableness": 53.9,
    "Conscientiousness": 52.3,
-   "FertilityRate": 2.6
+   "FertilityRate": 2.6,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Poland",
@@ -4349,7 +4619,9 @@
    "Openness": 46.5,
    "Agreeableness": 45.3,
    "Conscientiousness": 46.8,
-   "FertilityRate": 1.5
+   "FertilityRate": 1.5,
+   "MaxCorporateTax": 19,
+   "MaxPrivateTax": 45
  },
  {
    "Country": "Portugal",
@@ -4381,7 +4653,9 @@
    "Openness": 47.1,
    "Agreeableness": 55.5,
    "Conscientiousness": 46.2,
-   "FertilityRate": 1.4
+   "FertilityRate": 1.4,
+   "MaxCorporateTax": 21,
+   "MaxPrivateTax": 64
  },
  {
    "Country": "Puerto Rico",
@@ -4413,7 +4687,9 @@
    "Openness": 56.2,
    "Agreeableness": 52.7,
    "Conscientiousness": 48.4,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 33.34
  },
  {
    "Country": "Qatar",
@@ -4445,7 +4721,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.9
+   "FertilityRate": 1.9,
+   "MaxCorporateTax": 10,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Romania",
@@ -4477,7 +4755,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.8
+   "FertilityRate": 1.8,
+   "MaxCorporateTax": 16,
+   "MaxPrivateTax": 45
  },
  {
    "Country": "Russia",
@@ -4509,7 +4789,9 @@
    "Openness": 61.6,
    "Agreeableness": 56.5,
    "Conscientiousness": 45.9,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Rwanda",
@@ -4541,7 +4823,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4
+   "FertilityRate": 4,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 30
  },
  {
    "Country": "Saint Lucia",
@@ -4573,7 +4857,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.4
+   "FertilityRate": 1.4,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Samoa",
@@ -4605,7 +4891,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.9
+   "FertilityRate": 3.9,
+   "MaxCorporateTax": 27,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "San Marino",
@@ -4637,7 +4925,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 17,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Saudi Arabia",
@@ -4669,7 +4959,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.3
+   "FertilityRate": 2.3,
+   "MaxCorporateTax": 15,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Senegal",
@@ -4701,7 +4993,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.6
+   "FertilityRate": 4.6,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 50
  },
  {
    "Country": "Serbia",
@@ -4733,7 +5027,9 @@
    "Openness": 47.1,
    "Agreeableness": 45.5,
    "Conscientiousness": 44.7,
-   "FertilityRate": 1.5
+   "FertilityRate": 1.5,
+   "MaxCorporateTax": 15,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Sierra Leone",
@@ -4765,7 +5061,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.3
+   "FertilityRate": 4.3,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Singapore",
@@ -4797,7 +5095,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.1
+   "FertilityRate": 1.1,
+   "MaxCorporateTax": 17,
+   "MaxPrivateTax": 22
  },
  {
    "Country": "Slovakia",
@@ -4829,7 +5129,9 @@
    "Openness": 45.6,
    "Agreeableness": 55.6,
    "Conscientiousness": 48.2,
-   "FertilityRate": 1.5
+   "FertilityRate": 1.5,
+   "MaxCorporateTax": 21,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Slovenia",
@@ -4861,7 +5163,9 @@
    "Openness": 44.2,
    "Agreeableness": 46.9,
    "Conscientiousness": 55.6,
-   "FertilityRate": 1.6
+   "FertilityRate": 1.6,
+   "MaxCorporateTax": 19,
+   "MaxPrivateTax": 50
  },
  {
    "Country": "Somalia",
@@ -4893,7 +5197,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 0,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "South Africa",
@@ -4925,7 +5231,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.4
+   "FertilityRate": 2.4,
+   "MaxCorporateTax": 28,
+   "MaxPrivateTax": 45
  },
  {
    "Country": "South Korea",
@@ -4957,7 +5265,9 @@
    "Openness": 49.2,
    "Agreeableness": 55.7,
    "Conscientiousness": 51.6,
-   "FertilityRate": 1
+   "FertilityRate": 1,
+   "MaxCorporateTax": 24.2,
+   "MaxPrivateTax": 53.4
  },
  {
    "Country": "Spain",
@@ -4989,7 +5299,9 @@
    "Openness": 50.8,
    "Agreeableness": 50.2,
    "Conscientiousness": 41.9,
-   "FertilityRate": 1.3
+   "FertilityRate": 1.3,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 54
  },
  {
    "Country": "Sri Lanka",
@@ -5021,7 +5333,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.2
+   "FertilityRate": 2.2,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 15
  },
  {
    "Country": "Sudan",
@@ -5053,7 +5367,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.4
+   "FertilityRate": 4.4,
+   "MaxCorporateTax": 15,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Sweden",
@@ -5085,7 +5401,9 @@
    "Openness": 47.2,
    "Agreeableness": 54,
    "Conscientiousness": 59.8,
-   "FertilityRate": 1.8
+   "FertilityRate": 1.8,
+   "MaxCorporateTax": 20.6,
+   "MaxPrivateTax": 52
  },
  {
    "Country": "Switzerland",
@@ -5117,7 +5435,9 @@
    "Openness": 44.5,
    "Agreeableness": 49.1,
    "Conscientiousness": 62.7,
-   "FertilityRate": 1.5
+   "FertilityRate": 1.5,
+   "MaxCorporateTax": 17.92,
+   "MaxPrivateTax": 59.7
  },
  {
    "Country": "Syria",
@@ -5149,7 +5469,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.8
+   "FertilityRate": 2.8,
+   "MaxCorporateTax": 22,
+   "MaxPrivateTax": 15
  },
  {
    "Country": "Taiwan",
@@ -5181,7 +5503,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 40
  },
  {
    "Country": "Tanzania",
@@ -5213,7 +5537,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 30
  },
  {
    "Country": "Tajikistan",
@@ -5245,7 +5571,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.6
+   "FertilityRate": 3.6,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 25
  },
  {
    "Country": "Thailand",
@@ -5277,7 +5605,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.5
+   "FertilityRate": 1.5,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Togo",
@@ -5309,7 +5639,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.3
+   "FertilityRate": 4.3,
+   "MaxCorporateTax": 27,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Tokelau",
@@ -5341,7 +5673,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 0,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Tonga",
@@ -5373,7 +5707,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.6
+   "FertilityRate": 3.6,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Trinidad and Tobago",
@@ -5405,7 +5741,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 30
  },
  {
    "Country": "Tunisia",
@@ -5437,7 +5775,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.2
+   "FertilityRate": 2.2,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Turkey",
@@ -5469,7 +5809,9 @@
    "Openness": 42.3,
    "Agreeableness": 50.6,
    "Conscientiousness": 41.6,
-   "FertilityRate": 2.1
+   "FertilityRate": 2.1,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 40
  },
  {
    "Country": "Tuvalu",
@@ -5501,7 +5843,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": null
+   "FertilityRate": null,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Uganda",
@@ -5533,7 +5877,9 @@
    "Openness": 52.5,
    "Agreeableness": 47.8,
    "Conscientiousness": 47.7,
-   "FertilityRate": 5
+   "FertilityRate": 5,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Ukraine",
@@ -5565,7 +5911,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.3
+   "FertilityRate": 1.3,
+   "MaxCorporateTax": 18,
+   "MaxPrivateTax": 44
  },
  {
    "Country": "United Arab Emirates",
@@ -5597,7 +5945,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 1.4
+   "FertilityRate": 1.4,
+   "MaxCorporateTax": 9,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "United Kingdom",
@@ -5629,7 +5979,9 @@
    "Openness": 45.8,
    "Agreeableness": 46.5,
    "Conscientiousness": 52.9,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 63.25
  },
  {
    "Country": "United States",
@@ -5661,7 +6013,9 @@
    "Openness": 51,
    "Agreeableness": 42.5,
    "Conscientiousness": 48.6,
-   "FertilityRate": 1.7
+   "FertilityRate": 1.7,
+   "MaxCorporateTax": 21,
+   "MaxPrivateTax": 51.6
  },
  {
    "Country": "Uruguay",
@@ -5693,7 +6047,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2
+   "FertilityRate": 2,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 30
  },
  {
    "Country": "Uzbekistan",
@@ -5725,7 +6081,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.4
+   "FertilityRate": 2.4,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 0
  },
  {
    "Country": "Venezuela",
@@ -5757,7 +6115,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2.3
+   "FertilityRate": 2.3,
+   "MaxCorporateTax": 34,
+   "MaxPrivateTax": 34
  },
  {
    "Country": "Vietnam",
@@ -5789,7 +6149,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 2
+   "FertilityRate": 2,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 35
  },
  {
    "Country": "Yemen",
@@ -5821,7 +6183,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.8
+   "FertilityRate": 3.8,
+   "MaxCorporateTax": 20,
+   "MaxPrivateTax": 15
  },
  {
    "Country": "Zambia",
@@ -5853,7 +6217,9 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 4.6
+   "FertilityRate": 4.6,
+   "MaxCorporateTax": 30,
+   "MaxPrivateTax": 30
  },
  {
    "Country": "Zimbabwe",
@@ -5885,6 +6251,8 @@
    "Openness": null,
    "Agreeableness": null,
    "Conscientiousness": null,
-   "FertilityRate": 3.6
+   "FertilityRate": 3.6,
+   "MaxCorporateTax": 25,
+   "MaxPrivateTax": 45
  }
 ]
