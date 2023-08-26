@@ -1,24 +1,26 @@
-const Papa = require("papaparse");
-const $ = require("jquery");
+// Import the required library
 require("chart.js");
 
+// DOM elements
 const switch1 = document.getElementById("switch1");
 const switch2 = document.getElementById("switch2");
 const canvas = document.getElementById("scatterCanvas");
-let scatterChart; // Chart type
 
-let data;
+// Chart variables
+let scatterChart;
 let scatterData = [];
 let scatterLabels = [];
 let correlationCountries = 0;
 let option1 = "IQ";
 let option2 = "AvgLifeExpectancy";
-let slope;
-let yIntercept;
+// let slope;
+// let yIntercept;
 
-switch1.onchange = () => updateSwitch2Options();
-switch2.onchange = () => showCorrelationResult();
+// Event listeners
+switch1.addEventListener("change", updateSwitch2Options);
+switch2.addEventListener("change", showCorrelationResult);
 
+// Fetch JSON data
 fetch("src/iqCorrelation.json")
     .then((response) => {
         if (!response.ok) {
@@ -27,82 +29,65 @@ fetch("src/iqCorrelation.json")
         return response.json();
     })
     .then((jsonData) => {
-        Object.keys(jsonData[0]).forEach((key) => {
-            key !== "Country" && showMean(key, jsonData);
-        });
         data = jsonData;
-
-        // update from the beggining
-        updateSwitch2Options();
-        showCorrelationResult();
-        showScatterChart();
-        // showTrendingLine();
+        initializeApp();
     })
     .catch((error) => {
         console.error("Fetch error:", error);
     });
 
+// Initialize the application
+function initializeApp() {
+    Object.keys(data[0]).forEach((key) => {
+        key !== "Country" && showMean(key, data);
+    });
+
+    updateSwitch2Options();
+    showCorrelationResult();
+    showScatterChart();
+}
+
+// Show correlation result based on selected options
 function showCorrelationResult() {
     option2 = switch2.value;
 
     const correlationResult = document.getElementById("correlationResult");
     const correlationWeakness = document.getElementById("correlationWeakness");
-    const correlationValue = correlationCoefficient(option1, option2, data)[0];
-    correlationCountries = correlationCoefficient(option1, option2, data)[1];
+    const correlationValues = correlationCoefficient(option1, option2, data);
+    const correlationValue = correlationValues[0];
+    correlationCountries = correlationValues[1];
+
+    const corrStrength = getCorrelationStrength(correlationValue);
     const imgCorrelation = document.getElementById("imgCorrelation").style;
+    imgCorrelation.content = `url(/WorldOfCorrelations/img/${corrStrength}.svg)`;
 
-    let corrWeakness = "";
-
-    if (correlationValue < 0.2 && correlationValue > -0.2) {
-        corrWeakness = "no";
-        imgCorrelation.content = "url(/WorldOfCorrelations/img/no.svg)";
-    }
-    if (correlationValue >= 0.2) {
-        corrWeakness = "weak positive";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/weakPositive.svg)";
-    }
-    if (correlationValue >= 0.4) {
-        corrWeakness = "moderate positive";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/moderatePositive.svg)";
-    }
-    if (correlationValue >= 0.7) {
-        corrWeakness = "strong positive";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/strongPositive.svg)";
-    }
-    if (correlationValue >= 0.9) {
-        corrWeakness = "very strong positive";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/veryStrongPositive.svg)";
-    }
-    if (correlationValue <= -0.2) {
-        corrWeakness = "weak negative";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/weakNegative.svg)";
-    }
-    if (correlationValue <= -0.4) {
-        corrWeakness = "moderate negative";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/moderateNegative.svg)";
-    }
-    if (correlationValue <= -0.7) {
-        corrWeakness = "strong negative";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/strongNegative.svg)";
-    }
-    if (correlationValue <= -0.9) {
-        corrWeakness = "very strong negative";
-        imgCorrelation.content =
-            "url(/WorldOfCorrelations/img/veryStrongNegative.svg)";
-    }
-
-    correlationWeakness.innerText = corrWeakness;
+    correlationWeakness.innerText = corrStrength;
     correlationResult.innerText = correlationValue;
 
-    //update the chart
     scatterChart && updateScatterChart();
+}
+
+// Get the strength of correlation based on value
+function getCorrelationStrength(value) {
+    const thresholds = [0.2, 0.4, 0.7, 0.9];
+    const strengths = [
+        "no",
+        "weak positive",
+        "moderate positive",
+        "strong positive",
+        "very strong positive",
+    ];
+
+    for (let i = 0; i < thresholds.length; i++) {
+        if (value >= thresholds[i]) {
+            return strengths[i + 1];
+        }
+        if (value <= -thresholds[i]) {
+            return strengths[i + 1].replace("positive", "negative");
+        }
+    }
+
+    return strengths[0];
 }
 
 function updateScatterChart() {
@@ -211,6 +196,9 @@ function showMean(key, jsonData) {
 
     const bold = document.getElementById(key);
     const mean = calculateMean(values).toFixed(2);
+    const abbr = document.getElementById(`${key}Abbr`);
+
+    if (abbr) abbr.title += ` Based on data from ${values.length} countries`;
 
     if (key === "BraSize") {
         if (mean < 3.5) bold.innerText = "C";
@@ -297,23 +285,3 @@ function correlationCoefficient(key1, key2, jsonData) {
 
     return [correlation.toFixed(2), x.length];
 }
-
-// function arrayToTable(tableData) {
-//     var table = $("<table></table>");
-//     $(tableData).each(function (i, rowData) {
-//         var row = $("<tr></tr>");
-//         $(rowData).each(function (j, cellData) {
-//             row.append($("<td>" + cellData + "</td>"));
-//         });
-//         table.append(row);
-//     });
-//     return table;
-// }
-
-// $.ajax({
-//     type: "GET",
-//     url: "http://localhost:5500/src/iqCorrelation.csv",
-//     success: function (data) {
-//         $("body").append(arrayToTable(Papa.parse(data).data));
-//     },
-// });
