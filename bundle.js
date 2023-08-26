@@ -14,6 +14,8 @@ let scatterLabels = [];
 let correlationCountries = 0;
 let option1 = "IQ";
 let option2 = "AvgLifeExpectancy";
+let slope;
+let yIntercept;
 
 switch1.onchange = () => updateSwitch2Options();
 switch2.onchange = () => showCorrelationResult();
@@ -35,6 +37,7 @@ fetch("src/iqCorrelation.json")
         updateSwitch2Options();
         showCorrelationResult();
         showScatterChart();
+        // showTrendingLine();
     })
     .catch((error) => {
         console.error("Fetch error:", error);
@@ -107,10 +110,42 @@ function updateScatterChart() {
     scatterChart.data.datasets[0].label = `Data from ${correlationCountries} countries`;
     scatterChart.data.datasets[0].data = scatterData;
     scatterChart.update();
+    // showTrendingLine();
+}
+
+function showTrendingLine() {
+    // Calculate the trendline endpoints
+    const xMin = scatterChart.scales.x.min;
+    const xMax = scatterChart.scales.x.max;
+
+    const trendlineStart = { x: xMin, y: slope * xMin + yIntercept };
+    const trendlineEnd = { x: xMax, y: slope * xMax + yIntercept };
+
+    // Get the canvas context
+    const ctx = document.getElementById("trendingLine").getContext("2d");
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Convert trendline points to pixel coordinates
+    const trendlineStartPixel = {
+        x: scatterChart.scales.x.getPixelForValue(trendlineStart.x),
+        y: scatterChart.scales.y.getPixelForValue(trendlineStart.y),
+    };
+
+    const trendlineEndPixel = {
+        x: scatterChart.scales.x.getPixelForValue(trendlineEnd.x),
+        y: scatterChart.scales.y.getPixelForValue(trendlineEnd.y),
+    };
+
+    // Draw the trendline
+    ctx.beginPath();
+    ctx.moveTo(trendlineStartPixel.x, trendlineStartPixel.y);
+    ctx.lineTo(trendlineEndPixel.x, trendlineEndPixel.y);
+    ctx.strokeStyle = "red"; // Color of the trendline
+    ctx.lineWidth = 2; // Width of the trendline
+    ctx.stroke();
 }
 
 function showScatterChart() {
-    console.log(scatterLabels[0]);
     scatterChart = new Chart(canvas, {
         type: "scatter",
         data: {
@@ -226,6 +261,16 @@ function correlationCoefficient(key1, key2, jsonData) {
         console.error(
             "The x and y values have different lenght. This should never happen!"
         );
+
+    // Calculate the linear regression line
+    const sumX = x.reduce((sum, x) => sum + x, 0);
+    const sumY = y.reduce((sum, y) => sum + y, 0);
+    const sumXY = x.reduce((sum, x, i) => sum + x * y[i], 0);
+    const sumX2 = x.reduce((sum, x) => sum + x ** 2, 0);
+
+    const n = x.length;
+    slope = (n * sumXY - sumX * sumY) / (n * sumX2 - sumX ** 2);
+    yIntercept = (sumY - slope * sumX) / n;
 
     // empty the scatterData so the chart doesn't accumulate data
     scatterData = [];
