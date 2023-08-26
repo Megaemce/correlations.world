@@ -1,5 +1,6 @@
 // Import the required library
 require("chart.js");
+const chartTrendline = require("chartjs-plugin-trendline");
 
 // DOM elements
 const switch1 = document.getElementById("switch1");
@@ -13,8 +14,6 @@ let scatterLabels = [];
 let correlationCountries = 0;
 let option1 = "IQ";
 let option2 = "AvgLifeExpectancy";
-// let slope;
-// let yIntercept;
 
 // Event listeners
 switch1.addEventListener("change", updateSwitch2Options);
@@ -97,45 +96,12 @@ function updateScatterChart() {
     scatterChart.options.plugins.title.text = `Based on data from ${correlationCountries} countries`;
 
     scatterChart.update();
-    // showTrendingLine();
-}
-
-function showTrendingLine() {
-    // Calculate the trendline endpoints
-    const xMin = scatterChart.scales.x.min;
-    const xMax = scatterChart.scales.x.max;
-
-    const trendlineStart = { x: xMin, y: slope * xMin + yIntercept };
-    const trendlineEnd = { x: xMax, y: slope * xMax + yIntercept };
-
-    // Get the canvas context
-    const ctx = document.getElementById("trendingLine").getContext("2d");
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    // Convert trendline points to pixel coordinates
-    const trendlineStartPixel = {
-        x: scatterChart.scales.x.getPixelForValue(trendlineStart.x),
-        y: scatterChart.scales.y.getPixelForValue(trendlineStart.y),
-    };
-
-    const trendlineEndPixel = {
-        x: scatterChart.scales.x.getPixelForValue(trendlineEnd.x),
-        y: scatterChart.scales.y.getPixelForValue(trendlineEnd.y),
-    };
-
-    // Draw the trendline
-    ctx.beginPath();
-    ctx.moveTo(trendlineStartPixel.x, trendlineStartPixel.y);
-    ctx.lineTo(trendlineEndPixel.x, trendlineEndPixel.y);
-    ctx.strokeStyle = "red"; // Color of the trendline
-    ctx.lineWidth = 2; // Width of the trendline
-    ctx.stroke();
 }
 
 function showScatterChart() {
     scatterChart = new Chart(canvas, {
         type: "scatter",
-
+        plugins: chartTrendline,
         data: {
             datasets: [
                 {
@@ -144,6 +110,11 @@ function showScatterChart() {
                     borderColor: "rgba(75, 192, 192, 1)",
                     borderWidth: 1,
                     pointRadius: 2,
+                    trendlineLinear: {
+                        colorMin: "rgba(121, 55, 55, 0.6)",
+                        lineStyle: "dotted",
+                        width: 2,
+                    },
                 },
             ],
         },
@@ -164,6 +135,7 @@ function showScatterChart() {
                     },
                     padding: {
                         bottom: 25,
+                        left: 50,
                     },
                     align: "center",
                     display: true,

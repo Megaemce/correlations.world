@@ -5,11 +5,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mateusz M. Osinski",
+  "author": "Megaemce",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "chart.js": "^4.4.0",
+    "chartjs-plugin-trendline": "^2.0.3",
     "jquery": "^3.7.0",
     "papaparse": "^5.4.1"
   }
