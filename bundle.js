@@ -60,7 +60,7 @@ function showCorrelationResult() {
 
     const corrStrength = getCorrelationStrength(correlationValue);
     const imgCorrelation = document.getElementById("imgCorrelation").style;
-    imgCorrelation.content = `url(/WorldOfCorrelations/img/${corrStrength}.svg)`;
+    imgCorrelation.content = `url("/WorldOfCorrelations/img/${corrStrength}.svg")`;
 
     correlationWeakness.innerText = corrStrength;
     correlationResult.innerText = correlationValue;
