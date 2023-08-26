@@ -61,7 +61,7 @@ function showCorrelationResult() {
     const imgCorrelation = document.getElementById("imgCorrelation").style;
     imgCorrelation.content = `url("/WorldOfCorrelations/img/${corrStrength}.svg")`;
 
-    correlationWeakness.innerText = corrStrength;
+    correlationWeakness.innerText = corrStrength + " correlation:";
     correlationResult.innerText = correlationValue;
 
     scatterChart && updateScatterChart();
