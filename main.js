@@ -91,8 +91,11 @@ function getCorrelationStrength(value) {
 }
 
 function updateScatterChart() {
-    scatterChart.data.datasets[0].label = `Data from ${correlationCountries} countries`;
     scatterChart.data.datasets[0].data = scatterData;
+    scatterChart.options.scales.x.title.text = scatterLabels[1];
+    scatterChart.options.scales.y.title.text = scatterLabels[0];
+    scatterChart.options.plugins.title.text = `Based on data from ${correlationCountries} countries`;
+
     scatterChart.update();
     // showTrendingLine();
 }
@@ -132,10 +135,10 @@ function showTrendingLine() {
 function showScatterChart() {
     scatterChart = new Chart(canvas, {
         type: "scatter",
+
         data: {
             datasets: [
                 {
-                    label: `Data from ${correlationCountries} countries`,
                     data: scatterData,
                     backgroundColor: "rgba(75, 192, 192, 0.6)",
                     borderColor: "rgba(75, 192, 192, 1)",
@@ -149,22 +152,49 @@ function showScatterChart() {
                 tooltip: {
                     enabled: false, // Disable tooltips
                 },
+                legend: {
+                    display: false,
+                },
+                title: {
+                    position: "top",
+                    font: {
+                        family: "'Roboto', 'sans-serif'",
+                        weight: "normal",
+                        size: "12px",
+                    },
+                    padding: {
+                        bottom: 25,
+                    },
+                    align: "center",
+                    display: true,
+                    text: `Based on data from ${correlationCountries} countries`,
+                },
             },
             scales: {
                 x: {
                     type: "linear",
                     position: "bottom",
-                    scaleLabel: {
+                    title: {
                         display: true,
-                        labelString: scatterLabels[0],
+                        text: scatterLabels[1],
+                    },
+                    grid: {
+                        display: false,
+                        drawOnChartArea: false,
+                        drawTicks: true,
                     },
                 },
                 y: {
                     type: "linear",
-                    position: "right",
-                    scaleLabel: {
+                    position: "left",
+                    title: {
                         display: true,
-                        labelString: scatterLabels[1],
+                        text: scatterLabels[0],
+                    },
+                    grid: {
+                        display: false,
+                        drawOnChartArea: false,
+                        drawTicks: true,
                     },
                 },
             },
