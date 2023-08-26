@@ -1,10 +1,16 @@
 const Papa = require("papaparse");
 const $ = require("jquery");
+require("chart.js");
 
 const switch1 = document.getElementById("switch1");
 const switch2 = document.getElementById("switch2");
+const canvas = document.getElementById("scatterCanvas");
+let scatterChart; // Chart type
 
 let data;
+let scatterData = [];
+let scatterLabels = [];
+let correlationCountries = 0;
 let option1 = "IQ";
 let option2 = "AvgLifeExpectancy";
 
@@ -27,6 +33,7 @@ fetch("src/iqCorrelation.json")
         // update from the beggining
         updateSwitch2Options();
         showCorrelationResult();
+        showScatterChart();
     })
     .catch((error) => {
         console.error("Fetch error:", error);
@@ -36,17 +43,13 @@ function showCorrelationResult() {
     option2 = switch2.value;
 
     const correlationResult = document.getElementById("correlationResult");
-    const correlationAbbr = document.getElementById("correlationAbbr");
     const correlationWeakness = document.getElementById("correlationWeakness");
     const correlationValue = correlationCoefficient(option1, option2, data)[0];
-    const correlationCountries = correlationCoefficient(
-        option1,
-        option2,
-        data
-    )[1];
+    correlationCountries = correlationCoefficient(option1, option2, data)[1];
     const imgCorrelation = document.getElementById("imgCorrelation").style;
 
     let corrWeakness = "";
+
     if (correlationValue < 0.2 && correlationValue > -0.2) {
         corrWeakness = "no";
         imgCorrelation.content = "url(/WorldOfCorrelations/img/no.svg)";
@@ -92,11 +95,62 @@ function showCorrelationResult() {
             "url(/WorldOfCorrelations/img/veryStrongNegative.svg)";
     }
 
-    correlationWeakness.innerText = corrWeakness + " ";
-    correlationAbbr.title = `Based on data from ${correlationCountries} countries`;
+    correlationWeakness.innerText = corrWeakness;
     correlationResult.innerText = correlationValue;
+
+    //update the chart
+    scatterChart && updateScatterChart();
 }
 
+function updateScatterChart() {
+    scatterChart.data.datasets[0].label = `Data from ${correlationCountries} countries`;
+    scatterChart.data.datasets[0].data = scatterData;
+    scatterChart.update();
+}
+
+function showScatterChart() {
+    console.log(scatterLabels[0]);
+    scatterChart = new Chart(canvas, {
+        type: "scatter",
+        data: {
+            datasets: [
+                {
+                    label: `Data from ${correlationCountries} countries`,
+                    data: scatterData,
+                    backgroundColor: "rgba(75, 192, 192, 0.6)",
+                    borderColor: "rgba(75, 192, 192, 1)",
+                    borderWidth: 1,
+                    pointRadius: 2,
+                },
+            ],
+        },
+        options: {
+            plugins: {
+                tooltip: {
+                    enabled: false, // Disable tooltips
+                },
+            },
+            scales: {
+                x: {
+                    type: "linear",
+                    position: "bottom",
+                    scaleLabel: {
+                        display: true,
+                        labelString: scatterLabels[0],
+                    },
+                },
+                y: {
+                    type: "linear",
+                    position: "left",
+                    scaleLabel: {
+                        display: true,
+                        labelString: scatterLabels[1],
+                    },
+                },
+            },
+        },
+    });
+}
 function updateSwitch2Options() {
     // Get the selected value from Switch 1
     option1 = switch1.value;
@@ -121,10 +175,7 @@ function showMean(key, jsonData) {
         .filter((value) => value !== null);
 
     const bold = document.getElementById(key);
-    const abbr = document.getElementById(`${key}Abbr`);
     const mean = calculateMean(values).toFixed(2);
-
-    if (abbr) abbr.title += ` Based on data from ${values.length} countries`;
 
     if (key === "BraSize") {
         if (mean < 3.5) bold.innerText = "C";
@@ -164,8 +215,24 @@ function calculateMean(array) {
 
 // Calculate the correlation coefficient
 function correlationCoefficient(key1, key2, jsonData) {
+    // keep the lables for the chart
+    scatterLabels = [key1, key2];
+
     x = extractKeyValues(key1, key2, jsonData);
     y = extractKeyValues(key2, key1, jsonData);
+
+    if (x.length !== y.length)
+        console.error(
+            "The x and y values have different lenght. This should never happen!"
+        );
+
+    // empty the scatterData so the chart doesn't accumulate data
+    scatterData = [];
+    for (let index = 0; index < x.length; index++) {
+        // first key to be on the y and the second on the x scale
+        const location = { x: y[index], y: x[index] };
+        scatterData.push(location);
+    }
 
     const xMean = calculateMean(x);
     const yMean = calculateMean(y);

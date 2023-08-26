@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "chart.js": "^4.4.0",
     "jquery": "^3.7.0",
     "papaparse": "^5.4.1"
   }
