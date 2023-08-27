@@ -98,13 +98,11 @@ div.statistics {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        min-width: 500px;
 
         .column {
             display: flex;
             flex-direction: column;
             width: 25%;
-            min-width: 200px;
 
             .row1 {
                 display: flex;
@@ -158,4 +156,34 @@ img {
 select:focus {
     border-color: #007bff;
     box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+/* abbr working on mobile */
+@media screen and (min-width: 500px) {
+    abbr[data-title] {
+        position: relative;
+
+        /* ensure consistent styling across browsers */
+        text-decoration: underline dotted;
+    }
+
+    abbr[data-title]:hover::after,
+    abbr[data-title]:focus::after {
+        content: attr(data-title);
+
+        /* position tooltip like the native one */
+        position: absolute;
+        left: 0;
+        bottom: -30px;
+        width: auto;
+        white-space: nowrap;
+
+        /* style tooltip */
+        background-color: #1e1e1e;
+        color: #fff;
+        border-radius: 3px;
+        box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.4);
+        font-size: 14px;
+        padding: 3px 5px;
+        z-index: 999;
+    }
 }

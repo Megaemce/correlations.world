@@ -39,9 +39,7 @@
                             </option>
                             <option value="Safety">🛟 Safety</option>
                             <option value="Climate">⛱️ Climate</option>
-                            <option value="Cheapness">
-                                🪙 Cheapness of living
-                            </option>
+                            <option value="Cheapness">🪙 Cheapness</option>
                             <option value="Popularity">🧳 Popularity</option>
                             <option value="Corruption">🫰🏻 Corruption</option>
                         </optgroup>
@@ -108,9 +106,7 @@
                             </option>
                             <option value="Safety">🛟 Safety</option>
                             <option value="Climate">⛱️ Climate</option>
-                            <option value="Cheapness">
-                                🪙 Cheapness of living
-                            </option>
+                            <option value="Cheapness">🪙 Cheapness</option>
                             <option value="Popularity">🧳 Popularity</option>
                             <option value="Corruption">🫰🏻 Corruption</option>
                         </optgroup>
@@ -164,7 +160,7 @@
                     <p id="correlationWeakness" class="weakness"></p>
                     <abbr
                         id="correlationAbbr"
-                        title="0 - no correlation, ±1 - very strong linear correlation"
+                        data-title="0 - no correlation, ±1 - very strong linear correlation"
                     >
                         <p class="value" id="correlationResult"></p>
                     </abbr>
@@ -180,7 +176,7 @@
                         <div class="row2">
                             <p>
                                 IQ:
-                                <abbr id="IQAbbr" title=""
+                                <abbr id="IQAbbr" data-title=""
                                     ><b id="IQ"></b
                                 ></abbr>
                             </p>
@@ -188,13 +184,13 @@
                                 Happiness:
                                 <abbr
                                     id="HappinessAbbr"
-                                    title="0 - not happy, 10 - super happy."
-                                    ><b id="Happiness"></b
-                                ></abbr>
+                                    data-title="0 - not happy, 100 - super happy."
+                                    ><b id="Happiness"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Life expectancy:
-                                <abbr id="AvgLifeExpectancyAbbr" title=""
+                                <abbr id="AvgLifeExpectancyAbbr" data-title=""
                                     ><b id="AvgLifeExpectancy"></b
                                 ></abbr>
                                 years
@@ -203,7 +199,7 @@
                                 Birth rate:
                                 <abbr
                                     id="BirthRateAbbr"
-                                    title="Births per 1000 inhabitants/year."
+                                    data-title="Births per 1000 inhabitants/year."
                                     ><b id="BirthRate"></b> ‰</abbr
                                 >
                             </p>
@@ -211,7 +207,7 @@
                                 Death rate:
                                 <abbr
                                     id="DeathRateAbbr"
-                                    title="Deaths per 1000 inhabitants/year."
+                                    data-title="Deaths per 1000 inhabitants/year."
                                     ><b id="DeathRate"></b> ‰</abbr
                                 >
                             </p>
@@ -219,41 +215,41 @@
                                 Neuroticism rate:
                                 <abbr
                                     id="NeuroticismAbbr"
-                                    title="0 - no trait, 100 very high trait."
-                                    ><b id="Neuroticism"></b
-                                ></abbr>
+                                    data-title="0 - no trait, 100 very high trait."
+                                    ><b id="Neuroticism"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Extraversion rate:
                                 <abbr
                                     id="ExtraversionAbbr"
-                                    title="0 - no trait, 100 very high trait."
-                                    ><b id="Extraversion"></b
-                                ></abbr>
+                                    data-title="0 - no trait, 100 very high trait."
+                                    ><b id="Extraversion"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Openness rate:
                                 <abbr
                                     id="OpennessAbbr"
-                                    title="0 - no trait, 100 very high trait."
-                                    ><b id="Openness"></b>
-                                </abbr>
+                                    data-title="0 - no trait, 100 very high trait."
+                                    ><b id="Openness"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Agreeableness rate:
                                 <abbr
                                     id="AgreeablenessAbbr"
-                                    title="0 - no trait, 100 very high trait."
-                                    ><b id="Agreeableness"></b
-                                ></abbr>
+                                    data-title="0 - no trait, 100 very high trait."
+                                    ><b id="Agreeableness"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Conscientiousness rate:
                                 <abbr
                                     id="ConscientiousnessAbbr"
-                                    title="0 - no trait, 100 very high trait."
-                                    ><b id="Conscientiousness"></b
-                                ></abbr>
+                                    data-title="0 - no trait, 100 very high trait."
+                                    ><b id="Conscientiousness"></b>/100</abbr
+                                >
                             </p>
                         </div>
                     </div>
@@ -262,34 +258,36 @@
                         <div class="row2">
                             <p>
                                 Life expectancy:
-                                <abbr id="FemaleLifeExpectancyAbbr" title=""
+                                <abbr
+                                    id="FemaleLifeExpectancyAbbr"
+                                    data-title=""
                                     ><b id="FemaleLifeExpectancy"></b
                                 ></abbr>
                                 years
                             </p>
                             <p>
                                 Bra size:
-                                <abbr id="BraSizeAbbr" title=""
+                                <abbr id="BraSizeAbbr" data-title=""
                                     ><b id="BraSize"></b
                                 ></abbr>
                             </p>
                             <p>
                                 Height:
-                                <abbr id="FemaleHeightAbbr" title=""
+                                <abbr id="FemaleHeightAbbr" data-title=""
                                     ><b id="FemaleHeight"></b
                                 ></abbr>
                                 m
                             </p>
                             <p>
                                 Weight:
-                                <abbr id="FemaleWeightAbbr" title=""
+                                <abbr id="FemaleWeightAbbr" data-title=""
                                     ><b id="FemaleWeight"></b
                                 ></abbr>
                                 kg
                             </p>
                             <p>
                                 BMI:
-                                <abbr id="FemaleBMIAbbr" title=""
+                                <abbr id="FemaleBMIAbbr" data-title=""
                                     ><b id="FemaleBMI"></b
                                 ></abbr>
                             </p>
@@ -297,7 +295,7 @@
                                 Fertility rate:
                                 <abbr
                                     id="FertilityRateAbbr"
-                                    title="Number of children that women give birth to."
+                                    data-title="Number of children that women give birth to."
                                     ><b id="FertilityRate"></b
                                 ></abbr>
                             </p>
@@ -308,35 +306,35 @@
                         <div class="row2">
                             <p>
                                 Life expectancy:
-                                <abbr id="MaleLifeExpectancyAbbr" title=""
+                                <abbr id="MaleLifeExpectancyAbbr" data-title=""
                                     ><b id="MaleLifeExpectancy"></b
                                 ></abbr>
                                 years
                             </p>
                             <p>
                                 Penis length:
-                                <abbr id="PenisLengthAbbr" title=""
+                                <abbr id="PenisLengthAbbr" data-title=""
                                     ><b id="PenisLength"></b
                                 ></abbr>
                                 cm
                             </p>
                             <p>
                                 Height:
-                                <abbr id="MaleHeightAbbr" title=""
+                                <abbr id="MaleHeightAbbr" data-title=""
                                     ><b id="MaleHeight"></b
                                 ></abbr>
                                 m
                             </p>
                             <p>
                                 Weight:
-                                <abbr id="MaleWeightAbbr" title=""
+                                <abbr id="MaleWeightAbbr" data-title=""
                                     ><b id="MaleWeight"></b
                                 ></abbr>
                                 kg
                             </p>
                             <p>
                                 BMI:
-                                <abbr id="MaleBMIAbbr" title=""
+                                <abbr id="MaleBMIAbbr" data-title=""
                                     ><b id="MaleBMI"></b
                                 ></abbr>
                             </p>
@@ -347,7 +345,7 @@
                         <div class="row2">
                             <p>
                                 Yearly income:
-                                <abbr id="IncomeAbbr" title=""
+                                <abbr id="IncomeAbbr" data-title=""
                                     ><b id="Income"></b
                                 ></abbr>
                                 $
@@ -356,7 +354,7 @@
                                 Private tax:
                                 <abbr
                                     id="MaxPrivateTaxAbbr"
-                                    title="Maximum private tax."
+                                    data-title="Maximum private tax."
                                     ><b id="MaxPrivateTax"></b
                                 ></abbr>
                                 %
@@ -365,7 +363,7 @@
                                 Corporate tax:
                                 <abbr
                                     id="MaxCorporateTaxAbbr"
-                                    title="Maximum corporate tax."
+                                    data-title="Maximum corporate tax."
                                     ><b id="MaxCorporateTax"></b
                                 ></abbr>
                                 %
@@ -374,65 +372,65 @@
                                 Political/economic stability rate:
                                 <abbr
                                     id="StabilityAbbr"
-                                    title="0 - anarchy, 100 - ants nest."
-                                    ><b id="Stability"></b
-                                ></abbr>
+                                    data-title="0 - anarchy, 100 - ants nest."
+                                    ><b id="Stability"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Legal system/civil rights rate:
                                 <abbr
                                     id="HumanRightsAbbr"
-                                    title="0 - really bad, 100 - amazing."
-                                    ><b id="HumanRights"></b
-                                ></abbr>
+                                    data-title="0 - really bad, 100 - amazing."
+                                    ><b id="HumanRights"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Health services rate:
                                 <abbr
                                     id="HealthServicesAbbr"
-                                    title="0 - deadly insufficient, 100 - amazing."
-                                    ><b id="HealthServices"></b
-                                ></abbr>
+                                    data-title="0 - deadly insufficient, 100 - amazing."
+                                    ><b id="HealthServices"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Safety rate:
                                 <abbr
                                     id="SafetyAbbr"
-                                    title="0 - deadly unsafe, 100 - heaven."
-                                    ><b id="Safety"></b
-                                ></abbr>
+                                    data-title="0 - deadly unsafe, 100 - heaven."
+                                    ><b id="Safety"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Climate rate:
                                 <abbr
                                     id="ClimateAbbr"
-                                    title="0 - really bad weather, 100 - amazing weather."
-                                    ><b id="Climate"></b
-                                ></abbr>
+                                    data-title="0 - really bad weather, 100 - amazing weather."
+                                    ><b id="Climate"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Cheapness of living rate:
                                 <abbr
                                     id="CheapnessAbbr"
-                                    title="0 - really expensive, 100 - amazingly cheap."
-                                    ><b id="Cheapness"></b
-                                ></abbr>
+                                    data-title="0 - really expensive, 100 - amazingly cheap."
+                                    ><b id="Cheapness"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Popularity rate:
                                 <abbr
                                     id="PopularityAbbr"
-                                    title="0 - no one goes there, 100 - everyone goes there."
-                                    ><b id="Popularity"></b
-                                ></abbr>
+                                    data-title="0 - no one goes there, 100 - everyone goes there."
+                                    ><b id="Popularity"></b>/100</abbr
+                                >
                             </p>
                             <p>
                                 Corruption rate:
                                 <abbr
                                     id="CorruptionAbbr"
-                                    title="0 - no corruption, 100 - high corruption."
-                                    ><b id="Corruption"></b
-                                ></abbr>
+                                    data-title="0 - no corruption, 100 - high corruption."
+                                    ><b id="Corruption"></b>/100</abbr
+                                >
                             </p>
                         </div>
                     </div>
