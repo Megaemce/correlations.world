@@ -206,8 +206,6 @@ function showMean(key, jsonData) {
     const abbr = document.getElementById(`${key}Abbr`);
 
     if (abbr) {
-        console.log(abbr);
-        console.log(abbr["data-title"]);
         abbr.setAttribute(
             "data-title",
             abbr.getAttribute("data-title") +
