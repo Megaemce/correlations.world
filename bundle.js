@@ -42,6 +42,8 @@ function initializeApp() {
         key !== "Country" && showMean(key, data);
     });
 
+    // showCountryStats("Poland", data);
+
     updateSwitch2Options();
     showCorrelationResult();
     showScatterChart();
@@ -216,6 +218,31 @@ function showMean(key, jsonData) {
     } else {
         bold.innerText = mean;
     }
+}
+
+function showCountryStats(country, jsonData) {
+    const countryStats = Object.values(jsonData).filter(
+        (obj) => obj["Country"] === country
+    )[0];
+
+    Object.keys(countryStats).forEach((key) => {
+        if (key !== "Country") {
+            const bold = document.getElementById(key);
+            const value = countryStats[key];
+
+            if (key === "BraSize") {
+                if (value < 3.5) bold.innerText = "C";
+                if (value < 3) bold.innerText = "B-C";
+                if (value < 2.5) bold.innerText = "B";
+                if (value < 2) bold.innerText = "A-B";
+                if (value < 1.5) bold.innerText = "A";
+                if (value < 1) bold.innerText = "A-AA";
+                if (value < 0.5) bold.innerText = "AA";
+            } else {
+                bold.innerText = value;
+            }
+        }
+    });
 }
 
 // return all non empty values of key @key1 but only if @key2 existing there too
