@@ -62,12 +62,18 @@ div.result {
 }
 
 div.scatter {
+    padding-top: 20px;
     width: 100%;
     height: 50%;
+
+    canvas.scatterCanvas {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 div.image {
-    display: flex;
+    display: none;
     align-items: center;
     width: 30%;
     padding: 20px;
@@ -140,12 +146,6 @@ select:hover {
     height: 100%;
     width: 100%;
     filter: opacity(1);
-}
-
-#scatterCanvas {
-    display: flex;
-    width: 80%;
-    height: 80%;
 }
 
 img {

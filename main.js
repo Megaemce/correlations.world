@@ -60,7 +60,7 @@ function showCorrelationResult() {
     const imgCorrelation = document.getElementById("imgCorrelation").style;
     imgCorrelation.content = `url("/correlations.world/img/${corrStrength}.svg")`;
 
-    correlationWeakness.innerText = corrStrength + " correlation:";
+    correlationWeakness.innerText = "a " + corrStrength + " correlation:";
     correlationResult.innerText = correlationValue;
 
     scatterChart && updateScatterChart();
@@ -91,6 +91,7 @@ function getCorrelationStrength(value) {
 
 function updateScatterChart() {
     scatterChart.data.datasets[0].data = scatterData;
+    scatterChart.data.labels = scatterLabels[2];
     scatterChart.options.scales.x.title.text = scatterLabels[1];
     scatterChart.options.scales.y.title.text = scatterLabels[0];
     scatterChart.options.plugins.title.text = `Based on data from ${correlationCountries} countries`;
@@ -103,6 +104,7 @@ function showScatterChart() {
         type: "scatter",
         plugins: chartTrendline,
         data: {
+            labels: scatterLabels[2],
             datasets: [
                 {
                     data: scatterData,
@@ -121,7 +123,7 @@ function showScatterChart() {
         options: {
             plugins: {
                 tooltip: {
-                    enabled: false, // Disable tooltips
+                    enabled: true, // Disable tooltips
                 },
                 legend: {
                     display: false,
@@ -224,6 +226,18 @@ function extractKeyValues(key1, key2, jsonData) {
         .filter((value) => value !== null);
 }
 
+function extractKeyCountries(key1, key2, jsonData) {
+    const result = [];
+    for (const countryData of jsonData) {
+        if (key1 in countryData && key2 in countryData) {
+            if (countryData[key1] !== null && countryData[key2] !== null) {
+                result.push(countryData["Country"]);
+            }
+        }
+    }
+    return result;
+}
+
 function calculateMean(array) {
     if (array.length === 0) {
         return 0; // Return 0 for an empty array, or you could choose to return NaN or throw an error.
@@ -241,7 +255,8 @@ function calculateMean(array) {
 // Calculate the correlation coefficient
 function correlationCoefficient(key1, key2, jsonData) {
     // keep the lables for the chart
-    scatterLabels = [key1, key2];
+    const countries = extractKeyCountries(key1, key2, jsonData);
+    scatterLabels = [key1, key2, countries];
 
     x = extractKeyValues(key1, key2, jsonData);
     y = extractKeyValues(key2, key1, jsonData);
