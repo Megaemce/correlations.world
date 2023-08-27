@@ -21,11 +21,11 @@ That's why I collect all the data [worlddata.info](https://www.worlddata.info/),
 
 Now I can give you the answer straight away — there is a **weak negative corrleation** between IQ and size of the penis
 
-![image](https://github.com/Megaemce/WorldOfCorrelations/assets/1651451/66e07e75-e4f2-4410-ad63-30abf7772e97)
+![image](https://github.com/Megaemce/correlations.world/assets/1651451/66e07e75-e4f2-4410-ad63-30abf7772e97)
 
 ...and there is **no correlation** between neuroticism and bra size
 
-![image](https://github.com/Megaemce/WorldOfCorrelations/assets/1651451/e3d11d4e-4591-4025-a339-490f7f7631eb)
+![image](https://github.com/Megaemce/correlations.world/assets/1651451/e3d11d4e-4591-4025-a339-490f7f7631eb)
 
 You are welcome!
 

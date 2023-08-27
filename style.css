@@ -136,7 +136,7 @@ select:hover {
 }
 
 #imgCorrelation {
-    content: url(/WorldOfCorrelations/img/no.svg);
+    content: url(/correlations.world/img/no.svg);
     height: 100%;
     width: 100%;
     filter: opacity(1);
