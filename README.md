@@ -1,7 +1,7 @@
 ## correlations.🗺️ — Check the correlations between various world data
 
 Have you ever wonder if there is a correlation between IQ and the size of the penis?<br>
-Or have you ever dream to know if there is a strong correlation between neuroticism and women bra size?<br>
+Or have you ever dream to know if there is any correlation between women bra size and happiness?<br>
 
 **You probably have not!**<br>
 But if you ever did (or you are curious now) then you probably notice that some of those question are very close <br>
@@ -21,11 +21,11 @@ That's why I collect all the data [worlddata.info](https://www.worlddata.info/),
 
 Now I can give you the answer straight away — there is a **weak negative corrleation** between IQ and size of the penis
 
-![image](https://github.com/Megaemce/correlations.world/assets/1651451/66e07e75-e4f2-4410-ad63-30abf7772e97)
+![image](https://github.com/Megaemce/correlations.world/assets/1651451/3cddd29a-8601-45a3-871a-3f79240e8280)
 
-...and there is **no correlation** between neuroticism and bra size
+...and there is **moderate positive correlation** between women bra size and happiness
 
-![image](https://github.com/Megaemce/correlations.world/assets/1651451/e3d11d4e-4591-4025-a339-490f7f7631eb)
+![image](https://github.com/Megaemce/correlations.world/assets/1651451/71f8366b-5000-4734-a5fd-be337d25efc4)
 
 You are welcome!
 
