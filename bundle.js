@@ -13,6 +13,7 @@ let scatterChart;
 let scatterData = [];
 let scatterLabels = [];
 let correlationCountries = 0;
+let totalPopulation = 0;
 let option1 = "IQ";
 let option2 = "AvgLifeExpectancy";
 
@@ -21,7 +22,7 @@ switch1.addEventListener("change", updateSwitch2Options);
 switch2.addEventListener("change", showCorrelationResult);
 
 // Fetch JSON data
-fetch("src/iqCorrelation.json")
+fetch("src/correlations.json")
     .then((response) => {
         if (!response.ok) {
             throw new Error("Network response was not ok");
@@ -39,8 +40,15 @@ fetch("src/iqCorrelation.json")
 // Initialize the application
 function initializeApp() {
     Object.keys(data[0]).forEach((key) => {
-        key !== "Country" && showMean(key, data);
+        key !== "Country" && key !== "Population" && showMean(key, data);
     });
+
+    // sum the total population
+    Object.values(data).forEach((country) => {
+        if (country["Population"]) totalPopulation += country["Population"];
+    });
+
+    document.getElementById("Population").innerText = totalPopulation;
 
     // showCountryStats("Poland", data);
 
@@ -55,9 +63,7 @@ function showCorrelationResult() {
 
     const correlationResult = document.getElementById("correlationResult");
     const correlationWeakness = document.getElementById("correlationWeakness");
-    const correlationValues = correlationCoefficient(option1, option2, data);
-    const correlationValue = correlationValues[0];
-    correlationCountries = correlationValues[1];
+    const correlationValue = correlationCoefficient(option1, option2, data);
 
     const corrStrength = getCorrelationStrength(correlationValue);
     const imgCorrelation = document.getElementById("imgCorrelation").style;
@@ -195,21 +201,38 @@ function updateSwitch2Options() {
     showCorrelationResult();
 }
 
-// calculating purly mean of values, not looking if there is connection between two keys
+// calculating weighted valuebased on number of people in the country.
+// Total Average = (Average A * Population A + Average B * Population B) / (Population A + Population B)
+// So add total population and collect info about countries and multiply it by population then
 function showMean(key, jsonData) {
-    const values = Object.values(jsonData)
-        .map((obj) => obj[key])
-        .filter((value) => value !== null);
+    let values = 0;
+    let countriesCount = 0;
+    let relatedPopulation = 0;
+    const jsonDataValues = Object.values(jsonData);
+
+    for (let i = 0; i < jsonDataValues.length; i++) {
+        const obj = jsonDataValues[i];
+        const value = obj[key];
+        if (value !== null) {
+            if (!obj["Population"])
+                console.error(
+                    "For some reasons population is empty. This should not happen as all the countries should have this value populated!"
+                );
+            relatedPopulation += obj["Population"];
+            values += value * obj["Population"];
+            countriesCount++;
+        }
+    }
 
     const bold = document.getElementById(key);
-    const mean = calculateMean(values).toFixed(2);
+    const mean = (values / relatedPopulation).toFixed(2);
     const abbr = document.getElementById(`${key}Abbr`);
 
     if (abbr) {
         abbr.setAttribute(
             "data-title",
             abbr.getAttribute("data-title") +
-                ` Based on data from ${values.length} countries`
+                ` Based on data from ${countriesCount} countries`
         );
     }
 
@@ -219,7 +242,7 @@ function showMean(key, jsonData) {
         if (mean < 2.5) bold.innerText = "B";
         if (mean < 2) bold.innerText = "A-B";
         if (mean < 1.5) bold.innerText = "A";
-        if (mean < 1) bold.innerText = "A-AA";
+        if (mean < 1) bold.innerText = "AA-A";
         if (mean < 0.5) bold.innerText = "AA";
     } else {
         bold.innerText = mean;
@@ -252,12 +275,46 @@ function showCountryStats(country, jsonData) {
 }
 
 // return all non empty values of key @key1 but only if @key2 existing there too
+// make the mean returned weighted by the population
 function extractKeyValues(key1, key2, jsonData) {
-    return Object.values(jsonData)
-        .map((obj) =>
-            obj[key2] !== undefined && obj[key2] !== null ? obj[key1] : null
-        )
-        .filter((value) => value !== null);
+    const results = {
+        x: [],
+        y: [],
+        countries: [],
+        xWeightedMean: 0,
+        yWeightedMean: 0,
+    };
+    const jsonDataValues = Object.values(jsonData);
+    let xWeightedSum = 0;
+    let yWeightedSum = 0;
+    let relatedPopulation = 0;
+
+    jsonDataValues.forEach((obj) => {
+        const value1 = obj[key1];
+        const value2 = obj[key2];
+        const population = obj["Population"];
+
+        if (
+            value2 !== undefined &&
+            value2 !== null &&
+            value1 !== undefined &&
+            value1 !== null &&
+            population
+        ) {
+            results.x.push(value1);
+            results.y.push(value2);
+            results.countries.push(obj["Country"]);
+
+            xWeightedSum += value1 * population;
+            yWeightedSum += value2 * population;
+            relatedPopulation += population;
+        }
+    });
+
+    results.xWeightedMean = xWeightedSum / relatedPopulation;
+    results.yWeightedMean = yWeightedSum / relatedPopulation;
+
+    return results;
 }
 
 function extractKeyCountries(key1, key2, jsonData) {
@@ -271,14 +328,15 @@ function extractKeyCountries(key1, key2, jsonData) {
     }
     return result;
 }
-
 function calculateMean(array) {
+    // TODO: function calculateMean(array,population) {
     if (array.length === 0) {
         return 0; // Return 0 for an empty array, or you could choose to return NaN or throw an error.
     }
 
     const sum = array.reduce(
         (accumulator, currentValue) => accumulator + currentValue,
+        // TODO: (accumulator, currentValue) => accumulator * population + currentValue,
         0
     );
     const mean = sum / array.length;
@@ -288,12 +346,16 @@ function calculateMean(array) {
 
 // Calculate the correlation coefficient
 function correlationCoefficient(key1, key2, jsonData) {
-    // keep the lables for the chart
-    const countries = extractKeyCountries(key1, key2, jsonData);
-    scatterLabels = [key1, key2, countries];
+    const extractedValues = extractKeyValues(key1, key2, jsonData);
 
-    x = extractKeyValues(key1, key2, jsonData);
-    y = extractKeyValues(key2, key1, jsonData);
+    const x = extractedValues.x;
+    const y = extractedValues.y;
+    const xMean = extractedValues.xWeightedMean;
+    const yMean = extractedValues.yWeightedMean;
+    const countries = extractedValues.countries;
+
+    scatterLabels = [key1, key2, countries];
+    correlationCountries = countries.length;
 
     if (x.length !== y.length)
         console.error(
@@ -318,9 +380,6 @@ function correlationCoefficient(key1, key2, jsonData) {
         scatterData.push(location);
     }
 
-    const xMean = calculateMean(x);
-    const yMean = calculateMean(y);
-
     let numerator = 0;
     let xSquaredSum = 0;
     let ySquaredSum = 0;
@@ -334,7 +393,7 @@ function correlationCoefficient(key1, key2, jsonData) {
     const denominator = Math.sqrt(xSquaredSum) * Math.sqrt(ySquaredSum);
     const correlation = numerator / denominator;
 
-    return [correlation.toFixed(2), x.length];
+    return correlation.toFixed(2);
 }
 
 },{"chart.js":3,"chartjs-plugin-trendline":5}],2:[function(require,module,exports){
