@@ -19,7 +19,7 @@ and cannot be meaningfully compared or correlated.
 
 That's why I collect all the data [worlddata.info](https://www.worlddata.info/), [World Bank Group](https://data.worldbank.org/) and some [other data](https://www.science.org/doi/10.1126/science.1117199), and [other on taxes as well](https://en.wikipedia.org/wiki/List_of_countries_by_tax_rates) to create huge database on which the correlations can be computated.
 
-Now I can give you the answer straight away — there is a **weak negative corrleation** between IQ and size of the penis
+Now I can give you the answer straight away — there is a **weak negative correlation** between IQ and size of the penis
 
 ![image](https://github.com/Megaemce/correlations.world/assets/1651451/3cddd29a-8601-45a3-871a-3f79240e8280)
 
