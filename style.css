@@ -39,12 +39,30 @@ div.main {
     align-items: center;
 }
 
+div.charts {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 div.correlation {
     display: flex;
     justify-items: center;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+    width: 50%;
+}
+
+div.radar {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 50%;
+    height: 500px;
 }
 
 div.choose {
@@ -59,17 +77,21 @@ div.result {
     font-size: 25px;
     font-weight: bold;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 div.scatter {
     padding-top: 20px;
     width: 100%;
-    height: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    canvas.scatterCanvas {
-        height: 100%;
-        width: 100%;
-    }
+#scatterCanvas {
+    height: 100%;
+    width: 100%;
 }
 
 div.image {

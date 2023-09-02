@@ -5,55 +5,43 @@ const chartTrendline = require("chartjs-plugin-trendline");
 // DOM elements
 const switch1 = document.getElementById("switch1");
 const switch2 = document.getElementById("switch2");
-const canvas = document.getElementById("scatterCanvas");
+const switch3 = document.getElementById("switch3");
+const radarCanvas = document.getElementById("radarCanvas");
+const scatterCanvas = document.getElementById("scatterCanvas");
 
 // Chart variables
-let scatterChart;
+let radarChart; // keeping reference to radar chart
+let scatterChart; // keeping referene to scatter chart
 let scatterData = [];
 let scatterLabels = [];
-let correlationCountries = 0;
-let totalPopulation = 0;
-let option1 = "IQ";
-let option2 = "AvgLifeExpectancy";
+let radarData = []; // keeping correlation data for specific key
+let radarLabels = []; // keeping labels. I want to remove IQ to IQ thus need to keep array filed in the same order as data
+let keys = []; // keeping all the object keys names ["IQ","Fertility",etc] for radar
+let correlationCountries = 0; // number of countries based on which the correlation was calculated
+let totalPopulation = 0; // total globe population
+let option1 = switch1.value;
+let option2 = switch2.value;
+let option3 = switch3.value;
 
 // Event listeners
-switch1.addEventListener("change", updateSwitch2Options);
+switch1.addEventListener("change", handlerSwitch1Change);
 switch2.addEventListener("change", showCorrelationResult);
+switch3.addEventListener("change", handlerSwitch3Change);
 
-// Fetch JSON data
-fetch("src/correlations.json")
-    .then((response) => {
-        if (!response.ok) {
-            throw new Error("Network response was not ok");
+// fill the radarData with all the correlations coefficients of given @mainKey
+function collectAllCoefficient(mainKey, data) {
+    radarData = [];
+    radarLabels = [];
+
+    Object.keys(data[0]).forEach((secondKey) => {
+        if (secondKey !== "Country" && mainKey !== secondKey) {
+            const correlationValue = Math.abs(
+                correlationCoefficient(mainKey, secondKey, data)
+            ).toFixed(2);
+            radarData.push(correlationValue);
+            radarLabels.push(secondKey);
         }
-        return response.json();
-    })
-    .then((jsonData) => {
-        data = jsonData;
-        initializeApp();
-    })
-    .catch((error) => {
-        console.error("Fetch error:", error);
     });
-
-// Initialize the application
-function initializeApp() {
-    Object.keys(data[0]).forEach((key) => {
-        key !== "Country" && key !== "Population" && showMean(key, data);
-    });
-
-    // sum the total population
-    Object.values(data).forEach((country) => {
-        if (country["Population"]) totalPopulation += country["Population"];
-    });
-
-    document.getElementById("Population").innerText = totalPopulation;
-
-    // showCountryStats("Poland", data);
-
-    updateSwitch2Options();
-    showCorrelationResult();
-    showScatterChart();
 }
 
 // Show correlation result based on selected options
@@ -63,13 +51,10 @@ function showCorrelationResult() {
     const correlationResult = document.getElementById("correlationResult");
     const correlationWeakness = document.getElementById("correlationWeakness");
     const correlationValue = correlationCoefficient(option1, option2, data);
-
     const corrStrength = getCorrelationStrength(correlationValue);
-    const imgCorrelation = document.getElementById("imgCorrelation").style;
-    imgCorrelation.content = `url("/correlations.world/img/${corrStrength}.svg")`;
 
     correlationWeakness.innerText = "a " + corrStrength + " correlation:";
-    correlationResult.innerText = correlationValue;
+    correlationResult.innerText = correlationValue.toFixed(2);
 
     scatterChart && updateScatterChart();
 }
@@ -97,6 +82,13 @@ function getCorrelationStrength(value) {
     }
 }
 
+function updateRadarChart() {
+    radarChart.data.labels = radarLabels;
+    radarChart.data.datasets[0].data = radarData;
+    radarChart.options.plugins.title.text = `${option1} correlations radar chart`;
+    radarChart.update();
+}
+
 function updateScatterChart() {
     scatterChart.data.datasets[0].data = scatterData;
     scatterChart.data.labels = scatterLabels[2];
@@ -107,8 +99,43 @@ function updateScatterChart() {
     scatterChart.update();
 }
 
+function showRadarChart() {
+    radarChart = new Chart(radarCanvas, {
+        type: "radar",
+        data: {
+            labels: radarLabels,
+            datasets: [
+                {
+                    data: radarData,
+                    fill: true,
+                    backgroundColor: "rgba(75, 192, 192, 0.6)",
+                    borderColor: "rgba(75, 192, 192, 1)",
+                    pointBackgroundColor: "rgb(147,217,217)",
+                    pointBorderColor: "rgba(75, 192, 192, 1)",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(75, 192, 192, 1)",
+                    borderWidth: 1,
+                    pointRadius: 2,
+                },
+            ],
+        },
+        options: {
+            plugins: {
+                legend: {
+                    display: false,
+                },
+            },
+            elements: {
+                line: {
+                    borderWidth: 2,
+                },
+            },
+        },
+    });
+}
+
 function showScatterChart() {
-    scatterChart = new Chart(canvas, {
+    scatterChart = new Chart(scatterCanvas, {
         type: "scatter",
         plugins: chartTrendline,
         data: {
@@ -118,6 +145,8 @@ function showScatterChart() {
                     data: scatterData,
                     backgroundColor: "rgba(75, 192, 192, 0.6)",
                     borderColor: "rgba(75, 192, 192, 1)",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(75, 192, 192, 1)",
                     borderWidth: 1,
                     pointRadius: 2,
                     trendlineLinear: {
@@ -183,7 +212,8 @@ function showScatterChart() {
         },
     });
 }
-function updateSwitch2Options() {
+// handling change of the first selector
+function handlerSwitch1Change() {
     // Get the selected value from Switch 1
     option1 = switch1.value;
 
@@ -199,7 +229,13 @@ function updateSwitch2Options() {
 
     showCorrelationResult();
 }
-
+function handlerSwitch3Change() {
+    option3 = switch3.value;
+    // gather all the correlations coefficient for radar chart
+    collectAllCoefficient(option3, data);
+    // update radar title
+    radarChart && updateRadarChart();
+}
 // calculating weighted valuebased on number of people in the country.
 // Total Average = (Average A * Population A + Average B * Population B) / (Population A + Population B)
 // So add total population and collect info about countries and multiply it by population then
@@ -247,7 +283,6 @@ function showMean(key, jsonData) {
         bold.innerText = mean;
     }
 }
-
 function showCountryStats(country, jsonData) {
     const countryStats = Object.values(jsonData).filter(
         (obj) => obj["Country"] === country
@@ -272,7 +307,6 @@ function showCountryStats(country, jsonData) {
         }
     });
 }
-
 // return all non empty values of key @key1 but only if @key2 existing there too
 // make the mean returned weighted by the population
 function extractKeyValues(key1, key2, jsonData) {
@@ -315,7 +349,6 @@ function extractKeyValues(key1, key2, jsonData) {
 
     return results;
 }
-
 function extractKeyCountries(key1, key2, jsonData) {
     const result = [];
     for (const countryData of jsonData) {
@@ -392,5 +425,46 @@ function correlationCoefficient(key1, key2, jsonData) {
     const denominator = Math.sqrt(xSquaredSum) * Math.sqrt(ySquaredSum);
     const correlation = numerator / denominator;
 
-    return correlation.toFixed(2);
+    return correlation;
 }
+
+// Initialize the application
+function initializeApp() {
+    // iterate thru all the keys in objects
+    Object.keys(data[0]).forEach((key) => {
+        if (key !== "Country" && key !== "Population") {
+            showMean(key, data);
+        }
+    });
+
+    // sum the total population
+    Object.values(data).forEach((country) => {
+        if (country["Population"]) totalPopulation += country["Population"];
+    });
+
+    document.getElementById("Population").innerText = totalPopulation;
+
+    // showCountryStats("Poland", data);
+
+    handlerSwitch1Change();
+    showScatterChart();
+    showCorrelationResult();
+    handlerSwitch3Change();
+    showRadarChart();
+}
+
+// Fetch JSON data
+fetch("src/correlations.json")
+    .then((response) => {
+        if (!response.ok) {
+            throw new Error("Network response was not ok");
+        }
+        return response.json();
+    })
+    .then((jsonData) => {
+        data = jsonData;
+        initializeApp();
+    });
+// .catch((error) => {
+//     console.error("Fetch error:", error);
+// });
