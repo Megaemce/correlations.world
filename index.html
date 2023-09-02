@@ -177,7 +177,7 @@
                         </select>
                         have
                     </div>
-                    <div class="scatter">
+                    <div class="scatterDiv">
                         <canvas id="scatterCanvas"></canvas>
                     </div>
                     <div class="result">
@@ -272,7 +272,15 @@
                             </optgroup></select
                         >correlation radar chart
                     </div>
-                    <canvas id="radarCanvas"></canvas>
+                    <div class="radarDiv">
+                        <canvas id="radarCanvas"></canvas>
+                    </div>
+                    <div class="result">
+                        <p class="weakness">Correlation coefficients sum:</p>
+                        <abbr id="totalAbbr" data-title="">
+                            <p class="value" id="totalResult"></p
+                        ></abbr>
+                    </div>
                 </div>
             </div>
             <div class="statistics">
