@@ -107,33 +107,11 @@ function showMean(key, jsonData) {
             countriesCount++;
         }
     }
-    console.log(values);
-    console.log(relatedPopulation);
 
     const mean = (values / relatedPopulation).toFixed(2);
 
     worldData.push(mean);
     worldLabels.push(key);
-
-    // if (abbr) {
-    //     abbr.setAttribute(
-    //         "data-title",
-    //         abbr.getAttribute("data-title")
-    //         // + ` Based on data from ${countriesCount} countries`
-    //     );
-    // }
-
-    // if (key === "BraSize") {
-    //     if (mean < 3.5) bold.innerText = "C";
-    //     if (mean < 3) bold.innerText = "B-C";
-    //     if (mean < 2.5) bold.innerText = "B";
-    //     if (mean < 2) bold.innerText = "A-B";
-    //     if (mean < 1.5) bold.innerText = "A";
-    //     if (mean < 1) bold.innerText = "AA-A";
-    //     if (mean < 0.5) bold.innerText = "AA";
-    // } else {
-    //     bold.innerText = mean;
-    // }
 }
 // Get the strength of correlation based on value
 function getCorrelationStrength(value) {
@@ -509,7 +487,6 @@ function handlerCountrySwitchChange() {
 function initializeApp() {
     // iterate thru all the keys in objects
     Object.keys(data[0]).forEach((key) => {
-        console.log(key);
         if (key !== "Country") {
             showMean(key, data);
         }
