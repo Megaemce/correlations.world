@@ -10,6 +10,7 @@ const switch3 = document.getElementById("switch3");
 const countrySwitch = document.getElementById("countrySwitch");
 const radarCanvas = document.getElementById("radarCanvas");
 const scatterCanvas = document.getElementById("scatterCanvas");
+const countryCanvas = document.getElementById("countryCanvas");
 
 // variables
 let data; // keep the json respond data
@@ -24,12 +25,12 @@ let scatterChart; // keeping referene to scatter chart
 let scatterData = [];
 let scatterLabels = [];
 let scatterCountries = 0;
+let countryChart; // keeping reference to country chart
+let countryData = [];
+let countryLabels = [];
+let worldData = [];
+let worldLabels = [];
 let totalPopulation = 0; // total globe population
-
-// event listeners
-switch1.addEventListener("change", handlerSwitch1Change);
-switch2.addEventListener("change", showCorrelationResult);
-switch3.addEventListener("change", handlerSwitch3Change);
 
 // add all countries as an options to country select
 function addCountriesToSelect() {
@@ -41,7 +42,6 @@ function addCountriesToSelect() {
         countrySwitch.appendChild(countryOption);
     });
 }
-
 // return all non empty values of key @key1 but only if @key2 existing there too
 // make the mean returned weighted by the population
 function extractKeyValues(key1, key2, jsonData) {
@@ -87,8 +87,8 @@ function extractKeyValues(key1, key2, jsonData) {
 // calculating weighted mean based on number of people in the country.
 function showMean(key, jsonData) {
     const jsonDataValues = Object.values(jsonData);
-    const abbr = document.getElementById(`${key}Abbr`);
-    const bold = document.getElementById(key);
+    // const abbr = document.getElementById(`${key}Abbr`);
+    // const bold = document.getElementById(key);
 
     let values = 0;
     let countriesCount = 0;
@@ -107,28 +107,33 @@ function showMean(key, jsonData) {
             countriesCount++;
         }
     }
+    console.log(values);
+    console.log(relatedPopulation);
 
     const mean = (values / relatedPopulation).toFixed(2);
 
-    if (abbr) {
-        abbr.setAttribute(
-            "data-title",
-            abbr.getAttribute("data-title") +
-                ` Based on data from ${countriesCount} countries`
-        );
-    }
+    worldData.push(mean);
+    worldLabels.push(key);
 
-    if (key === "BraSize") {
-        if (mean < 3.5) bold.innerText = "C";
-        if (mean < 3) bold.innerText = "B-C";
-        if (mean < 2.5) bold.innerText = "B";
-        if (mean < 2) bold.innerText = "A-B";
-        if (mean < 1.5) bold.innerText = "A";
-        if (mean < 1) bold.innerText = "AA-A";
-        if (mean < 0.5) bold.innerText = "AA";
-    } else {
-        bold.innerText = mean;
-    }
+    // if (abbr) {
+    //     abbr.setAttribute(
+    //         "data-title",
+    //         abbr.getAttribute("data-title")
+    //         // + ` Based on data from ${countriesCount} countries`
+    //     );
+    // }
+
+    // if (key === "BraSize") {
+    //     if (mean < 3.5) bold.innerText = "C";
+    //     if (mean < 3) bold.innerText = "B-C";
+    //     if (mean < 2.5) bold.innerText = "B";
+    //     if (mean < 2) bold.innerText = "A-B";
+    //     if (mean < 1.5) bold.innerText = "A";
+    //     if (mean < 1) bold.innerText = "AA-A";
+    //     if (mean < 0.5) bold.innerText = "AA";
+    // } else {
+    //     bold.innerText = mean;
+    // }
 }
 // Get the strength of correlation based on value
 function getCorrelationStrength(value) {
@@ -151,24 +156,36 @@ function showCountryStats(country, jsonData) {
         (obj) => obj["Country"] === country
     )[0];
 
+    countryData = [];
+    countryLabels = [];
+
     Object.keys(countryStats).forEach((key) => {
         if (key !== "Country") {
-            const bold = document.getElementById(key);
+            // const bold = document.getElementById(key);
             const value = countryStats[key];
 
-            if (key === "BraSize") {
-                if (value < 3.5) bold.innerText = "C";
-                if (value < 3) bold.innerText = "B-C";
-                if (value < 2.5) bold.innerText = "B";
-                if (value < 2) bold.innerText = "A-B";
-                if (value < 1.5) bold.innerText = "A";
-                if (value < 1) bold.innerText = "A-AA";
-                if (value < 0.5) bold.innerText = "AA";
-            } else {
-                bold.innerText = value;
-            }
+            countryData.push(value);
+            countryLabels.push(key);
+
+            // if (key === "BraSize") {
+            //     if (value < 3.5) bold.innerText = "C";
+            //     if (value < 3) bold.innerText = "B-C";
+            //     if (value < 2.5) bold.innerText = "B";
+            //     if (value < 2) bold.innerText = "A-B";
+            //     if (value < 1.5) bold.innerText = "A";
+            //     if (value < 1) bold.innerText = "A-AA";
+            //     if (value < 0.5) bold.innerText = "AA";
+            //     else bold.innerText = "🤷🏻‍♂️";
+            // } else {
+            //     bold.innerText = value !== null ? value : "🤷🏻‍♂️";
+            // }
         }
     });
+
+    countryData[0] = 1;
+    countryData[3] = 1;
+    countryChart.data.datasets[0].data = countryData;
+    countryChart.update();
 }
 // calculate the correlation coefficient
 function correlationCoefficient(key1, key2, jsonData) {
@@ -255,38 +272,6 @@ function showCorrelationResult() {
     scatterChart && updateScatterChart();
 }
 function showRadarChart() {
-    function createRadialGradient3(context) {
-        const chartArea = context.chart.chartArea;
-        if (!chartArea) {
-            // This case happens on initial chart load
-            return;
-        }
-        const chartWidth = chartArea.right - chartArea.left;
-        const chartHeight = chartArea.bottom - chartArea.top;
-
-        width = chartWidth;
-        height = chartHeight;
-        const centerX = (chartArea.left + chartArea.right) / 2;
-        const centerY = (chartArea.top + chartArea.bottom) / 2;
-
-        const ctx = context.chart.ctx;
-
-        const gradient = ctx.createRadialGradient(
-            centerX,
-            centerY,
-            360,
-            0.5,
-            0.5,
-            360
-        );
-
-        // Add three color stops
-        gradient.addColorStop(0, "pink");
-        gradient.addColorStop(0.9, "white");
-        gradient.addColorStop(1, "green");
-        return gradient;
-    }
-
     radarChart = new Chart(radarCanvas, {
         type: "radar",
         data: {
@@ -296,9 +281,6 @@ function showRadarChart() {
                     data: radarData,
                     // fill: true,
                     backgroundColor: "rgba(75, 192, 192, 0.6)",
-                    // backgroundColor: function (context) {
-                    //     return createRadialGradient3(context);
-                    // },
                     borderColor: "rgba(75, 192, 192, 1)",
                     pointBackgroundColor: "rgb(147,217,217)",
                     pointBorderColor: "rgba(75, 192, 192, 1)",
@@ -436,6 +418,42 @@ function showScatterChart() {
         },
     });
 }
+function showStatsChart() {
+    worldData[0] = 1;
+    worldData[3] = 1;
+    countryChart = new Chart(countryCanvas, {
+        data: {
+            datasets: [
+                {
+                    type: "bar",
+                    label: "Country data",
+                    data: countryData,
+                    backgroundColor: "rgba(75, 192, 192, 0.6)",
+                    borderColor: "rgba(75, 192, 192, 1)",
+                },
+                {
+                    type: "line",
+                    label: "World average",
+                    data: worldData,
+                    backgroundColor: "rgba(121, 55, 55, 0.6)",
+                    borderColor: "rgba(121, 55, 55, 1)",
+                    pointBackgroundColor: "rgba(121, 55, 55, 1)",
+                    pointBorderColor: "rgba(121, 55, 55, 0.6)",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(121, 55, 55, 1)",
+                    borderWidth: 1,
+                    pointRadius: 2,
+                    borderDash: [10, 5],
+                    z: 2,
+                },
+            ],
+            labels: worldLabels,
+        },
+        options: {
+            maintainAspectRatio: false,
+        },
+    });
+}
 function updateRadarChart() {
     radarChart.data.labels = radarLabels;
     radarChart.data.datasets[0].data = radarData;
@@ -482,21 +500,26 @@ function handlerSwitch3Change() {
     // update radar title
     radarChart && updateRadarChart();
 }
+function handlerCountrySwitchChange() {
+    let country = countrySwitch.value;
+    showCountryStats(country, data);
+}
 // Initialize the application
 function initializeApp() {
     // iterate thru all the keys in objects
     Object.keys(data[0]).forEach((key) => {
-        if (key !== "Country" && key !== "Population") {
+        console.log(key);
+        if (key !== "Country") {
             showMean(key, data);
         }
     });
 
-    // sum the total population
-    Object.values(data).forEach((country) => {
-        if (country["Population"]) totalPopulation += country["Population"];
-    });
+    // // sum the total population
+    // Object.values(data).forEach((country) => {
+    //     if (country["Population"]) totalPopulation += country["Population"];
+    // });
 
-    document.getElementById("Population").innerText = totalPopulation;
+    // document.getElementById("Population").innerText = totalPopulation;
 
     // showCountryStats("Poland", data);
     addCountriesToSelect();
@@ -505,7 +528,14 @@ function initializeApp() {
     showCorrelationResult();
     handlerSwitch3Change();
     showRadarChart();
+    showStatsChart();
 }
+
+// event listeners
+switch1.addEventListener("change", handlerSwitch1Change);
+switch2.addEventListener("change", showCorrelationResult);
+switch3.addEventListener("change", handlerSwitch3Change);
+countrySwitch.addEventListener("change", handlerCountrySwitchChange);
 
 // Fetch JSON data
 fetch("src/correlations.json")
