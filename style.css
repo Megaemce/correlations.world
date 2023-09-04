@@ -7,6 +7,7 @@ body {
 
 p {
     margin: 0px;
+    display: flex;
 }
 
 abbr {
@@ -31,6 +32,13 @@ select {
     width: 180px; /* Set a fixed width or adjust as needed */
 }
 
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 460px) {
+    select {
+        width: 38px;
+    }
+}
+
 div.main {
     height: 100%;
     width: 100%;
@@ -42,7 +50,7 @@ div.main {
 div.charts {
     display: flex;
     width: 100%;
-    height: fit-content;
+    height: 48vh;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
@@ -121,6 +129,12 @@ div.result {
     justify-content: center;
 }
 
+@media (max-width: 500px) {
+    div.result {
+        font-size: 5vw;
+    }
+}
+
 div.scatterDiv {
     padding-top: 20px;
     width: 80%;
@@ -154,7 +168,7 @@ div.statistics {
 
     .body {
         width: 90%;
-        height: 100%;
+        height: 35vh;
         display: flex;
         padding-top: 20px;
         flex-direction: row;
