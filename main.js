@@ -6,26 +6,40 @@ const chartTrendline = require("chartjs-plugin-trendline");
 const switch1 = document.getElementById("switch1");
 const switch2 = document.getElementById("switch2");
 const switch3 = document.getElementById("switch3");
+const countrySwitch = document.getElementById("countrySwitch");
 const radarCanvas = document.getElementById("radarCanvas");
 const scatterCanvas = document.getElementById("scatterCanvas");
 
 // variables
+let data; // keep the json respond data
 let option1 = switch1.value;
 let option2 = switch2.value;
 let option3 = switch3.value;
 let radarChart; // keeping reference to radar chart
 let radarData = []; // keeping correlation data for specific key
 let radarLabels = []; // keeping labels. I want to remove IQ to IQ thus need to keep array filed in the same order as data
+let radarCountries = 0; // number of countries based on which the correlation was calculated
 let scatterChart; // keeping referene to scatter chart
 let scatterData = [];
 let scatterLabels = [];
-let correlationCountries = 0; // number of countries based on which the correlation was calculated
+let scatterCountries = 0;
 let totalPopulation = 0; // total globe population
 
 // event listeners
 switch1.addEventListener("change", handlerSwitch1Change);
 switch2.addEventListener("change", showCorrelationResult);
 switch3.addEventListener("change", handlerSwitch3Change);
+
+// add all countries as an options to country select
+function addCountriesToSelect() {
+    data.forEach((country) => {
+        let countryOption = document.createElement("option");
+        countryOption.value = country.Country;
+        countryOption.innerText = country.Country;
+
+        countrySwitch.appendChild(countryOption);
+    });
+}
 
 // return all non empty values of key @key1 but only if @key2 existing there too
 // make the mean returned weighted by the population
@@ -171,7 +185,7 @@ function correlationCoefficient(key1, key2, jsonData) {
     const yMean = extractedValues.yWeightedMean;
     const countries = extractedValues.countries;
 
-    correlationCountries = countries.length;
+    scatterCountries = countries.length;
     scatterLabels = [key1, key2, countries];
     scatterData = []; // empty the scatterData so the chart doesn't accumulate data
 
@@ -240,6 +254,38 @@ function showCorrelationResult() {
     scatterChart && updateScatterChart();
 }
 function showRadarChart() {
+    function createRadialGradient3(context) {
+        const chartArea = context.chart.chartArea;
+        if (!chartArea) {
+            // This case happens on initial chart load
+            return;
+        }
+        const chartWidth = chartArea.right - chartArea.left;
+        const chartHeight = chartArea.bottom - chartArea.top;
+
+        width = chartWidth;
+        height = chartHeight;
+        const centerX = (chartArea.left + chartArea.right) / 2;
+        const centerY = (chartArea.top + chartArea.bottom) / 2;
+
+        const ctx = context.chart.ctx;
+
+        const gradient = ctx.createRadialGradient(
+            centerX,
+            centerY,
+            360,
+            0.5,
+            0.5,
+            360
+        );
+
+        // Add three color stops
+        gradient.addColorStop(0, "pink");
+        gradient.addColorStop(0.9, "white");
+        gradient.addColorStop(1, "green");
+        return gradient;
+    }
+
     radarChart = new Chart(radarCanvas, {
         type: "radar",
         data: {
@@ -247,8 +293,11 @@ function showRadarChart() {
             datasets: [
                 {
                     data: radarData,
-                    fill: true,
+                    // fill: true,
                     backgroundColor: "rgba(75, 192, 192, 0.6)",
+                    // backgroundColor: function (context) {
+                    //     return createRadialGradient3(context);
+                    // },
                     borderColor: "rgba(75, 192, 192, 1)",
                     pointBackgroundColor: "rgb(147,217,217)",
                     pointBorderColor: "rgba(75, 192, 192, 1)",
@@ -260,15 +309,43 @@ function showRadarChart() {
             ],
         },
         options: {
+            maintainAspectRatio: false,
             plugins: {
                 legend: {
                     display: false,
                 },
+                title: {
+                    position: "top",
+                    font: {
+                        family: "'Roboto', 'sans-serif'",
+                        weight: "normal",
+                        size: "12px",
+                    },
+                    padding: {
+                        bottom: 5,
+                    },
+                    align: "center",
+                    display: true,
+                    text: `Based on data from ${radarCountries} countries`,
+                },
             },
             scales: {
                 r: {
-                    suggestedMin: 0,
-                    suggestedMax: 1,
+                    min: -0.5,
+                    max: 1,
+                    beginAtZero: true,
+                    pointLabels: {
+                        display: false,
+                    },
+                    ticks: {
+                        // backdropColor: "transparent",
+                        stepSize: 1,
+                        // count: 3,
+                        // z: 2,
+                    },
+                    angleLines: {
+                        display: false,
+                    },
                 },
             },
             elements: {
@@ -279,7 +356,6 @@ function showRadarChart() {
         },
     });
 }
-
 function showScatterChart() {
     scatterChart = new Chart(scatterCanvas, {
         type: "scatter",
@@ -304,6 +380,7 @@ function showScatterChart() {
             ],
         },
         options: {
+            maintainAspectRatio: false,
             plugins: {
                 tooltip: {
                     enabled: true, // Disable tooltips
@@ -324,7 +401,7 @@ function showScatterChart() {
                     },
                     align: "center",
                     display: true,
-                    text: `Based on data from ${correlationCountries} countries`,
+                    text: `Based on data from ${scatterCountries} countries`,
                 },
             },
             scales: {
@@ -361,7 +438,7 @@ function showScatterChart() {
 function updateRadarChart() {
     radarChart.data.labels = radarLabels;
     radarChart.data.datasets[0].data = radarData;
-    radarChart.options.plugins.title.text = `${option1} correlations radar chart`;
+    radarChart.options.plugins.title.text = `Based on data from ${radarCountries} countries`;
     radarChart.update();
 }
 function updateScatterChart() {
@@ -369,7 +446,7 @@ function updateScatterChart() {
     scatterChart.data.labels = scatterLabels[2];
     scatterChart.options.scales.x.title.text = scatterLabels[1];
     scatterChart.options.scales.y.title.text = scatterLabels[0];
-    scatterChart.options.plugins.title.text = `Based on data from ${correlationCountries} countries`;
+    scatterChart.options.plugins.title.text = `Based on data from ${scatterCountries} countries`;
 
     scatterChart.update();
 }
@@ -392,6 +469,13 @@ function handlerSwitch1Change() {
 }
 function handlerSwitch3Change() {
     option3 = switch3.value;
+    radarCountries = 0;
+
+    // count all countires that have a given key
+    Object.values(data).forEach((country) => {
+        country[option3] !== null && radarCountries++;
+    });
+
     // gather all the correlations coefficient for radar chart
     collectAllCoefficient(option3, data);
     // update radar title
@@ -414,6 +498,7 @@ function initializeApp() {
     document.getElementById("Population").innerText = totalPopulation;
 
     // showCountryStats("Poland", data);
+    addCountriesToSelect();
     handlerSwitch1Change();
     showScatterChart();
     showCorrelationResult();

@@ -20,7 +20,7 @@
                             <option selected value="IQ">💡 IQ</option>
                             <option value="Happiness">😊 Happiness</option>
                             <option value="AvgLifeExpectancy">
-                                ⏳ Life expectancy
+                                ⌛ Life expectancy
                             </option>
                             <optgroup label="───────────"></optgroup>
                             <optgroup label="Country">
@@ -100,7 +100,7 @@
                             <option value="IQ">💡 IQ</option>
                             <option value="Happiness">😊 Happiness</option>
                             <option selected value="AvgLifeExpectancy">
-                                ⏳ Life expectancy
+                                ⌛ Life expectancy
                             </option>
                             <optgroup label="───────────"></optgroup>
                             <optgroup label="Country">
@@ -196,7 +196,7 @@
                             <option selected value="IQ">💡 IQ</option>
                             <option value="Happiness">😊 Happiness</option>
                             <option value="AvgLifeExpectancy">
-                                ⏳ Life expectancy
+                                ⌛ Life expectancy
                             </option>
                             <optgroup label="───────────"></optgroup>
                             <optgroup label="Country">
@@ -276,7 +276,7 @@
                         <canvas id="radarCanvas"></canvas>
                     </div>
                     <div class="result">
-                        <p class="weakness">Correlation coefficients sum:</p>
+                        <p class="weakness">correlation coefficients sum:</p>
                         <abbr id="totalAbbr" data-title="">
                             <p class="value" id="totalResult"></p
                         ></abbr>
@@ -285,7 +285,10 @@
             </div>
             <div class="statistics">
                 <div class="head">
-                    <h2>🗺️ World average statistics</h2>
+                    <select id="countrySwitch">
+                        <option selected value="World">🗺️ World</option>
+                    </select>
+                    average statistics
                 </div>
                 <div class="body">
                     <div class="column">
