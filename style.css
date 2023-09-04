@@ -42,12 +42,20 @@ div.main {
 div.charts {
     display: flex;
     width: 100%;
-    height: 49vh;
-    flex-wrap: wrap;
+    height: fit-content;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
     padding-bottom: 2vh;
+    position: relative;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 965px) {
+    div.charts {
+        flex-direction: column;
+        height: 100%;
+    }
 }
 
 div.correlation {
@@ -55,8 +63,15 @@ div.correlation {
     justify-items: center;
     flex-direction: column;
     align-items: center;
-    width: 48%;
+    width: 50%;
     height: 49vh;
+}
+
+@media (max-width: 965px) {
+    div.correlation {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 div.radar {
@@ -64,8 +79,15 @@ div.radar {
     justify-items: center;
     flex-direction: column;
     align-items: center;
-    width: 48%;
+    width: 50%;
     height: 49vh;
+}
+
+@media (max-width: 965px) {
+    div.radar {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 div.radarDiv {
@@ -87,6 +109,7 @@ div.choose {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 div.result {
@@ -95,6 +118,7 @@ div.result {
     font-weight: bold;
     padding: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 div.scatterDiv {
@@ -126,6 +150,7 @@ div.statistics {
     /* border-top: solid; */
     width: 100%;
     height: 46vh;
+    position: relative;
 
     .body {
         width: 90%;
