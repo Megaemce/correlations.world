@@ -412,6 +412,19 @@ function showStatsChart() {
         },
         options: {
             maintainAspectRatio: false,
+            plugins: {
+                tooltip: {
+                    enabled: true, // Disable tooltips
+                    callbacks: {
+                        // modify oryginal behavior based on label. Mostly fix number of digits
+                        label: function (context) {
+                            return (
+                                context.dataset.label + ": " + context.parsed.y
+                            );
+                        },
+                    },
+                },
+            },
             scales: {
                 x: {
                     display: true,
