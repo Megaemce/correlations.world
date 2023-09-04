@@ -165,24 +165,9 @@ function showCountryStats(country, jsonData) {
 
             countryData.push(value);
             countryLabels.push(key);
-
-            // if (key === "BraSize") {
-            //     if (value < 3.5) bold.innerText = "C";
-            //     if (value < 3) bold.innerText = "B-C";
-            //     if (value < 2.5) bold.innerText = "B";
-            //     if (value < 2) bold.innerText = "A-B";
-            //     if (value < 1.5) bold.innerText = "A";
-            //     if (value < 1) bold.innerText = "A-AA";
-            //     if (value < 0.5) bold.innerText = "AA";
-            //     else bold.innerText = "🤷🏻‍♂️";
-            // } else {
-            //     bold.innerText = value !== null ? value : "🤷🏻‍♂️";
-            // }
         }
     });
 
-    countryData[0] = 1;
-    countryData[3] = 1;
     countryChart.data.datasets[0].data = countryData;
     countryChart.update();
 }
@@ -418,8 +403,6 @@ function showScatterChart() {
     });
 }
 function showStatsChart() {
-    worldData[0] = 1;
-    worldData[3] = 1;
     countryChart = new Chart(countryCanvas, {
         data: {
             datasets: [
@@ -427,22 +410,22 @@ function showStatsChart() {
                     type: "bar",
                     label: "Country data",
                     data: countryData,
-                    backgroundColor: "rgba(75, 192, 192, 0.6)",
-                    borderColor: "rgba(75, 192, 192, 1)",
+                    backgroundColor: "rgba(75, 192, 192, 0.4)",
+                    // borderColor: "rgba(75, 192, 192, 1)",
                 },
                 {
-                    type: "line",
+                    type: "bar",
                     label: "World average",
                     data: worldData,
-                    backgroundColor: "rgba(121, 55, 55, 0.6)",
-                    borderColor: "rgba(121, 55, 55, 1)",
-                    pointBackgroundColor: "rgba(121, 55, 55, 1)",
-                    pointBorderColor: "rgba(121, 55, 55, 0.6)",
-                    pointHoverBackgroundColor: "#fff",
-                    pointHoverBorderColor: "rgba(121, 55, 55, 1)",
-                    borderWidth: 1,
-                    pointRadius: 2,
-                    borderDash: [10, 5],
+                    backgroundColor: "rgba(75, 192, 192, 1)",
+                    // borderColor: "rgba(121, 65, 55, 1)",
+                    // pointBackgroundColor: "rgba(121, 55, 55, 1)",
+                    // pointBorderColor: "rgba(121, 55, 55, 0.6)",
+                    // pointHoverBackgroundColor: "#fff",
+                    // pointHoverBorderColor: "rgba(121, 55, 55, 1)",
+                    // borderWidth: 1,
+                    // pointRadius: 2,
+                    // borderDash: [10, 5],
                     z: 2,
                 },
             ],
@@ -450,6 +433,24 @@ function showStatsChart() {
         },
         options: {
             maintainAspectRatio: false,
+            scales: {
+                x: {
+                    display: true,
+                    grid: {
+                        display: false,
+                    },
+                },
+                y: {
+                    display: false,
+                    type: "logarithmic",
+                    title: {
+                        display: false,
+                    },
+                    grid: {
+                        display: false,
+                    },
+                },
+            },
         },
     });
 }

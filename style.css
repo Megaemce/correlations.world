@@ -128,9 +128,10 @@ div.statistics {
     height: 46vh;
 
     .body {
-        width: 100%;
+        width: 90%;
         height: 100%;
         display: flex;
+        padding-top: 20px;
         flex-direction: row;
         flex-wrap: wrap;
 
