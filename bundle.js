@@ -115,6 +115,7 @@ function showMean(key, jsonData) {
     if (key === "Population")
         mean = totalPopulation / (countriesCount * 1000000); // show population in mln
     if (key === "Income") mean /= 1000; // show income in k $
+    if (key === "MaleHeight" || key === "FemaleHeight") mean *= 100; // show height in cm
     worldData.push(mean);
     worldLabels.push(key);
 }
@@ -149,6 +150,7 @@ function showCountryStats(country, jsonData) {
 
             if (key === "Population") value /= 1000000; // show population in millions so the chart is more align
             if (key === "Income") value /= 1000; // show income in x k$
+            if (key === "MaleHeight" || key === "FemaleHeight") value *= 100; // show height in cm
             countryData.push(value);
             countryLabels.push(key);
         }
@@ -428,13 +430,116 @@ function showStatsChart() {
                         // modify oryginal behavior based on label. Mostly fix number of digits
                         label: function (context) {
                             let result = context.dataset.label + ": ";
-                            if (context.label === "Population") {
-                                result += context.parsed.y + " mln";
-                            } else if (context.label === "Income") {
-                                result += context.parsed.y + "k $";
-                            } else {
-                                result += context.parsed.y;
+
+                            switch (context.label) {
+                                case "Population":
+                                    result += context.parsed.y + " mln";
+                                    break;
+                                case "Income":
+                                    result += context.parsed.y + "k $";
+                                    break;
+                                case "Fertility":
+                                    result +=
+                                        context.parsed.y + " kids per woman";
+                                    break;
+                                case "PenisLength":
+                                    result += context.parsed.y + "cm";
+                                    break;
+                                case "MaleHeight":
+                                    result += context.parsed.y + "cm";
+                                    break;
+                                case "MaleWeight":
+                                    result += context.parsed.y + "kg";
+                                    break;
+                                case "FemaleHeight":
+                                    result += context.parsed.y + "cm";
+                                    break;
+                                case "FemaleWeight":
+                                    result += context.parsed.y + "kg";
+                                    break;
+                                case "Stability":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "HumanRights":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "Safety":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "HealthServices":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "Climate":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "Cheapness":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "Popularity":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "Corruption":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "AvgLifeExpectancy":
+                                    result += context.parsed.y + " years";
+                                    break;
+                                case "MaleLifeExpectancy":
+                                    result += context.parsed.y + " years";
+                                    break;
+                                case "FemaleLifeExpectancy":
+                                    result += context.parsed.y + " years";
+                                    break;
+                                case "BirthRate":
+                                    result +=
+                                        context.parsed.y +
+                                        " per 1000 people a year";
+                                    break;
+                                case "DeathRate":
+                                    result +=
+                                        context.parsed.y +
+                                        " per 1000 people a year";
+                                    break;
+                                case "Neuroticism":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "Extraversion":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "Openness":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "Agreeableness":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "Conscientiousness":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "MaxCorporateTax":
+                                    result += context.parsed.y + "%";
+                                    break;
+                                case "MaxPrivateTax":
+                                    result += context.parsed.y + "%";
+                                    break;
+                                case "Happiness":
+                                    result += context.parsed.y + "/100";
+                                    break;
+                                case "BraSize":
+                                    let braCup;
+                                    if (context.parsed.y <= 3.5) braCup = "C";
+                                    if (context.parsed.y < 3) braCup = "B-C";
+                                    if (context.parsed.y <= 2.5) braCup = "B";
+                                    if (context.parsed.y < 2) braCup = "A-B";
+                                    if (context.parsed.y <= 1.5) braCup = "A";
+                                    if (context.parsed.y < 1) braCup = "AA-A";
+                                    if (context.parsed.y <= 0.5) braCup = "AA";
+                                    result += braCup;
+                                    break;
+                                default:
+                                    result += context.parsed.y;
+                                    break;
                             }
+
                             return result;
                         },
                     },
