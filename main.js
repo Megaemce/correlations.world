@@ -126,10 +126,10 @@ function getCorrelationStrength(value) {
     if (value < 0.7) result = "moderate positive";
     if (value < 0.4) result = "weak positive";
     if (value < 0.2) result = "no";
-    if (value <= -0.2) result = "weak negative";
-    if (value <= -0.4) result = "moderate negative";
-    if (value <= -0.7) result = "strong negative";
-    if (value <= -0.9) result = "very strong negative";
+    if (value < -0.2) result = "weak negative";
+    if (value < -0.4) result = "moderate negative";
+    if (value < -0.7) result = "strong negative";
+    if (value < -0.9) result = "very strong negative";
 
     return result;
 }
