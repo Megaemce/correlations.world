@@ -93,6 +93,7 @@ function showMean(key, jsonData) {
     let values = 0;
     let countriesCount = 0;
     let relatedPopulation = 0;
+    let totalPopulation = 0;
 
     for (let i = 0; i < jsonDataValues.length; i++) {
         const obj = jsonDataValues[i];
@@ -105,11 +106,15 @@ function showMean(key, jsonData) {
             relatedPopulation += obj["Population"];
             values += value * obj["Population"];
             countriesCount++;
+            totalPopulation += obj["Population"];
         }
     }
 
-    const mean = (values / relatedPopulation).toFixed(2);
+    let mean = (values / relatedPopulation).toFixed(2);
 
+    if (key === "Population")
+        mean = totalPopulation / (countriesCount * 1000000); // show population in mln
+    if (key === "Income") mean /= 1000; // show income in k $
     worldData.push(mean);
     worldLabels.push(key);
 }
@@ -140,8 +145,10 @@ function showCountryStats(country, jsonData) {
     Object.keys(countryStats).forEach((key) => {
         if (key !== "Country") {
             // const bold = document.getElementById(key);
-            const value = countryStats[key];
+            let value = countryStats[key];
 
+            if (key === "Population") value /= 1000000; // show population in millions so the chart is more align
+            if (key === "Income") value /= 1000; // show income in x k$
             countryData.push(value);
             countryLabels.push(key);
         }
@@ -391,12 +398,14 @@ function showStatsChart() {
                     data: countryData,
                     backgroundColor: "rgba(75, 192, 192, 0.4)",
                     // borderColor: "rgba(75, 192, 192, 1)",
+                    order: 2,
                 },
                 {
                     type: "bar",
                     label: "World average",
                     data: worldData,
                     backgroundColor: "rgba(75, 192, 192, 1)",
+                    barPercentage: 0.2,
                     // borderColor: "rgba(121, 65, 55, 1)",
                     // pointBackgroundColor: "rgba(121, 55, 55, 1)",
                     // pointBorderColor: "rgba(121, 55, 55, 0.6)",
@@ -404,8 +413,8 @@ function showStatsChart() {
                     // pointHoverBorderColor: "rgba(121, 55, 55, 1)",
                     // borderWidth: 1,
                     // pointRadius: 2,
-                    // borderDash: [10, 5],
-                    z: 2,
+                    // borderDash: [2, 5],
+                    order: 1,
                 },
             ],
             labels: worldLabels,
@@ -418,21 +427,29 @@ function showStatsChart() {
                     callbacks: {
                         // modify oryginal behavior based on label. Mostly fix number of digits
                         label: function (context) {
-                            return (
-                                context.dataset.label + ": " + context.parsed.y
-                            );
+                            let result = context.dataset.label + ": ";
+                            if (context.label === "Population") {
+                                result += context.parsed.y + " mln";
+                            } else if (context.label === "Income") {
+                                result += context.parsed.y + "k $";
+                            } else {
+                                result += context.parsed.y;
+                            }
+                            return result;
                         },
                     },
                 },
             },
             scales: {
                 x: {
+                    stacked: false,
                     display: true,
                     grid: {
                         display: false,
                     },
                 },
                 y: {
+                    stacked: false,
                     display: false,
                     type: "logarithmic",
                     title: {
