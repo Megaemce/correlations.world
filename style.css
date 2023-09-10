@@ -35,7 +35,7 @@ select {
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 460px) {
     select {
-        width: 38px;
+        width: 37px;
     }
 }
 
