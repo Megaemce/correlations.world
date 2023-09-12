@@ -85,7 +85,7 @@ function extractKeyValues(key1, key2, jsonData) {
     return results;
 }
 // calculating weighted mean based on number of people in the country.
-function showMean(key, jsonData) {
+function worldMean(key, jsonData) {
     const countriesData = Object.values(jsonData);
 
     let values = 0;
@@ -276,7 +276,7 @@ function showRadarChart() {
                     font: {
                         family: "'Roboto', 'sans-serif'",
                         weight: "normal",
-                        size: "12px",
+                        size: 12,
                     },
                     padding: {
                         bottom: 5,
@@ -322,7 +322,6 @@ function showRadarChart() {
             elements: {
                 line: {
                     borderWidth: 2,
-                    z: 3,
                 },
             },
         },
@@ -365,11 +364,10 @@ function showScatterChart() {
                     font: {
                         family: "'Roboto', 'sans-serif'",
                         weight: "normal",
-                        size: "12px",
+                        size: 12,
                     },
                     padding: {
                         bottom: 25,
-                        left: 50,
                     },
                     align: "center",
                     display: true,
@@ -543,6 +541,15 @@ function showStatsChart() {
                                     if (context.parsed.y <= 0.5) braCup = "AA";
                                     result += braCup;
                                     break;
+                                case "Divorces":
+                                    result +=
+                                        context.parsed.y + " per 1000 people";
+                                    break;
+                                case "Homicide":
+                                    result +=
+                                        context.parsed.y +
+                                        " per 100 000 people";
+                                    break;
                                 default:
                                     result += context.parsed.y;
                                     break;
@@ -624,7 +631,7 @@ function initializeApp() {
     // iterate thru all the keys in objects
     Object.keys(data[0]).forEach((key) => {
         if (key !== "Country") {
-            showMean(key, data);
+            worldMean(key, data);
         }
     });
 

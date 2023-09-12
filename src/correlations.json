@@ -33,7 +33,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 20,
-   "Happiness": 18.6
+   "Happiness": 18.6,
+   "Divorces": null,
+   "Homicide": 6.66
  },
  {
    "Country": "Albania",
@@ -69,7 +71,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 15,
    "MaxPrivateTax": 23,
-   "Happiness": 52.8
+   "Happiness": 52.8,
+   "Divorces": 2.1,
+   "Homicide": 2.29
  },
  {
    "Country": "Algeria",
@@ -105,7 +109,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 26,
    "MaxPrivateTax": 35,
-   "Happiness": 53.3
+   "Happiness": 53.3,
+   "Divorces": 1.6,
+   "Homicide": 1.36
  },
  {
    "Country": "American Samoa",
@@ -141,7 +147,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 34,
    "MaxPrivateTax": 6,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 5.38
  },
  {
    "Country": "Andorra",
@@ -177,7 +185,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 10,
    "MaxPrivateTax": 10,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Angola",
@@ -213,7 +223,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 17,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 4.85
  },
  {
    "Country": "Antigua and Barbuda",
@@ -249,7 +261,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 11.06
  },
  {
    "Country": "Argentina",
@@ -285,7 +299,9 @@
    "Conscientiousness": 42,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 35,
-   "Happiness": 60.2
+   "Happiness": 60.2,
+   "Divorces": null,
+   "Homicide": 5.32
  },
  {
    "Country": "Armenia",
@@ -321,7 +337,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 18,
    "MaxPrivateTax": 22,
-   "Happiness": 53.4
+   "Happiness": 53.4,
+   "Divorces": 1.1,
+   "Homicide": 1.69
  },
  {
    "Country": "Aruba",
@@ -357,7 +375,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 58.95,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 1.93
  },
  {
    "Country": "Australia",
@@ -393,7 +413,9 @@
    "Conscientiousness": 49.7,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 45,
-   "Happiness": 70.9
+   "Happiness": 70.9,
+   "Divorces": 1.9,
+   "Homicide": 0.89
  },
  {
    "Country": "Austria",
@@ -429,7 +451,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 55,
-   "Happiness": 71
+   "Happiness": 71,
+   "Divorces": 1.7,
+   "Homicide": 0.97
  },
  {
    "Country": "Azerbaijan",
@@ -465,7 +489,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 25,
-   "Happiness": 51.7
+   "Happiness": 51.7,
+   "Divorces": 1.4,
+   "Homicide": 2.2
  },
  {
    "Country": "Bahamas",
@@ -501,7 +527,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 0,
    "MaxPrivateTax": 8.8,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 1,
+   "Homicide": 31.96
  },
  {
    "Country": "Bahrain",
@@ -537,7 +565,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 0,
    "MaxPrivateTax": 0,
-   "Happiness": 61.7
+   "Happiness": 61.7,
+   "Divorces": null,
+   "Homicide": 0.52
  },
  {
    "Country": "Bangladesh",
@@ -573,7 +603,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 32.5,
    "MaxPrivateTax": 25,
-   "Happiness": 42.8
+   "Happiness": 42.8,
+   "Divorces": null,
+   "Homicide": 2.37
  },
  {
    "Country": "Barbados",
@@ -609,7 +641,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 5.5,
    "MaxPrivateTax": 38,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 9.77
  },
  {
    "Country": "Belarus",
@@ -645,7 +679,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 48,
-   "Happiness": 58.2
+   "Happiness": 58.2,
+   "Divorces": 3.7,
+   "Homicide": 2.39
  },
  {
    "Country": "Belgium",
@@ -681,7 +717,9 @@
    "Conscientiousness": 55.4,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 79.5,
-   "Happiness": 68.6
+   "Happiness": 68.6,
+   "Divorces": 3.7,
+   "Homicide": 1.69
  },
  {
    "Country": "Belize",
@@ -717,7 +755,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 19,
    "MaxPrivateTax": 25,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 37.79
  },
  {
    "Country": "Benin",
@@ -753,7 +793,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 35,
    "MaxPrivateTax": 35,
-   "Happiness": 43.7
+   "Happiness": 43.7,
+   "Divorces": null,
+   "Homicide": 1.13
  },
  {
    "Country": "Bermuda",
@@ -789,7 +831,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 0,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 1.9,
+   "Homicide": 8.14
  },
  {
    "Country": "Bhutan",
@@ -825,7 +869,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 26,
    "MaxPrivateTax": 25,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 1.19
  },
  {
    "Country": "Bolivia",
@@ -861,7 +907,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 29,
    "MaxPrivateTax": 25,
-   "Happiness": 56.8
+   "Happiness": 56.8,
+   "Divorces": null,
+   "Homicide": 6.22
  },
  {
    "Country": "Bosnia and Herzegovina",
@@ -897,7 +945,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 10,
    "MaxPrivateTax": 0,
-   "Happiness": 56.3
+   "Happiness": 56.3,
+   "Divorces": 0.8,
+   "Homicide": 1.17
  },
  {
    "Country": "Botswana",
@@ -933,7 +983,9 @@
    "Conscientiousness": 50.6,
    "MaxCorporateTax": 22,
    "MaxPrivateTax": 25,
-   "Happiness": 34.4
+   "Happiness": 34.4,
+   "Divorces": null,
+   "Homicide": 15.25
  },
  {
    "Country": "Brazil",
@@ -969,7 +1021,9 @@
    "Conscientiousness": 48.2,
    "MaxCorporateTax": 40,
    "MaxPrivateTax": 47.5,
-   "Happiness": 61.3
+   "Happiness": 61.3,
+   "Divorces": 1.4,
+   "Homicide": 27.38
  },
  {
    "Country": "British Virgin Islands",
@@ -1005,7 +1059,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 8.33
  },
  {
    "Country": "Brunei",
@@ -1041,7 +1097,9 @@
    "Conscientiousness": 58.6,
    "MaxCorporateTax": 18.5,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 1.4,
+   "Homicide": 0.49
  },
  {
    "Country": "Bulgaria",
@@ -1077,7 +1135,9 @@
    "Conscientiousness": 52.7,
    "MaxCorporateTax": 10,
    "MaxPrivateTax": 28,
-   "Happiness": 54.7
+   "Happiness": 54.7,
+   "Divorces": 1.3,
+   "Homicide": 1.3
  },
  {
    "Country": "Burkina Faso",
@@ -1113,7 +1173,9 @@
    "Conscientiousness": 58.6,
    "MaxCorporateTax": 27.5,
    "MaxPrivateTax": 25,
-   "Happiness": 46.4
+   "Happiness": 46.4,
+   "Divorces": null,
+   "Homicide": 1.25
  },
  {
    "Country": "Burundi",
@@ -1149,7 +1211,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 35,
    "MaxPrivateTax": 35,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 6.05
  },
  {
    "Country": "Cambodia",
@@ -1185,7 +1249,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 20,
-   "Happiness": 43.9
+   "Happiness": 43.9,
+   "Divorces": null,
+   "Homicide": 1.84
  },
  {
    "Country": "Cameroon",
@@ -1221,7 +1287,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 31.5,
    "MaxPrivateTax": 35,
-   "Happiness": 49.7
+   "Happiness": 49.7,
+   "Divorces": null,
+   "Homicide": 1.39
  },
  {
    "Country": "Canada",
@@ -1257,7 +1325,9 @@
    "Conscientiousness": 52.7,
    "MaxCorporateTax": 31,
    "MaxPrivateTax": 54,
-   "Happiness": 69.6
+   "Happiness": 69.6,
+   "Divorces": 2.1,
+   "Homicide": 1.76
  },
  {
    "Country": "Capo Verde",
@@ -1293,7 +1363,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 27.5,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Cayman Islands",
@@ -1329,7 +1401,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 8.22
  },
  {
    "Country": "Central African Republic",
@@ -1365,7 +1439,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 20.12
  },
  {
    "Country": "Chad",
@@ -1401,7 +1477,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 0,
-   "Happiness": 44
+   "Happiness": 44,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Chile",
@@ -1437,7 +1515,9 @@
    "Conscientiousness": 38.4,
    "MaxCorporateTax": 27,
    "MaxPrivateTax": 35,
-   "Happiness": 63.3
+   "Happiness": 63.3,
+   "Divorces": 0.7,
+   "Homicide": 4.4
  },
  {
    "Country": "China",
@@ -1473,7 +1553,9 @@
    "Conscientiousness": 51,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 45,
-   "Happiness": 58.2
+   "Happiness": 58.2,
+   "Divorces": 3.2,
+   "Homicide": 0.53
  },
  {
    "Country": "Colombia",
@@ -1509,7 +1591,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 35,
    "MaxPrivateTax": 39,
-   "Happiness": 56.3
+   "Happiness": 56.3,
+   "Divorces": 0.7,
+   "Homicide": 25.34
  },
  {
    "Country": "Comoros",
@@ -1545,7 +1629,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Congo",
@@ -1581,7 +1667,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": 52.7
+   "Happiness": 52.7,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Congo (Dem. Republic)",
@@ -1617,7 +1705,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 35,
    "MaxPrivateTax": 40,
-   "Happiness": 32.1
+   "Happiness": 32.1,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Cook Islands",
@@ -1653,7 +1743,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 30,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 3.49
  },
  {
    "Country": "Costa Rica",
@@ -1689,7 +1781,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 25,
-   "Happiness": 66.1
+   "Happiness": 66.1,
+   "Divorces": 2.3,
+   "Homicide": 11.26
  },
  {
    "Country": "Croatia",
@@ -1725,7 +1819,9 @@
    "Conscientiousness": 40.8,
    "MaxCorporateTax": 18,
    "MaxPrivateTax": 40,
-   "Happiness": 61.3
+   "Happiness": 61.3,
+   "Divorces": 1.5,
+   "Homicide": 0.58
  },
  {
    "Country": "Cuba",
@@ -1761,7 +1857,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 50,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 2.9,
+   "Homicide": 5.05
  },
  {
    "Country": "Cyprus",
@@ -1797,10 +1895,12 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 12.5,
    "MaxPrivateTax": 35,
-   "Happiness": 61.3
+   "Happiness": 61.3,
+   "Divorces": 2.6,
+   "Homicide": 1.26
  },
  {
-   "Country": "Czechia",
+   "Country": "Czech Republic",
    "Population": 10495295,
    "Fertility": 1.7,
    "IQ": 94.92,
@@ -1833,7 +1933,9 @@
    "Conscientiousness": 49.2,
    "MaxCorporateTax": 19,
    "MaxPrivateTax": 45.7,
-   "Happiness": 68.4
+   "Happiness": 68.4,
+   "Divorces": 2,
+   "Homicide": 1.01
  },
  {
    "Country": "Denmark",
@@ -1869,7 +1971,9 @@
    "Conscientiousness": 55.5,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 57.11,
-   "Happiness": 75.9
+   "Happiness": 75.9,
+   "Divorces": 2.7,
+   "Homicide": null
  },
  {
    "Country": "Dijbouti",
@@ -1905,7 +2009,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Dominica",
@@ -1941,7 +2047,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 35,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 1,
+   "Homicide": 26.59
  },
  {
    "Country": "Dominican Republic",
@@ -1977,7 +2085,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 27,
    "MaxPrivateTax": 25,
-   "Happiness": 55.7
+   "Happiness": 55.7,
+   "Divorces": 1.2,
+   "Homicide": 10.05
  },
  {
    "Country": "East Timor",
@@ -2013,7 +2123,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 10,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Ecuador",
@@ -2049,7 +2161,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 35,
-   "Happiness": 55.6
+   "Happiness": 55.6,
+   "Divorces": 1.1,
+   "Homicide": 5.8
  },
  {
    "Country": "Egypt",
@@ -2085,7 +2199,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 22.5,
    "MaxPrivateTax": 22.5,
-   "Happiness": 41.7
+   "Happiness": 41.7,
+   "Divorces": 2.3,
+   "Homicide": 2.55
  },
  {
    "Country": "El Salvador",
@@ -2121,7 +2237,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 30,
-   "Happiness": 61.2
+   "Happiness": 61.2,
+   "Divorces": 0.8,
+   "Homicide": 52.02
  },
  {
    "Country": "Equatorial Guine",
@@ -2157,7 +2275,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 35,
    "MaxPrivateTax": 35,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Eritrea",
@@ -2193,7 +2313,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 34,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Estonia",
@@ -2229,7 +2351,9 @@
    "Conscientiousness": 55.9,
    "MaxCorporateTax": 0,
    "MaxPrivateTax": 58.4,
-   "Happiness": 64.6
+   "Happiness": 64.6,
+   "Divorces": 1.9,
+   "Homicide": 2.12
  },
  {
    "Country": "Eswatini",
@@ -2265,7 +2389,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 27.5,
    "MaxPrivateTax": 0,
-   "Happiness": 44
+   "Happiness": 44,
+   "Divorces": null,
+   "Homicide": 11.56
  },
  {
    "Country": "Ethiopia",
@@ -2301,7 +2427,9 @@
    "Conscientiousness": 49.1,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 35,
-   "Happiness": 40.9
+   "Happiness": 40.9,
+   "Divorces": null,
+   "Homicide": 8.79
  },
  {
    "Country": "Fiji",
@@ -2337,7 +2465,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 20,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 2.31
  },
  {
    "Country": "Finland",
@@ -2373,7 +2503,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 66.75,
-   "Happiness": 78
+   "Happiness": 78,
+   "Divorces": 2.4,
+   "Homicide": 1.63
  },
  {
    "Country": "France",
@@ -2409,7 +2541,9 @@
    "Conscientiousness": 50,
    "MaxCorporateTax": 26.5,
    "MaxPrivateTax": 49,
-   "Happiness": 66.6
+   "Happiness": 66.6,
+   "Divorces": 1.9,
+   "Homicide": 1.2
  },
  {
    "Country": "French Polynesia",
@@ -2433,7 +2567,7 @@
    "Cheapness": null,
    "Popularity": null,
    "Corruption": null,
-   "AvgLifeExpectancy": 79.49,
+   "AvgLifeExpectancy": 83.7,
    "MaleLifeExpectancy": null,
    "FemaleLifeExpectancy": null,
    "BirthRate": null,
@@ -2445,7 +2579,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 0.38
  },
  {
    "Country": "Gabon",
@@ -2481,7 +2617,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 35,
    "MaxPrivateTax": 35,
-   "Happiness": 50.4
+   "Happiness": 50.4,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Gambia",
@@ -2517,7 +2655,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 31,
    "MaxPrivateTax": 30,
-   "Happiness": 42.8
+   "Happiness": 42.8,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Georgia",
@@ -2553,7 +2693,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 0,
    "MaxPrivateTax": 0,
-   "Happiness": 51.1
+   "Happiness": 51.1,
+   "Divorces": 2.1,
+   "Homicide": 2.22
  },
  {
    "Country": "Germany",
@@ -2589,7 +2731,9 @@
    "Conscientiousness": 59.5,
    "MaxCorporateTax": 29.65,
    "MaxPrivateTax": 47.475,
-   "Happiness": 68.9
+   "Happiness": 68.9,
+   "Divorces": 1.7,
+   "Homicide": 0.95
  },
  {
    "Country": "Ghana",
@@ -2625,7 +2769,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": 46.1
+   "Happiness": 46.1,
+   "Divorces": null,
+   "Homicide": 2.09
  },
  {
    "Country": "Greece",
@@ -2661,7 +2807,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 22,
    "MaxPrivateTax": 44,
-   "Happiness": 59.3
+   "Happiness": 59.3,
+   "Divorces": 1.8,
+   "Homicide": 0.94
  },
  {
    "Country": "Greenland",
@@ -2697,7 +2845,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 28,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 5.32
  },
  {
    "Country": "Grenada",
@@ -2733,7 +2883,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 1.1,
+   "Homicide": 10.82
  },
  {
    "Country": "Guatemala",
@@ -2769,7 +2921,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 7,
-   "Happiness": 61.5
+   "Happiness": 61.5,
+   "Divorces": 0.2,
+   "Homicide": 22.5
  },
  {
    "Country": "Guinea",
@@ -2805,7 +2959,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": 50.7
+   "Happiness": 50.7,
+   "Divorces": null,
+   "Homicide": 1.15
  },
  {
    "Country": "Guyana",
@@ -2841,7 +2997,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 14.25
  },
  {
    "Country": "Haiti",
@@ -2877,7 +3035,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 30,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 6.68
  },
  {
    "Country": "Honduras",
@@ -2913,7 +3073,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": 60.2
+   "Happiness": 60.2,
+   "Divorces": null,
+   "Homicide": 38.93
  },
  {
    "Country": "Hong Kong",
@@ -2949,7 +3111,9 @@
    "Conscientiousness": 53,
    "MaxCorporateTax": 16.5,
    "MaxPrivateTax": 15,
-   "Happiness": 53.1
+   "Happiness": 53.1,
+   "Divorces": null,
+   "Homicide": 0.65
  },
  {
    "Country": "Hungary",
@@ -2985,7 +3149,9 @@
    "Conscientiousness": 45.9,
    "MaxCorporateTax": 9,
    "MaxPrivateTax": 0,
-   "Happiness": 60.4
+   "Happiness": 60.4,
+   "Divorces": 1.5,
+   "Homicide": 2.49
  },
  {
    "Country": "Iceland",
@@ -3021,7 +3187,9 @@
    "Conscientiousness": 49.4,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 46,
-   "Happiness": 75.3
+   "Happiness": 75.3,
+   "Divorces": 1.8,
+   "Homicide": 0.89
  },
  {
    "Country": "India",
@@ -3057,7 +3225,9 @@
    "Conscientiousness": 55.1,
    "MaxCorporateTax": 22,
    "MaxPrivateTax": 39,
-   "Happiness": 40.4
+   "Happiness": 40.4,
+   "Divorces": null,
+   "Homicide": 3.08
  },
  {
    "Country": "Indonesia",
@@ -3093,7 +3263,9 @@
    "Conscientiousness": 34.3,
    "MaxCorporateTax": 22,
    "MaxPrivateTax": 35,
-   "Happiness": 52.8
+   "Happiness": 52.8,
+   "Divorces": null,
+   "Homicide": 0.43
  },
  {
    "Country": "Iran",
@@ -3129,7 +3301,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 35,
-   "Happiness": 48.8
+   "Happiness": 48.8,
+   "Divorces": 2.1,
+   "Homicide": 2.5
  },
  {
    "Country": "Iraq",
@@ -3165,7 +3339,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 15,
    "MaxPrivateTax": 15,
-   "Happiness": 49.4
+   "Happiness": 49.4,
+   "Divorces": null,
+   "Homicide": 10.07
  },
  {
    "Country": "Ireland",
@@ -3201,7 +3377,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 12.5,
    "MaxPrivateTax": 52,
-   "Happiness": 69.1
+   "Happiness": 69.1,
+   "Divorces": 0.7,
+   "Homicide": 0.87
  },
  {
    "Country": "Israel",
@@ -3237,7 +3415,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 23,
    "MaxPrivateTax": 50,
-   "Happiness": 74.7
+   "Happiness": 74.7,
+   "Divorces": 1.8,
+   "Homicide": 1.49
  },
  {
    "Country": "Italy",
@@ -3273,7 +3453,9 @@
    "Conscientiousness": 44,
    "MaxCorporateTax": 27.9,
    "MaxPrivateTax": 47,
-   "Happiness": 64.1
+   "Happiness": 64.1,
+   "Divorces": 1.4,
+   "Homicide": 0.57
  },
  {
    "Country": "Ivory Coast",
@@ -3309,7 +3491,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": 50.5
+   "Happiness": 50.5,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Jamaica",
@@ -3345,7 +3529,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 33.3,
    "MaxPrivateTax": 25,
-   "Happiness": 57
+   "Happiness": 57,
+   "Divorces": 1.2,
+   "Homicide": 43.85
  },
  {
    "Country": "Japan",
@@ -3381,7 +3567,9 @@
    "Conscientiousness": 53.7,
    "MaxCorporateTax": 29.74,
    "MaxPrivateTax": 55,
-   "Happiness": 61.3
+   "Happiness": 61.3,
+   "Divorces": 1.7,
+   "Homicide": 0.26
  },
  {
    "Country": "Jordan",
@@ -3417,7 +3605,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 25,
-   "Happiness": 41.2
+   "Happiness": 41.2,
+   "Divorces": 1.6,
+   "Homicide": 1.36
  },
  {
    "Country": "Kazakhstan",
@@ -3453,7 +3643,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 15,
-   "Happiness": 61.4
+   "Happiness": 61.4,
+   "Divorces": 4.6,
+   "Homicide": 5.06
  },
  {
    "Country": "Kenya",
@@ -3489,7 +3681,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 35,
-   "Happiness": 44.9
+   "Happiness": 44.9,
+   "Divorces": null,
+   "Homicide": 4.93
  },
  {
    "Country": "Kiribati",
@@ -3525,7 +3719,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 35,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 7.52
  },
  {
    "Country": "Kuwait",
@@ -3561,7 +3757,9 @@
    "Conscientiousness": 53,
    "MaxCorporateTax": 16,
    "MaxPrivateTax": 0,
-   "Happiness": 61.1
+   "Happiness": 61.1,
+   "Divorces": 1.3,
+   "Homicide": 1.82
  },
  {
    "Country": "Kyrgyzstan",
@@ -3597,7 +3795,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 10,
    "MaxPrivateTax": 0,
-   "Happiness": 58.3
+   "Happiness": 58.3,
+   "Divorces": 1.4,
+   "Homicide": 2.19
  },
  {
    "Country": "Laos",
@@ -3633,7 +3833,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 35,
    "MaxPrivateTax": 0,
-   "Happiness": 51.1
+   "Happiness": 51.1,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Latvia",
@@ -3669,7 +3871,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 0,
    "MaxPrivateTax": 31.4,
-   "Happiness": 62.1
+   "Happiness": 62.1,
+   "Divorces": 2.7,
+   "Homicide": 4.36
  },
  {
    "Country": "Lebanon",
@@ -3705,7 +3909,9 @@
    "Conscientiousness": 45.2,
    "MaxCorporateTax": 17,
    "MaxPrivateTax": 25,
-   "Happiness": 23.9
+   "Happiness": 23.9,
+   "Divorces": 1.6,
+   "Homicide": 2.49
  },
  {
    "Country": "Lesotho",
@@ -3741,7 +3947,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": 35.1
+   "Happiness": 35.1,
+   "Divorces": null,
+   "Homicide": 43.56
  },
  {
    "Country": "Liberia",
@@ -3777,7 +3985,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": 40.4
+   "Happiness": 40.4,
+   "Divorces": null,
+   "Homicide": 3.26
  },
  {
    "Country": "Libya",
@@ -3813,7 +4023,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 24.5,
    "MaxPrivateTax": 0,
-   "Happiness": 53.3
+   "Happiness": 53.3,
+   "Divorces": 2.5,
+   "Homicide": null
  },
  {
    "Country": "Liechtenstein",
@@ -3849,7 +4061,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 2.6,
+   "Homicide": 2.64
  },
  {
    "Country": "Lithuania",
@@ -3885,7 +4099,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 15,
    "MaxPrivateTax": 42.77,
-   "Happiness": 67.6
+   "Happiness": 67.6,
+   "Divorces": 2.7,
+   "Homicide": 4.57
  },
  {
    "Country": "Luxembourg",
@@ -3921,7 +4137,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 28.69,
    "MaxPrivateTax": 45.78,
-   "Happiness": 72.3
+   "Happiness": 72.3,
+   "Divorces": 2.3,
+   "Homicide": 0.34
  },
  {
    "Country": "Macao",
@@ -3957,7 +4175,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 12,
    "MaxPrivateTax": 12,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Madagascar",
@@ -3993,7 +4213,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 0,
-   "Happiness": 40.2
+   "Happiness": 40.2,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Malawi",
@@ -4029,7 +4251,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": 35
+   "Happiness": 35,
+   "Divorces": null,
+   "Homicide": 1.81
  },
  {
    "Country": "Malaysia",
@@ -4065,7 +4289,9 @@
    "Conscientiousness": 48.5,
    "MaxCorporateTax": 24,
    "MaxPrivateTax": 41.5,
-   "Happiness": 60.1
+   "Happiness": 60.1,
+   "Divorces": 1.8,
+   "Homicide": 2.13
  },
  {
    "Country": "Maldives",
@@ -4101,7 +4327,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 15,
    "MaxPrivateTax": 15,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 5.52,
+   "Homicide": 0.72
  },
  {
    "Country": "Mali",
@@ -4137,7 +4365,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": 42
+   "Happiness": 42,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Malta",
@@ -4173,7 +4403,9 @@
    "Conscientiousness": 48.3,
    "MaxCorporateTax": 35,
    "MaxPrivateTax": 35,
-   "Happiness": 63
+   "Happiness": 63,
+   "Divorces": 0.7,
+   "Homicide": 1.59
  },
  {
    "Country": "Marshall Islands",
@@ -4209,7 +4441,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 3.98
  },
  {
    "Country": "Mauritania",
@@ -4245,7 +4479,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": 47.2
+   "Happiness": 47.2,
+   "Divorces": null,
+   "Homicide": 2.77
  },
  {
    "Country": "Mauritius",
@@ -4281,7 +4517,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 15,
    "MaxPrivateTax": 15,
-   "Happiness": 59
+   "Happiness": 59,
+   "Divorces": 1.6,
+   "Homicide": 2.92
  },
  {
    "Country": "Mexico",
@@ -4317,7 +4555,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 35,
-   "Happiness": 63.3
+   "Happiness": 63.3,
+   "Divorces": 1.3,
+   "Homicide": 29.07
  },
  {
    "Country": "Micronesia",
@@ -4353,7 +4593,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 21,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Moldova",
@@ -4389,7 +4631,47 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 12,
    "MaxPrivateTax": 36,
-   "Happiness": 58.2
+   "Happiness": 58.2,
+   "Divorces": 3.3,
+   "Homicide": 4.1
+ },
+ {
+   "Country": "Monaco",
+   "Population": 36297,
+   "Fertility": null,
+   "IQ": 104.51,
+   "Income": null,
+   "PenisLength": null,
+   "MaleHeight": null,
+   "MaleWeight": null,
+   "MaleBMI": null,
+   "BraSize": null,
+   "FemaleHeight": null,
+   "FemaleWeight": null,
+   "FemaleBMI": null,
+   "Stability": null,
+   "HumanRights": null,
+   "HealthServices": null,
+   "Safety": null,
+   "Climate": null,
+   "Cheapness": null,
+   "Popularity": null,
+   "Corruption": null,
+   "AvgLifeExpectancy": null,
+   "MaleLifeExpectancy": null,
+   "FemaleLifeExpectancy": null,
+   "BirthRate": null,
+   "DeathRate": null,
+   "Neuroticism": null,
+   "Extraversion": null,
+   "Openness": null,
+   "Agreeableness": null,
+   "Conscientiousness": null,
+   "MaxCorporateTax": null,
+   "MaxPrivateTax": null,
+   "Happiness": null,
+   "Divorces": 1.7,
+   "Homicide": null
  },
  {
    "Country": "Mongolia",
@@ -4425,11 +4707,13 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 10,
    "MaxPrivateTax": 0,
-   "Happiness": 58.4
+   "Happiness": 58.4,
+   "Divorces": 1,
+   "Homicide": 6.18
  },
  {
    "Country": "Montenegro",
-   "Population": 626485,
+   "Population": 626408,
    "Fertility": 1.7,
    "IQ": 85.78,
    "Income": 6056,
@@ -4461,7 +4745,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 9,
    "MaxPrivateTax": 12.65,
-   "Happiness": 57.2
+   "Happiness": 57.2,
+   "Divorces": 1.3,
+   "Homicide": 2.23
  },
  {
    "Country": "Morocco",
@@ -4497,7 +4783,9 @@
    "Conscientiousness": 44.5,
    "MaxCorporateTax": 31,
    "MaxPrivateTax": 38,
-   "Happiness": 49
+   "Happiness": 49,
+   "Divorces": null,
+   "Homicide": 1.42
  },
  {
    "Country": "Mozambique",
@@ -4533,7 +4821,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 32,
    "MaxPrivateTax": 0,
-   "Happiness": 49.5
+   "Happiness": 49.5,
+   "Divorces": null,
+   "Homicide": 3.51
  },
  {
    "Country": "Myanmar",
@@ -4569,7 +4859,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 22,
    "MaxPrivateTax": 0,
-   "Happiness": 43.7
+   "Happiness": 43.7,
+   "Divorces": null,
+   "Homicide": 2.26
  },
  {
    "Country": "Namibia",
@@ -4605,7 +4897,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 32,
    "MaxPrivateTax": 37,
-   "Happiness": 46.3
+   "Happiness": 46.3,
+   "Divorces": null,
+   "Homicide": 17.68
  },
  {
    "Country": "Nauru",
@@ -4641,7 +4935,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Nepal",
@@ -4677,7 +4973,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 36,
-   "Happiness": 53.6
+   "Happiness": 53.6,
+   "Divorces": null,
+   "Homicide": 2.3
  },
  {
    "Country": "Netherlands",
@@ -4713,7 +5011,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 49.5,
-   "Happiness": 74
+   "Happiness": 74,
+   "Divorces": 1.7,
+   "Homicide": 0.59
  },
  {
    "Country": "New Caledonia",
@@ -4749,7 +5049,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 3.2
  },
  {
    "Country": "New Zealand",
@@ -4785,7 +5087,9 @@
    "Conscientiousness": 50.5,
    "MaxCorporateTax": 28,
    "MaxPrivateTax": 39,
-   "Happiness": 71.2
+   "Happiness": 71.2,
+   "Divorces": 1.7,
+   "Homicide": 0.74
  },
  {
    "Country": "Nicaragua",
@@ -4821,7 +5125,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 0,
-   "Happiness": 62.6
+   "Happiness": 62.6,
+   "Divorces": 0.8,
+   "Homicide": 7.19
  },
  {
    "Country": "Niger",
@@ -4857,7 +5163,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 0,
-   "Happiness": 45
+   "Happiness": 45,
+   "Divorces": null,
+   "Homicide": 4.43
  },
  {
    "Country": "Nigeria",
@@ -4893,7 +5201,9 @@
    "Conscientiousness": 49.5,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 24,
-   "Happiness": 49.8
+   "Happiness": 49.8,
+   "Divorces": null,
+   "Homicide": 34.52
  },
  {
    "Country": "Niue",
@@ -4929,7 +5239,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 0,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Nort Macedonia",
@@ -4965,7 +5277,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 10,
    "MaxPrivateTax": 18,
-   "Happiness": 52.5
+   "Happiness": 52.5,
+   "Divorces": 0.8,
+   "Homicide": 1.2
  },
  {
    "Country": "North Korea",
@@ -5001,7 +5315,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 20,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Northern Mariana Islands",
@@ -5037,7 +5353,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Norway",
@@ -5073,7 +5391,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 23,
    "MaxPrivateTax": 46.4,
-   "Happiness": 73.2
+   "Happiness": 73.2,
+   "Divorces": 1.9,
+   "Homicide": 0.47
  },
  {
    "Country": "Oman",
@@ -5109,7 +5429,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 15,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 0.27
  },
  {
    "Country": "Pakistan",
@@ -5145,7 +5467,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 29,
    "MaxPrivateTax": 35,
-   "Happiness": 45.5
+   "Happiness": 45.5,
+   "Divorces": null,
+   "Homicide": 3.88
  },
  {
    "Country": "Palau",
@@ -5181,7 +5505,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 0,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 11.17
  },
  {
    "Country": "Palestine",
@@ -5217,7 +5543,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 0.49
  },
  {
    "Country": "Panama",
@@ -5253,7 +5581,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 27,
-   "Happiness": 62.6
+   "Happiness": 62.6,
+   "Divorces": 0.7,
+   "Homicide": 9.39
  },
  {
    "Country": "Papua New Guinea",
@@ -5289,7 +5619,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 9.75
  },
  {
    "Country": "Paraguay",
@@ -5325,7 +5657,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 10,
    "MaxPrivateTax": 10,
-   "Happiness": 57.4
+   "Happiness": 57.4,
+   "Divorces": null,
+   "Homicide": 7.14
  },
  {
    "Country": "Peru",
@@ -5361,7 +5695,9 @@
    "Conscientiousness": 43,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 30,
-   "Happiness": 55.3
+   "Happiness": 55.3,
+   "Divorces": 0.5,
+   "Homicide": 7.91
  },
  {
    "Country": "Philippines",
@@ -5397,7 +5733,9 @@
    "Conscientiousness": 52.3,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 35,
-   "Happiness": 55.2
+   "Happiness": 55.2,
+   "Divorces": null,
+   "Homicide": 6.46
  },
  {
    "Country": "Poland",
@@ -5433,7 +5771,9 @@
    "Conscientiousness": 46.8,
    "MaxCorporateTax": 19,
    "MaxPrivateTax": 45,
-   "Happiness": 62.6
+   "Happiness": 62.6,
+   "Divorces": 1.7,
+   "Homicide": 0.73
  },
  {
    "Country": "Portugal",
@@ -5469,7 +5809,9 @@
    "Conscientiousness": 46.2,
    "MaxCorporateTax": 21,
    "MaxPrivateTax": 64,
-   "Happiness": 59.7
+   "Happiness": 59.7,
+   "Divorces": 2,
+   "Homicide": 0.79
  },
  {
    "Country": "Puerto Rico",
@@ -5505,7 +5847,9 @@
    "Conscientiousness": 48.4,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 33.34,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 21.09
  },
  {
    "Country": "Qatar",
@@ -5541,7 +5885,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 10,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 0.7,
+   "Homicide": 0.37
  },
  {
    "Country": "Romania",
@@ -5577,7 +5923,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 16,
    "MaxPrivateTax": 45,
-   "Happiness": 65.9
+   "Happiness": 65.9,
+   "Divorces": 1.6,
+   "Homicide": 1.28
  },
  {
    "Country": "Russia",
@@ -5613,7 +5961,9 @@
    "Conscientiousness": 45.9,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 35,
-   "Happiness": 56.6
+   "Happiness": 56.6,
+   "Divorces": 3.9,
+   "Homicide": 8.21
  },
  {
    "Country": "Rwanda",
@@ -5649,7 +5999,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 30,
-   "Happiness": 32.7
+   "Happiness": 32.7,
+   "Divorces": null,
+   "Homicide": 2.58
  },
  {
    "Country": "Saint Kitts And Nevis",
@@ -5685,7 +6037,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 36.09
  },
  {
    "Country": "Saint Lucia",
@@ -5721,7 +6075,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 0.7,
+   "Homicide": 21.44
  },
  {
    "Country": "Saint Vincent And The Grenadines",
@@ -5757,7 +6113,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 0.4,
+   "Homicide": 36.54
  },
  {
    "Country": "Samoa",
@@ -5793,7 +6151,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 27,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 3.15
  },
  {
    "Country": "Sao Tome And Principe",
@@ -5829,7 +6189,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 3.25
  },
  {
    "Country": "San Marino",
@@ -5865,7 +6227,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 17,
    "MaxPrivateTax": 35,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 2.6,
+   "Homicide": null
  },
  {
    "Country": "Saudi Arabia",
@@ -5901,7 +6265,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 15,
    "MaxPrivateTax": 0,
-   "Happiness": 64.6
+   "Happiness": 64.6,
+   "Divorces": 2.1,
+   "Homicide": 1.27
  },
  {
    "Country": "Senegal",
@@ -5937,7 +6303,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 50,
-   "Happiness": 48.6
+   "Happiness": 48.6,
+   "Divorces": null,
+   "Homicide": 0.27
  },
  {
    "Country": "Serbia",
@@ -5973,7 +6341,9 @@
    "Conscientiousness": 44.7,
    "MaxCorporateTax": 15,
    "MaxPrivateTax": 25,
-   "Happiness": 61.4
+   "Happiness": 61.4,
+   "Divorces": 1.3,
+   "Homicide": 1.23
  },
  {
    "Country": "Seychelles",
@@ -6009,7 +6379,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 1.7,
+   "Homicide": 12.54
  },
  {
    "Country": "Sierra Leone",
@@ -6045,7 +6417,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": 31.4
+   "Happiness": 31.4,
+   "Divorces": null,
+   "Homicide": 1.73
  },
  {
    "Country": "Singapore",
@@ -6081,7 +6455,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 17,
    "MaxPrivateTax": 22,
-   "Happiness": 65.9
+   "Happiness": 65.9,
+   "Divorces": 1.7,
+   "Homicide": 0.16
  },
  {
    "Country": "Slovakia",
@@ -6117,7 +6493,9 @@
    "Conscientiousness": 48.2,
    "MaxCorporateTax": 21,
    "MaxPrivateTax": 25,
-   "Happiness": 64.7
+   "Happiness": 64.7,
+   "Divorces": 1.7,
+   "Homicide": 1.14
  },
  {
    "Country": "Slovenia",
@@ -6153,7 +6531,9 @@
    "Conscientiousness": 55.6,
    "MaxCorporateTax": 19,
    "MaxPrivateTax": 50,
-   "Happiness": 66.5
+   "Happiness": 66.5,
+   "Divorces": 0.8,
+   "Homicide": 0.48
  },
  {
    "Country": "Solomon Islands",
@@ -6189,7 +6569,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 3.77
  },
  {
    "Country": "Somalia",
@@ -6225,7 +6607,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 0,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "South Africa",
@@ -6261,7 +6645,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 28,
    "MaxPrivateTax": 45,
-   "Happiness": 52.8
+   "Happiness": 52.8,
+   "Divorces": 0.6,
+   "Homicide": 36.4
  },
  {
    "Country": "South Korea",
@@ -6297,7 +6683,9 @@
    "Conscientiousness": 51.6,
    "MaxCorporateTax": 24.2,
    "MaxPrivateTax": 53.4,
-   "Happiness": 59.5
+   "Happiness": 59.5,
+   "Divorces": 2.1,
+   "Homicide": 0.6
  },
  {
    "Country": "South Sudan",
@@ -6333,7 +6721,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 14.87
  },
  {
    "Country": "Spain",
@@ -6369,7 +6759,9 @@
    "Conscientiousness": 41.9,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 54,
-   "Happiness": 64.4
+   "Happiness": 64.4,
+   "Divorces": 1.9,
+   "Homicide": 0.62
  },
  {
    "Country": "Sri Lanka",
@@ -6405,7 +6797,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 15,
-   "Happiness": 44.4
+   "Happiness": 44.4,
+   "Divorces": 0.15,
+   "Homicide": 2.42
  },
  {
    "Country": "Sudan",
@@ -6441,7 +6835,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 15,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 5.15
  },
  {
    "Country": "Suriname",
@@ -6477,7 +6873,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 1.4,
+   "Homicide": 5.43
  },
  {
    "Country": "Sweden",
@@ -6513,7 +6911,9 @@
    "Conscientiousness": 59.8,
    "MaxCorporateTax": 20.6,
    "MaxPrivateTax": 52,
-   "Happiness": 73.9
+   "Happiness": 73.9,
+   "Divorces": 2.5,
+   "Homicide": 1.08
  },
  {
    "Country": "Switzerland",
@@ -6549,7 +6949,9 @@
    "Conscientiousness": 62.7,
    "MaxCorporateTax": 17.92,
    "MaxPrivateTax": 59.7,
-   "Happiness": 72.4
+   "Happiness": 72.4,
+   "Divorces": 2,
+   "Homicide": 0.59
  },
  {
    "Country": "Syria",
@@ -6585,7 +6987,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 22,
    "MaxPrivateTax": 15,
-   "Happiness": 65.4
+   "Happiness": 65.4,
+   "Divorces": 1.3,
+   "Homicide": 0.88
  },
  {
    "Country": "Taiwan",
@@ -6621,7 +7025,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 40,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 2.3,
+   "Homicide": 0.82
  },
  {
    "Country": "Tajikistan",
@@ -6657,7 +7063,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 25,
-   "Happiness": 53.3
+   "Happiness": 53.3,
+   "Divorces": 1.4,
+   "Homicide": 1.64
  },
  {
    "Country": "Tanzania",
@@ -6693,7 +7101,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 30,
-   "Happiness": 36.9
+   "Happiness": 36.9,
+   "Divorces": null,
+   "Homicide": 6.48
  },
  {
    "Country": "Thailand",
@@ -6729,7 +7139,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 35,
-   "Happiness": 58.4
+   "Happiness": 58.4,
+   "Divorces": 1.4,
+   "Homicide": 2.58
  },
  {
    "Country": "Timor Leste",
@@ -6765,7 +7177,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 4.1
  },
  {
    "Country": "Togo",
@@ -6801,7 +7215,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 27,
    "MaxPrivateTax": 0,
-   "Happiness": 41.4
+   "Happiness": 41.4,
+   "Divorces": 1.2,
+   "Homicide": null
  },
  {
    "Country": "Tokelau",
@@ -6837,7 +7253,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 0,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Tonga",
@@ -6873,7 +7291,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 0.97
  },
  {
    "Country": "Trinidad and Tobago",
@@ -6909,7 +7329,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 30,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": 2,
+   "Homicide": 30.65
  },
  {
    "Country": "Tunisia",
@@ -6945,7 +7367,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 35,
-   "Happiness": 45
+   "Happiness": 45,
+   "Divorces": null,
+   "Homicide": 3.06
  },
  {
    "Country": "Turkey",
@@ -6981,7 +7405,9 @@
    "Conscientiousness": 41.6,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 40,
-   "Happiness": 46.1
+   "Happiness": 46.1,
+   "Divorces": 1.6,
+   "Homicide": 2.59
  },
  {
    "Country": "Turkmenistan",
@@ -7017,7 +7443,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": 54.7
+   "Happiness": 54.7,
+   "Divorces": null,
+   "Homicide": 4.22
  },
  {
    "Country": "Turks And Caicos Islands",
@@ -7053,7 +7481,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 5.65
  },
  {
    "Country": "Tuvalu",
@@ -7089,7 +7519,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 0,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": 18.62
  },
  {
    "Country": "Uganda",
@@ -7125,7 +7557,9 @@
    "Conscientiousness": 47.7,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 0,
-   "Happiness": 44.3
+   "Happiness": 44.3,
+   "Divorces": null,
+   "Homicide": 10.52
  },
  {
    "Country": "Ukraine",
@@ -7161,7 +7595,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 18,
    "MaxPrivateTax": 44,
-   "Happiness": 50.7
+   "Happiness": 50.7,
+   "Divorces": 2.88,
+   "Homicide": 6.18
  },
  {
    "Country": "United Arab Emirates",
@@ -7197,7 +7633,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 9,
    "MaxPrivateTax": 0,
-   "Happiness": 65.7
+   "Happiness": 65.7,
+   "Divorces": 0.7,
+   "Homicide": 0.46
  },
  {
    "Country": "United Kingdom",
@@ -7233,7 +7671,9 @@
    "Conscientiousness": 52.9,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 63.25,
-   "Happiness": 68
+   "Happiness": 68,
+   "Divorces": 1.7,
+   "Homicide": 1.2
  },
  {
    "Country": "United States",
@@ -7269,7 +7709,9 @@
    "Conscientiousness": 48.6,
    "MaxCorporateTax": 21,
    "MaxPrivateTax": 51.6,
-   "Happiness": 68.9
+   "Happiness": 68.9,
+   "Divorces": 2.7,
+   "Homicide": 4.96
  },
  {
    "Country": "Uruguay",
@@ -7305,7 +7747,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 30,
-   "Happiness": 64.9
+   "Happiness": 64.9,
+   "Divorces": 0.9,
+   "Homicide": 12.06
  },
  {
    "Country": "Uzbekistan",
@@ -7341,7 +7785,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 0,
-   "Happiness": 60.1
+   "Happiness": 60.1,
+   "Divorces": 0.8,
+   "Homicide": 1.14
  },
  {
    "Country": "Vanuatu",
@@ -7377,7 +7823,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": null,
    "MaxPrivateTax": null,
-   "Happiness": null
+   "Happiness": null,
+   "Divorces": null,
+   "Homicide": null
  },
  {
    "Country": "Venezuela",
@@ -7413,7 +7861,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 34,
    "MaxPrivateTax": 34,
-   "Happiness": 52.1
+   "Happiness": 52.1,
+   "Divorces": 0.7,
+   "Homicide": 36.69
  },
  {
    "Country": "Vietnam",
@@ -7449,7 +7899,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 35,
-   "Happiness": 57.6
+   "Happiness": 57.6,
+   "Divorces": 0.2,
+   "Homicide": 1.53
  },
  {
    "Country": "Yemen",
@@ -7485,7 +7937,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 20,
    "MaxPrivateTax": 15,
-   "Happiness": 42
+   "Happiness": 42,
+   "Divorces": null,
+   "Homicide": 6.77
  },
  {
    "Country": "Zambia",
@@ -7521,7 +7975,9 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 30,
    "MaxPrivateTax": 30,
-   "Happiness": 39.8
+   "Happiness": 39.8,
+   "Divorces": null,
+   "Homicide": 5.37
  },
  {
    "Country": "Zimbabwe",
@@ -7557,6 +8013,8 @@
    "Conscientiousness": null,
    "MaxCorporateTax": 25,
    "MaxPrivateTax": 45,
-   "Happiness": 32
+   "Happiness": 32,
+   "Divorces": null,
+   "Homicide": 7.48
  }
 ]
