@@ -302,17 +302,24 @@ function showRadarChart() {
             },
             scales: {
                 r: {
-                    min: -0.5,
-                    max: 1,
-                    beginAtZero: true,
                     pointLabels: {
                         display: false,
                     },
+                    min: -0.3,
+                    max: 1,
                     ticks: {
-                        // backdropColor: "transparent",
-                        stepSize: 1,
-                        // count: 3,
-                        // z: 0,
+                        autoSkip: false,
+
+                        stepSize: 0.1,
+                        backdropColor: "transparent",
+                        callback: function (value) {
+                            if (value === 0.9) return "very strong";
+                            if (value === 0.7) return "strong";
+                            if (value === 0.4) return "moderate";
+                            if (value === 0.2) return "weak";
+                            if (value === 0) return "no"; // not displayed. See https://github.com/chartjs/Chart.js/issues/11503
+                        },
+                        // z: 2,
                     },
                     angleLines: {
                         display: false,
