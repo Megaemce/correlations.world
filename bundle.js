@@ -284,7 +284,7 @@ function showRadarChart() {
                     },
                     align: "center",
                     display: true,
-                    text: `Based on ${pairsNumber} pairs of values`,
+                    text: `Based on ${pairsNumber} value pairs`,
                 },
                 tooltip: {
                     enabled: true,
