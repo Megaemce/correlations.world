@@ -207,6 +207,7 @@ function collectAllCoefficient(mainKey, jsonData) {
     const totalResult = document.getElementById("totalResult");
     const totalAbbr = document.getElementById("totalAbbr");
 
+    pairsNumber = 0;
     radarData = [];
     radarLabels = [];
     radarCountries = [];
@@ -556,6 +557,9 @@ function showStatsChart() {
                                     result +=
                                         context.parsed.y +
                                         " per 100 000 people";
+                                    break;
+                                case "SexualPartners":
+                                    result += context.parsed.y + " per life";
                                     break;
                                 default:
                                     result += context.parsed.y;
