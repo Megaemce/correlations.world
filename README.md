@@ -1,5 +1,5 @@
 <span align="center">
-  <div><img src="https://github.com/Megaemce/correlations.world/blob/main/img/logo.png" width="50%"/>
+  <div><img src="https://github.com/Megaemce/correlations.world/blob/main/img/logo.png" width="30%"/>
 </div>
 
 </span>
