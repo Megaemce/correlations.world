@@ -1,4 +1,10 @@
-## correlations.🗺️ — Check the correlations between various world data
+<span align="center">
+  <div><img src="https://github.com/Megaemce/correlations.world/blob/main/img/logo.png" width="50%"/>
+</div>
+
+</span>
+
+## Check the correlations between various world data
 
 Have you ever wonder if there is a correlation between IQ and the size of the penis?<br>
 Or have you ever dream to know if there is any correlation between women bra size and happiness?<br>
