@@ -23,7 +23,7 @@ Intelligence (IQ) and physical attributes like penis size are unrelated
 and cannot be meaningfully compared or correlated.
 ```
 
-That's why I collect all the data [worlddata.info](https://www.worlddata.info/), [World Bank Group](https://data.worldbank.org/) and some [other data](https://www.science.org/doi/10.1126/science.1117199), and [other on taxes as well](https://en.wikipedia.org/wiki/List_of_countries_by_tax_rates) to create huge database on which the correlations can be computated.
+That's why I collect data from [worlddata.info](https://www.worlddata.info/), [World Bank Group](https://data.worldbank.org/), [some papers](https://www.science.org/doi/10.1126/science.1117199), and [taxes](https://en.wikipedia.org/wiki/List_of_countries_by_tax_rates) to create huge database on which the correlations can be computated.
 
 Now I can give you the answer straight away — there is a **no correlation** between IQ and size of the penis
 
