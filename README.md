@@ -6,8 +6,8 @@
 
 ## Check the correlations between various world data
 
-Have you ever wonder if there is a correlation between IQ and the size of the penis?<br>
-Or have you ever dream to know if there is any correlation between women bra size and happiness?<br>
+Have you ever wondered if there is a correlation between IQ and penis size?<br>
+Or have you ever dreamed of finding out if there is any correlation between bra size and a woman's happiness?<br>
 
 **You probably have not!**<br>
 But if you ever did (or you are curious now) then you probably notice that some of those question are very close <br>
