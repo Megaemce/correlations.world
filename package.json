@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./src/main.js --output-filename=bundle.js"
   },
   "author": "Megaemce",
   "license": "ISC",
@@ -13,5 +14,9 @@
     "chartjs-plugin-trendline": "^2.0.3",
     "jquery": "^3.7.0",
     "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
   }
 }
