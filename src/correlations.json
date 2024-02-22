@@ -36,7 +36,8 @@
    "Happiness": 18.6,
    "Divorces": null,
    "Homicide": 6.66,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 92
  },
  {
    "Country": "Albania",
@@ -75,7 +76,8 @@
    "Happiness": 52.8,
    "Divorces": 2.1,
    "Homicide": 2.29,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 15
  },
  {
    "Country": "Algeria",
@@ -114,7 +116,8 @@
    "Happiness": 53.3,
    "Divorces": 1.6,
    "Homicide": 1.36,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 73
  },
  {
    "Country": "American Samoa",
@@ -153,7 +156,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 5.38,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Andorra",
@@ -192,7 +196,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Angola",
@@ -231,7 +236,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 4.85,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Antigua and Barbuda",
@@ -270,7 +276,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 11.06,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Argentina",
@@ -309,7 +316,8 @@
    "Happiness": 60.2,
    "Divorces": null,
    "Homicide": 5.32,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 43
  },
  {
    "Country": "Armenia",
@@ -348,7 +356,8 @@
    "Happiness": 53.4,
    "Divorces": 1.1,
    "Homicide": 1.69,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 53
  },
  {
    "Country": "Aruba",
@@ -387,7 +396,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 1.93,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Australia",
@@ -426,7 +436,8 @@
    "Happiness": 70.9,
    "Divorces": 1.9,
    "Homicide": 0.89,
-   "SexualPartners": 13.3
+   "SexualPartners": 13.3,
+   "Religiosity": 18
  },
  {
    "Country": "Austria",
@@ -465,7 +476,8 @@
    "Happiness": 71,
    "Divorces": 1.7,
    "Homicide": 0.97,
-   "SexualPartners": 9.7
+   "SexualPartners": 9.7,
+   "Religiosity": 12
  },
  {
    "Country": "Azerbaijan",
@@ -504,7 +516,8 @@
    "Happiness": 51.7,
    "Divorces": 1.4,
    "Homicide": 2.2,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 38
  },
  {
    "Country": "Bahamas",
@@ -543,7 +556,8 @@
    "Happiness": null,
    "Divorces": 1,
    "Homicide": 31.96,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Bahrain",
@@ -582,7 +596,8 @@
    "Happiness": 61.7,
    "Divorces": null,
    "Homicide": 0.52,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Bangladesh",
@@ -621,7 +636,8 @@
    "Happiness": 42.8,
    "Divorces": null,
    "Homicide": 2.37,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 80
  },
  {
    "Country": "Barbados",
@@ -660,7 +676,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 9.77,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Belarus",
@@ -699,7 +716,8 @@
    "Happiness": 58.2,
    "Divorces": 3.7,
    "Homicide": 2.39,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 21
  },
  {
    "Country": "Belgium",
@@ -738,7 +756,8 @@
    "Happiness": 68.6,
    "Divorces": 3.7,
    "Homicide": 1.69,
-   "SexualPartners": 7.5
+   "SexualPartners": 7.5,
+   "Religiosity": 11
  },
  {
    "Country": "Belize",
@@ -777,7 +796,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 37.79,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Benin",
@@ -816,7 +836,8 @@
    "Happiness": 43.7,
    "Divorces": null,
    "Homicide": 1.13,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Bermuda",
@@ -855,7 +876,8 @@
    "Happiness": null,
    "Divorces": 1.9,
    "Homicide": 8.14,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Bhutan",
@@ -894,7 +916,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 1.19,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Bolivia",
@@ -933,7 +956,8 @@
    "Happiness": 56.8,
    "Divorces": null,
    "Homicide": 6.22,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 71
  },
  {
    "Country": "Bosnia and Herzegovina",
@@ -972,7 +996,8 @@
    "Happiness": 56.3,
    "Divorces": 0.8,
    "Homicide": 1.17,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 54
  },
  {
    "Country": "Botswana",
@@ -1011,7 +1036,8 @@
    "Happiness": 34.4,
    "Divorces": null,
    "Homicide": 15.25,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 71
  },
  {
    "Country": "Brazil",
@@ -1050,7 +1076,8 @@
    "Happiness": 61.3,
    "Divorces": 1.4,
    "Homicide": 27.38,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 72
  },
  {
    "Country": "British Virgin Islands",
@@ -1089,7 +1116,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 8.33,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Brunei",
@@ -1128,7 +1156,8 @@
    "Happiness": null,
    "Divorces": 1.4,
    "Homicide": 0.49,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Bulgaria",
@@ -1167,7 +1196,8 @@
    "Happiness": 54.7,
    "Divorces": 1.3,
    "Homicide": 1.3,
-   "SexualPartners": 9.1
+   "SexualPartners": 9.1,
+   "Religiosity": 19
  },
  {
    "Country": "Burkina Faso",
@@ -1206,7 +1236,8 @@
    "Happiness": 46.4,
    "Divorces": null,
    "Homicide": 1.25,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 93
  },
  {
    "Country": "Burundi",
@@ -1245,7 +1276,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 6.05,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Cambodia",
@@ -1284,7 +1316,8 @@
    "Happiness": 43.9,
    "Divorces": null,
    "Homicide": 1.84,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Cameroon",
@@ -1323,7 +1356,8 @@
    "Happiness": 49.7,
    "Divorces": null,
    "Homicide": 1.39,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 90
  },
  {
    "Country": "Canada",
@@ -1362,7 +1396,8 @@
    "Happiness": 69.6,
    "Divorces": 2.1,
    "Homicide": 1.76,
-   "SexualPartners": 10.7
+   "SexualPartners": 10.7,
+   "Religiosity": 27
  },
  {
    "Country": "Capo Verde",
@@ -1401,7 +1436,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Cayman Islands",
@@ -1440,7 +1476,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 8.22,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Central African Republic",
@@ -1479,7 +1516,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 20.12,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Chad",
@@ -1518,7 +1556,8 @@
    "Happiness": 44,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 86
  },
  {
    "Country": "Chile",
@@ -1557,7 +1596,8 @@
    "Happiness": 63.3,
    "Divorces": 0.7,
    "Homicide": 4.4,
-   "SexualPartners": 10.1
+   "SexualPartners": 10.1,
+   "Religiosity": 41
  },
  {
    "Country": "China",
@@ -1596,7 +1636,8 @@
    "Happiness": 58.2,
    "Divorces": 3.2,
    "Homicide": 0.53,
-   "SexualPartners": 3.1
+   "SexualPartners": 3.1,
+   "Religiosity": 3
  },
  {
    "Country": "Colombia",
@@ -1635,7 +1676,8 @@
    "Happiness": 56.3,
    "Divorces": 0.7,
    "Homicide": 25.34,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 77
  },
  {
    "Country": "Comoros",
@@ -1674,7 +1716,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Congo",
@@ -1713,7 +1756,8 @@
    "Happiness": 52.7,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Congo (Dem. Republic)",
@@ -1752,7 +1796,8 @@
    "Happiness": 32.1,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 88
  },
  {
    "Country": "Cook Islands",
@@ -1791,7 +1836,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 3.49,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Costa Rica",
@@ -1830,7 +1876,8 @@
    "Happiness": 66.1,
    "Divorces": 2.3,
    "Homicide": 11.26,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 76
  },
  {
    "Country": "Croatia",
@@ -1869,7 +1916,8 @@
    "Happiness": 61.3,
    "Divorces": 1.5,
    "Homicide": 0.58,
-   "SexualPartners": 7.5
+   "SexualPartners": 7.5,
+   "Religiosity": 42
  },
  {
    "Country": "Cuba",
@@ -1908,7 +1956,8 @@
    "Happiness": null,
    "Divorces": 2.9,
    "Homicide": 5.05,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Cyprus",
@@ -1947,7 +1996,8 @@
    "Happiness": 61.3,
    "Divorces": 2.6,
    "Homicide": 1.26,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Czech Republic",
@@ -1986,7 +2036,8 @@
    "Happiness": 68.4,
    "Divorces": 2,
    "Homicide": 1.01,
-   "SexualPartners": 9
+   "SexualPartners": 9,
+   "Religiosity": 7
  },
  {
    "Country": "Denmark",
@@ -2025,7 +2076,8 @@
    "Happiness": 75.9,
    "Divorces": 2.7,
    "Homicide": null,
-   "SexualPartners": 9.3
+   "SexualPartners": 9.3,
+   "Religiosity": 9
  },
  {
    "Country": "Dijbouti",
@@ -2064,7 +2116,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 89
  },
  {
    "Country": "Dominica",
@@ -2103,7 +2156,8 @@
    "Happiness": null,
    "Divorces": 1,
    "Homicide": 26.59,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Dominican Republic",
@@ -2142,7 +2196,8 @@
    "Happiness": 55.7,
    "Divorces": 1.2,
    "Homicide": 10.05,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 78
  },
  {
    "Country": "East Timor",
@@ -2181,7 +2236,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Ecuador",
@@ -2220,7 +2276,8 @@
    "Happiness": 55.6,
    "Divorces": 1.1,
    "Homicide": 5.8,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 76
  },
  {
    "Country": "Egypt",
@@ -2259,7 +2316,8 @@
    "Happiness": 41.7,
    "Divorces": 2.3,
    "Homicide": 2.55,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 72
  },
  {
    "Country": "El Salvador",
@@ -2298,7 +2356,8 @@
    "Happiness": 61.2,
    "Divorces": 0.8,
    "Homicide": 52.02,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 85
  },
  {
    "Country": "Equatorial Guine",
@@ -2337,7 +2396,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Eritrea",
@@ -2376,7 +2436,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Estonia",
@@ -2415,7 +2476,8 @@
    "Happiness": 64.6,
    "Divorces": 1.9,
    "Homicide": 2.12,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 6
  },
  {
    "Country": "Eswatini",
@@ -2454,7 +2516,8 @@
    "Happiness": 44,
    "Divorces": null,
    "Homicide": 11.56,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Ethiopia",
@@ -2493,7 +2556,8 @@
    "Happiness": 40.9,
    "Divorces": null,
    "Homicide": 8.79,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 98
  },
  {
    "Country": "Fiji",
@@ -2532,7 +2596,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 2.31,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Finland",
@@ -2571,7 +2636,8 @@
    "Happiness": 78,
    "Divorces": 2.4,
    "Homicide": 1.63,
-   "SexualPartners": 12.4
+   "SexualPartners": 12.4,
+   "Religiosity": 10
  },
  {
    "Country": "France",
@@ -2610,7 +2676,8 @@
    "Happiness": 66.6,
    "Divorces": 1.9,
    "Homicide": 1.2,
-   "SexualPartners": 8.1
+   "SexualPartners": 8.1,
+   "Religiosity": 11
  },
  {
    "Country": "French Polynesia",
@@ -2649,7 +2716,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 0.38,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Gabon",
@@ -2688,7 +2756,8 @@
    "Happiness": 50.4,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Gambia",
@@ -2727,7 +2796,8 @@
    "Happiness": 42.8,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Georgia",
@@ -2766,7 +2836,8 @@
    "Happiness": 51.1,
    "Divorces": 2.1,
    "Homicide": 2.22,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 51
  },
  {
    "Country": "Germany",
@@ -2805,7 +2876,8 @@
    "Happiness": 68.9,
    "Divorces": 1.7,
    "Homicide": 0.95,
-   "SexualPartners": 5.8
+   "SexualPartners": 5.8,
+   "Religiosity": 10
  },
  {
    "Country": "Ghana",
@@ -2844,7 +2916,8 @@
    "Happiness": 46.1,
    "Divorces": null,
    "Homicide": 2.09,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 89
  },
  {
    "Country": "Greece",
@@ -2883,7 +2956,8 @@
    "Happiness": 59.3,
    "Divorces": 1.8,
    "Homicide": 0.94,
-   "SexualPartners": 10.6
+   "SexualPartners": 10.6,
+   "Religiosity": 56
  },
  {
    "Country": "Greenland",
@@ -2922,7 +2996,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 5.32,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Grenada",
@@ -2961,7 +3036,8 @@
    "Happiness": null,
    "Divorces": 1.1,
    "Homicide": 10.82,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Guatemala",
@@ -3000,7 +3076,8 @@
    "Happiness": 61.5,
    "Divorces": 0.2,
    "Homicide": 22.5,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 89
  },
  {
    "Country": "Guinea",
@@ -3039,7 +3116,8 @@
    "Happiness": 50.7,
    "Divorces": null,
    "Homicide": 1.15,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 91
  },
  {
    "Country": "Guyana",
@@ -3078,7 +3156,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 14.25,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Haiti",
@@ -3117,7 +3196,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 6.68,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Honduras",
@@ -3156,7 +3236,8 @@
    "Happiness": 60.2,
    "Divorces": null,
    "Homicide": 38.93,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 90
  },
  {
    "Country": "Hong Kong",
@@ -3195,7 +3276,8 @@
    "Happiness": 53.1,
    "Divorces": null,
    "Homicide": 0.65,
-   "SexualPartners": 3.7
+   "SexualPartners": 3.7,
+   "Religiosity": null
  },
  {
    "Country": "Hungary",
@@ -3234,7 +3316,8 @@
    "Happiness": 60.4,
    "Divorces": 1.5,
    "Homicide": 2.49,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 14
  },
  {
    "Country": "Iceland",
@@ -3273,7 +3356,8 @@
    "Happiness": 75.3,
    "Divorces": 1.8,
    "Homicide": 0.89,
-   "SexualPartners": 13
+   "SexualPartners": 13,
+   "Religiosity": null
  },
  {
    "Country": "India",
@@ -3312,7 +3396,8 @@
    "Happiness": 40.4,
    "Divorces": null,
    "Homicide": 3.08,
-   "SexualPartners": 3
+   "SexualPartners": 3,
+   "Religiosity": 80
  },
  {
    "Country": "Indonesia",
@@ -3351,7 +3436,8 @@
    "Happiness": 52.8,
    "Divorces": null,
    "Homicide": 0.43,
-   "SexualPartners": 5.1
+   "SexualPartners": 5.1,
+   "Religiosity": 93
  },
  {
    "Country": "Iran",
@@ -3390,7 +3476,8 @@
    "Happiness": 48.8,
    "Divorces": 2.1,
    "Homicide": 2.5,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 78
  },
  {
    "Country": "Iraq",
@@ -3429,7 +3516,8 @@
    "Happiness": 49.4,
    "Divorces": null,
    "Homicide": 10.07,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 82
  },
  {
    "Country": "Ireland",
@@ -3468,7 +3556,8 @@
    "Happiness": 69.1,
    "Divorces": 0.7,
    "Homicide": 0.87,
-   "SexualPartners": 11.1
+   "SexualPartners": 11.1,
+   "Religiosity": 22
  },
  {
    "Country": "Israel",
@@ -3507,7 +3596,8 @@
    "Happiness": 74.7,
    "Divorces": 1.8,
    "Homicide": 1.49,
-   "SexualPartners": 10.6
+   "SexualPartners": 10.6,
+   "Religiosity": 36
  },
  {
    "Country": "Italy",
@@ -3546,7 +3636,8 @@
    "Happiness": 64.1,
    "Divorces": 1.4,
    "Homicide": 0.57,
-   "SexualPartners": 11.8
+   "SexualPartners": 11.8,
+   "Religiosity": 21
  },
  {
    "Country": "Ivory Coast",
@@ -3585,7 +3676,8 @@
    "Happiness": 50.5,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Jamaica",
@@ -3624,7 +3716,8 @@
    "Happiness": 57,
    "Divorces": 1.2,
    "Homicide": 43.85,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Japan",
@@ -3663,7 +3756,8 @@
    "Happiness": 61.3,
    "Divorces": 1.7,
    "Homicide": 0.26,
-   "SexualPartners": 10.2
+   "SexualPartners": 10.2,
+   "Religiosity": 10
  },
  {
    "Country": "Jordan",
@@ -3702,7 +3796,8 @@
    "Happiness": 41.2,
    "Divorces": 1.6,
    "Homicide": 1.36,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 85
  },
  {
    "Country": "Kazakhstan",
@@ -3741,7 +3836,8 @@
    "Happiness": 61.4,
    "Divorces": 4.6,
    "Homicide": 5.06,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 22
  },
  {
    "Country": "Kenya",
@@ -3780,7 +3876,8 @@
    "Happiness": 44.9,
    "Divorces": null,
    "Homicide": 4.93,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 87
  },
  {
    "Country": "Kiribati",
@@ -3819,7 +3916,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 7.52,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Kuwait",
@@ -3858,7 +3956,8 @@
    "Happiness": 61.1,
    "Divorces": 1.3,
    "Homicide": 1.82,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Kyrgyzstan",
@@ -3897,7 +3996,8 @@
    "Happiness": 58.3,
    "Divorces": 1.4,
    "Homicide": 2.19,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 47
  },
  {
    "Country": "Laos",
@@ -3936,7 +4036,8 @@
    "Happiness": 51.1,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Latvia",
@@ -3975,7 +4076,8 @@
    "Happiness": 62.1,
    "Divorces": 2.7,
    "Homicide": 4.36,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 11
  },
  {
    "Country": "Lebanon",
@@ -4014,7 +4116,8 @@
    "Happiness": 23.9,
    "Divorces": 1.6,
    "Homicide": 2.49,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 57
  },
  {
    "Country": "Lesotho",
@@ -4053,7 +4156,8 @@
    "Happiness": 35.1,
    "Divorces": null,
    "Homicide": 43.56,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Liberia",
@@ -4092,7 +4196,8 @@
    "Happiness": 40.4,
    "Divorces": null,
    "Homicide": 3.26,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 90
  },
  {
    "Country": "Libya",
@@ -4131,7 +4236,8 @@
    "Happiness": 53.3,
    "Divorces": 2.5,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Liechtenstein",
@@ -4170,7 +4276,8 @@
    "Happiness": null,
    "Divorces": 2.6,
    "Homicide": 2.64,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Lithuania",
@@ -4209,7 +4316,8 @@
    "Happiness": 67.6,
    "Divorces": 2.7,
    "Homicide": 4.57,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 16
  },
  {
    "Country": "Luxembourg",
@@ -4248,7 +4356,8 @@
    "Happiness": 72.3,
    "Divorces": 2.3,
    "Homicide": 0.34,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Macao",
@@ -4287,7 +4396,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Madagascar",
@@ -4326,7 +4436,8 @@
    "Happiness": 40.2,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Malawi",
@@ -4365,7 +4476,8 @@
    "Happiness": 35,
    "Divorces": null,
    "Homicide": 1.81,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Malaysia",
@@ -4404,7 +4516,8 @@
    "Happiness": 60.1,
    "Divorces": 1.8,
    "Homicide": 2.13,
-   "SexualPartners": 5.8
+   "SexualPartners": 5.8,
+   "Religiosity": 77
  },
  {
    "Country": "Maldives",
@@ -4443,7 +4556,8 @@
    "Happiness": null,
    "Divorces": 5.52,
    "Homicide": 0.72,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Mali",
@@ -4482,7 +4596,8 @@
    "Happiness": 42,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 94
  },
  {
    "Country": "Malta",
@@ -4521,7 +4636,8 @@
    "Happiness": 63,
    "Divorces": 0.7,
    "Homicide": 1.59,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Marshall Islands",
@@ -4560,7 +4676,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 3.98,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Mauritania",
@@ -4599,7 +4716,8 @@
    "Happiness": 47.2,
    "Divorces": null,
    "Homicide": 2.77,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Mauritius",
@@ -4638,7 +4756,8 @@
    "Happiness": 59,
    "Divorces": 1.6,
    "Homicide": 2.92,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Mexico",
@@ -4677,7 +4796,8 @@
    "Happiness": 63.3,
    "Divorces": 1.3,
    "Homicide": 29.07,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 45
  },
  {
    "Country": "Micronesia",
@@ -4716,7 +4836,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Moldova",
@@ -4755,7 +4876,8 @@
    "Happiness": 58.2,
    "Divorces": 3.3,
    "Homicide": 4.1,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 42
  },
  {
    "Country": "Monaco",
@@ -4794,7 +4916,8 @@
    "Happiness": null,
    "Divorces": 1.7,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Mongolia",
@@ -4833,7 +4956,8 @@
    "Happiness": 58.4,
    "Divorces": 1,
    "Homicide": 6.18,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Montenegro",
@@ -4872,7 +4996,8 @@
    "Happiness": 57.2,
    "Divorces": 1.3,
    "Homicide": 2.23,
-   "SexualPartners": 10.1
+   "SexualPartners": 10.1,
+   "Religiosity": null
  },
  {
    "Country": "Morocco",
@@ -4911,7 +5036,8 @@
    "Happiness": 49,
    "Divorces": null,
    "Homicide": 1.42,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 91
  },
  {
    "Country": "Mozambique",
@@ -4950,7 +5076,8 @@
    "Happiness": 49.5,
    "Divorces": null,
    "Homicide": 3.51,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 87
  },
  {
    "Country": "Myanmar",
@@ -4989,7 +5116,8 @@
    "Happiness": 43.7,
    "Divorces": null,
    "Homicide": 2.26,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Namibia",
@@ -5028,7 +5156,8 @@
    "Happiness": 46.3,
    "Divorces": null,
    "Homicide": 17.68,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Nauru",
@@ -5067,7 +5196,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Nepal",
@@ -5106,7 +5236,8 @@
    "Happiness": 53.6,
    "Divorces": null,
    "Homicide": 2.3,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Netherlands",
@@ -5145,7 +5276,8 @@
    "Happiness": 74,
    "Divorces": 1.7,
    "Homicide": 0.59,
-   "SexualPartners": 7
+   "SexualPartners": 7,
+   "Religiosity": 20
  },
  {
    "Country": "New Caledonia",
@@ -5184,7 +5316,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 3.2,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "New Zealand",
@@ -5223,7 +5356,8 @@
    "Happiness": 71.2,
    "Divorces": 1.7,
    "Homicide": 0.74,
-   "SexualPartners": 13.2
+   "SexualPartners": 13.2,
+   "Religiosity": null
  },
  {
    "Country": "Nicaragua",
@@ -5262,7 +5396,8 @@
    "Happiness": 62.6,
    "Divorces": 0.8,
    "Homicide": 7.19,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 88
  },
  {
    "Country": "Niger",
@@ -5301,7 +5436,8 @@
    "Happiness": 45,
    "Divorces": null,
    "Homicide": 4.43,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 86
  },
  {
    "Country": "Nigeria",
@@ -5340,7 +5476,8 @@
    "Happiness": 49.8,
    "Divorces": null,
    "Homicide": 34.52,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 88
  },
  {
    "Country": "Niue",
@@ -5379,7 +5516,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Nort Macedonia",
@@ -5418,7 +5556,8 @@
    "Happiness": 52.5,
    "Divorces": 0.8,
    "Homicide": 1.2,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "North Korea",
@@ -5457,7 +5596,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Northern Mariana Islands",
@@ -5496,7 +5636,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Norway",
@@ -5535,7 +5676,8 @@
    "Happiness": 73.2,
    "Divorces": 1.9,
    "Homicide": 0.47,
-   "SexualPartners": 12.1
+   "SexualPartners": 12.1,
+   "Religiosity": 19
  },
  {
    "Country": "Oman",
@@ -5574,7 +5716,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 0.27,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Pakistan",
@@ -5613,7 +5756,8 @@
    "Happiness": 45.5,
    "Divorces": null,
    "Homicide": 3.88,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 94
  },
  {
    "Country": "Palau",
@@ -5652,7 +5796,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 11.17,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Palestine",
@@ -5691,7 +5836,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 0.49,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 86
  },
  {
    "Country": "Panama",
@@ -5730,7 +5876,8 @@
    "Happiness": 62.6,
    "Divorces": 0.7,
    "Homicide": 9.39,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 61
  },
  {
    "Country": "Papua New Guinea",
@@ -5769,7 +5916,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 9.75,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Paraguay",
@@ -5808,7 +5956,8 @@
    "Happiness": 57.4,
    "Divorces": null,
    "Homicide": 7.14,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 56
  },
  {
    "Country": "Peru",
@@ -5847,7 +5996,8 @@
    "Happiness": 55.3,
    "Divorces": 0.5,
    "Homicide": 7.91,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 73
  },
  {
    "Country": "Philippines",
@@ -5886,7 +6036,8 @@
    "Happiness": 55.2,
    "Divorces": null,
    "Homicide": 6.46,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 91
  },
  {
    "Country": "Poland",
@@ -5925,7 +6076,8 @@
    "Happiness": 62.6,
    "Divorces": 1.7,
    "Homicide": 0.73,
-   "SexualPartners": 6
+   "SexualPartners": 6,
+   "Religiosity": 30
  },
  {
    "Country": "Portugal",
@@ -5964,7 +6116,8 @@
    "Happiness": 59.7,
    "Divorces": 2,
    "Homicide": 0.79,
-   "SexualPartners": 7
+   "SexualPartners": 7,
+   "Religiosity": 36
  },
  {
    "Country": "Puerto Rico",
@@ -6003,7 +6156,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 21.09,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 77
  },
  {
    "Country": "Qatar",
@@ -6042,7 +6196,8 @@
    "Happiness": null,
    "Divorces": 0.7,
    "Homicide": 0.37,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Romania",
@@ -6081,7 +6236,8 @@
    "Happiness": 65.9,
    "Divorces": 1.6,
    "Homicide": 1.28,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 50
  },
  {
    "Country": "Russia",
@@ -6120,7 +6276,8 @@
    "Happiness": 56.6,
    "Divorces": 3.9,
    "Homicide": 8.21,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 16
  },
  {
    "Country": "Rwanda",
@@ -6159,7 +6316,8 @@
    "Happiness": 32.7,
    "Divorces": null,
    "Homicide": 2.58,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 90
  },
  {
    "Country": "Saint Kitts And Nevis",
@@ -6198,7 +6356,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 36.09,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Saint Lucia",
@@ -6237,7 +6396,8 @@
    "Happiness": null,
    "Divorces": 0.7,
    "Homicide": 21.44,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Saint Vincent And The Grenadines",
@@ -6276,7 +6436,8 @@
    "Happiness": null,
    "Divorces": 0.4,
    "Homicide": 36.54,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Samoa",
@@ -6315,7 +6476,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 3.15,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Sao Tome And Principe",
@@ -6354,7 +6516,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 3.25,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "San Marino",
@@ -6393,7 +6556,8 @@
    "Happiness": null,
    "Divorces": 2.6,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Saudi Arabia",
@@ -6432,7 +6596,8 @@
    "Happiness": 64.6,
    "Divorces": 2.1,
    "Homicide": 1.27,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Senegal",
@@ -6471,7 +6636,8 @@
    "Happiness": 48.6,
    "Divorces": null,
    "Homicide": 0.27,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 98
  },
  {
    "Country": "Serbia",
@@ -6510,7 +6676,8 @@
    "Happiness": 61.4,
    "Divorces": 1.3,
    "Homicide": 1.23,
-   "SexualPartners": 10.1
+   "SexualPartners": 10.1,
+   "Religiosity": 34
  },
  {
    "Country": "Seychelles",
@@ -6549,7 +6716,8 @@
    "Happiness": null,
    "Divorces": 1.7,
    "Homicide": 12.54,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Sierra Leone",
@@ -6588,7 +6756,8 @@
    "Happiness": 31.4,
    "Divorces": null,
    "Homicide": 1.73,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Singapore",
@@ -6627,7 +6796,8 @@
    "Happiness": 65.9,
    "Divorces": 1.7,
    "Homicide": 0.16,
-   "SexualPartners": 7.2
+   "SexualPartners": 7.2,
+   "Religiosity": null
  },
  {
    "Country": "Slovakia",
@@ -6666,7 +6836,8 @@
    "Happiness": 64.7,
    "Divorces": 1.7,
    "Homicide": 1.14,
-   "SexualPartners": 5.4
+   "SexualPartners": 5.4,
+   "Religiosity": 23
  },
  {
    "Country": "Slovenia",
@@ -6705,7 +6876,8 @@
    "Happiness": 66.5,
    "Divorces": 0.8,
    "Homicide": 0.48,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Solomon Islands",
@@ -6744,7 +6916,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 3.77,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Somalia",
@@ -6783,7 +6956,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "South Africa",
@@ -6822,7 +6996,8 @@
    "Happiness": 52.8,
    "Divorces": 0.6,
    "Homicide": 36.4,
-   "SexualPartners": 12.5
+   "SexualPartners": 12.5,
+   "Religiosity": 75
  },
  {
    "Country": "South Korea",
@@ -6861,7 +7036,8 @@
    "Happiness": 59.5,
    "Divorces": 2.1,
    "Homicide": 0.6,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 16
  },
  {
    "Country": "South Sudan",
@@ -6900,7 +7076,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 14.87,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Spain",
@@ -6939,7 +7116,8 @@
    "Happiness": 64.4,
    "Divorces": 1.9,
    "Homicide": 0.62,
-   "SexualPartners": 6.1
+   "SexualPartners": 6.1,
+   "Religiosity": 22
  },
  {
    "Country": "Sri Lanka",
@@ -6978,7 +7156,8 @@
    "Happiness": 44.4,
    "Divorces": 0.15,
    "Homicide": 2.42,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Sudan",
@@ -7017,7 +7196,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 5.15,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Suriname",
@@ -7056,7 +7236,8 @@
    "Happiness": null,
    "Divorces": 1.4,
    "Homicide": 5.43,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Sweden",
@@ -7095,7 +7276,8 @@
    "Happiness": 73.9,
    "Divorces": 2.5,
    "Homicide": 1.08,
-   "SexualPartners": 11.8
+   "SexualPartners": 11.8,
+   "Religiosity": 10
  },
  {
    "Country": "Switzerland",
@@ -7134,7 +7316,8 @@
    "Happiness": 72.4,
    "Divorces": 2,
    "Homicide": 0.59,
-   "SexualPartners": 11.1
+   "SexualPartners": 11.1,
+   "Religiosity": 9
  },
  {
    "Country": "Syria",
@@ -7173,7 +7356,8 @@
    "Happiness": 65.4,
    "Divorces": 1.3,
    "Homicide": 0.88,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Taiwan",
@@ -7212,7 +7396,8 @@
    "Happiness": null,
    "Divorces": 2.3,
    "Homicide": 0.82,
-   "SexualPartners": 6.6
+   "SexualPartners": 6.6,
+   "Religiosity": null
  },
  {
    "Country": "Tajikistan",
@@ -7251,7 +7436,8 @@
    "Happiness": 53.3,
    "Divorces": 1.4,
    "Homicide": 1.64,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 50
  },
  {
    "Country": "Tanzania",
@@ -7290,7 +7476,8 @@
    "Happiness": 36.9,
    "Divorces": null,
    "Homicide": 6.48,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 93
  },
  {
    "Country": "Thailand",
@@ -7329,7 +7516,8 @@
    "Happiness": 58.4,
    "Divorces": 1.4,
    "Homicide": 2.58,
-   "SexualPartners": 10.6
+   "SexualPartners": 10.6,
+   "Religiosity": null
  },
  {
    "Country": "Timor Leste",
@@ -7368,7 +7556,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 4.1,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Togo",
@@ -7407,7 +7596,8 @@
    "Happiness": 41.4,
    "Divorces": 1.2,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Tokelau",
@@ -7446,7 +7636,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Tonga",
@@ -7485,7 +7676,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 0.97,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Trinidad and Tobago",
@@ -7524,7 +7716,8 @@
    "Happiness": null,
    "Divorces": 2,
    "Homicide": 30.65,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Tunisia",
@@ -7563,7 +7756,8 @@
    "Happiness": 45,
    "Divorces": null,
    "Homicide": 3.06,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 78
  },
  {
    "Country": "Turkey",
@@ -7602,7 +7796,8 @@
    "Happiness": 46.1,
    "Divorces": 1.6,
    "Homicide": 2.59,
-   "SexualPartners": 14.5
+   "SexualPartners": 14.5,
+   "Religiosity": 68
  },
  {
    "Country": "Turkmenistan",
@@ -7641,7 +7836,8 @@
    "Happiness": 54.7,
    "Divorces": null,
    "Homicide": 4.22,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Turks And Caicos Islands",
@@ -7680,7 +7876,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 5.65,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Tuvalu",
@@ -7719,7 +7916,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": 18.62,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Uganda",
@@ -7758,7 +7956,8 @@
    "Happiness": 44.3,
    "Divorces": null,
    "Homicide": 10.52,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 86
  },
  {
    "Country": "Ukraine",
@@ -7797,7 +7996,8 @@
    "Happiness": 50.7,
    "Divorces": 2.88,
    "Homicide": 6.18,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 23
  },
  {
    "Country": "United Arab Emirates",
@@ -7836,7 +8036,8 @@
    "Happiness": 65.7,
    "Divorces": 0.7,
    "Homicide": 0.46,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "United Kingdom",
@@ -7875,7 +8076,8 @@
    "Happiness": 68,
    "Divorces": 1.7,
    "Homicide": 1.2,
-   "SexualPartners": 9.8
+   "SexualPartners": 9.8,
+   "Religiosity": 10
  },
  {
    "Country": "United States",
@@ -7914,7 +8116,8 @@
    "Happiness": 68.9,
    "Divorces": 2.7,
    "Homicide": 4.96,
-   "SexualPartners": 10.7
+   "SexualPartners": 10.7,
+   "Religiosity": 53
  },
  {
    "Country": "Uruguay",
@@ -7953,7 +8156,8 @@
    "Happiness": 64.9,
    "Divorces": 0.9,
    "Homicide": 12.06,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 29
  },
  {
    "Country": "Uzbekistan",
@@ -7992,7 +8196,8 @@
    "Happiness": 60.1,
    "Divorces": 0.8,
    "Homicide": 1.14,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 29
  },
  {
    "Country": "Vanuatu",
@@ -8031,7 +8236,8 @@
    "Happiness": null,
    "Divorces": null,
    "Homicide": null,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Venezuela",
@@ -8070,7 +8276,8 @@
    "Happiness": 52.1,
    "Divorces": 0.7,
    "Homicide": 36.69,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 67
  },
  {
    "Country": "Vietnam",
@@ -8109,7 +8316,8 @@
    "Happiness": 57.6,
    "Divorces": 0.2,
    "Homicide": 1.53,
-   "SexualPartners": 3.2
+   "SexualPartners": 3.2,
+   "Religiosity": 18
  },
  {
    "Country": "Yemen",
@@ -8148,7 +8356,8 @@
    "Happiness": 42,
    "Divorces": null,
    "Homicide": 6.77,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  },
  {
    "Country": "Zambia",
@@ -8187,7 +8396,8 @@
    "Happiness": 39.8,
    "Divorces": null,
    "Homicide": 5.37,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": 91
  },
  {
    "Country": "Zimbabwe",
@@ -8226,6 +8436,7 @@
    "Happiness": 32,
    "Divorces": null,
    "Homicide": 7.48,
-   "SexualPartners": null
+   "SexualPartners": null,
+   "Religiosity": null
  }
 ]
