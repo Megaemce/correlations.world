@@ -700,6 +700,36 @@ function updateScatterChart() {
     let labelXWorldAvg = worldData[worldLabels.indexOf(scatterLabels[1])];
     let labelYWorldAvg = worldData[worldLabels.indexOf(scatterLabels[0])];
 
+    if (scatterLabels[1] === "Population") {
+        labelXWorldAvg = labelXWorldAvg * 1000000;
+    }
+
+    if (scatterLabels[0] === "Population") {
+        labelYWorldAvg = labelYWorldAvg * 1000000;
+    }
+
+    if (scatterLabels[1] === "Income") {
+        labelXWorldAvg = labelXWorldAvg * 1000;
+    }
+
+    if (scatterLabels[0] === "Income") {
+        labelYWorldAvg = labelYWorldAvg * 1000;
+    }
+
+    if (
+        scatterLabels[1] === "MaleHeight" ||
+        scatterLabels[1] === "FemaleHeight"
+    ) {
+        labelXWorldAvg /= 100;
+    }
+
+    if (
+        scatterLabels[0] === "MaleHeight" ||
+        scatterLabels[0] === "FemaleHeight"
+    ) {
+        labelYWorldAvg /= 100;
+    }
+
     scatterChart.options.plugins.annotation.annotations.line1.yMin =
         labelYWorldAvg;
     scatterChart.options.plugins.annotation.annotations.line1.yMax =
