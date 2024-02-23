@@ -6,7 +6,7 @@
  */
 
 /*!
- * Chart.js v4.4.0
+ * Chart.js v4.4.1
  * https://www.chartjs.org
  * (c) 2023 Chart.js Contributors
  * Released under the MIT License
@@ -21,4 +21,11 @@
  * https://github.com/Makanz/chartjs-plugin-trendline/blob/master/README.md
  *
  * Mod by: vesal: accept also xy-data so works with scatter
+ */
+
+/*!
+* chartjs-plugin-annotation v3.0.1
+* https://www.chartjs.org/chartjs-plugin-annotation/index
+ * (c) 2023 chartjs-plugin-annotation Contributors
+ * Released under the MIT License
  */

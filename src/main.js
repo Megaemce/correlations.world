@@ -1,6 +1,9 @@
 // Import the required library
-require("chart.js");
-const chartTrendline = require("chartjs-plugin-trendline");
+import Chart from "chart.js/auto";
+import chartTrendline from "chartjs-plugin-trendline";
+import annotationPlugin from "chartjs-plugin-annotation";
+
+Chart.register(annotationPlugin, chartTrendline);
 
 // DOM elements
 const switch1 = document.getElementById("switch1");
@@ -30,6 +33,10 @@ let countryData = [];
 let countryLabels = [];
 let worldData = [];
 let worldLabels = [];
+let currentXMin = 0; // keeping track of min and max values as the world average line is beyond current data limits
+let currentXMax = 0;
+let currentYMin = 0;
+let currentYMax = 0;
 
 // add all countries as an options to country select
 function addCountriesToSelect() {
@@ -182,8 +189,33 @@ function correlationCoefficient(key1, key2, jsonData) {
     for (let index = 0; index < x.length; index++) {
         // first key to be on the y and the second on the x scale
         const location = { x: y[index], y: x[index] };
+
         scatterData.push(location);
     }
+
+    currentXMin = scatterData.reduce(
+        (min, current) => (current.x < min ? current.x : min),
+        Infinity
+    );
+    currentXMax = scatterData.reduce(
+        (max, current) => (current.x > max ? current.x : max),
+        -Infinity
+    );
+
+    currentYMin = scatterData.reduce(
+        (min, current) => (current.y < min ? current.y : min),
+        Infinity
+    );
+
+    currentYMax = scatterData.reduce(
+        (max, current) => (current.y > max ? current.y : max),
+        -Infinity
+    );
+
+    console.log("current x min", currentXMin);
+    console.log("current x max", currentXMax);
+    console.log("current y min", currentYMin);
+    console.log("current y max", currentYMax);
 
     // the main calculation
     let numerator = 0;
@@ -360,6 +392,63 @@ function showScatterChart() {
         options: {
             maintainAspectRatio: false,
             plugins: {
+                annotation: {
+                    annotations: {
+                        line1: {
+                            id: "World average horizontal line",
+                            type: "line",
+                            yMin: 0, // will be updated in updateScatterChart()
+                            yMax: 0,
+                            xMin: currentXMin,
+                            xMax: currentXMax,
+                            borderColor: "rgba(0,0,0,0.2)",
+                            borderDash: [1, 7],
+                            borderDashOffset: 0,
+                            borderWidth: 1,
+                            z: -5,
+                            label: {
+                                yAdjust: -6,
+                                color: "rgba(0,0,0,0.5)",
+                                backgroundColor: "transparent",
+                                display: true,
+                                content: "", // will be updated in updateScatterChart()
+                                position: "start",
+                                font: {
+                                    family: "'Roboto', 'sans-serif'",
+                                    weight: "normal",
+                                    size: 10,
+                                },
+                            },
+                        },
+                        line2: {
+                            id: "World average vertical line",
+                            type: "line",
+                            xMin: 0,
+                            xMax: 0,
+                            yMin: currentYMin,
+                            yMax: currentYMax,
+                            borderColor: "rgba(0,0,0,0.2)",
+                            borderDash: [1, 7],
+                            borderDashOffset: 0,
+                            borderWidth: 1,
+                            z: -5,
+                            label: {
+                                xAdjust: 6,
+                                rotation: 90,
+                                color: "rgba(0,0,0,0.5)",
+                                backgroundColor: "transparent",
+                                display: true,
+                                content: "",
+                                position: "start",
+                                font: {
+                                    family: "'Roboto', 'sans-serif'",
+                                    weight: "normal",
+                                    size: 10,
+                                },
+                            },
+                        },
+                    },
+                },
                 tooltip: {
                     enabled: true,
                 },
@@ -607,6 +696,31 @@ function updateScatterChart() {
     scatterChart.options.scales.x.title.text = scatterLabels[1];
     scatterChart.options.scales.y.title.text = scatterLabels[0];
     scatterChart.options.plugins.title.text = `Based on data from ${scatterCountries} countries`;
+
+    let labelXWorldAvg = worldData[worldLabels.indexOf(scatterLabels[1])];
+    let labelYWorldAvg = worldData[worldLabels.indexOf(scatterLabels[0])];
+
+    scatterChart.options.plugins.annotation.annotations.line1.yMin =
+        labelYWorldAvg;
+    scatterChart.options.plugins.annotation.annotations.line1.yMax =
+        labelYWorldAvg;
+    scatterChart.options.plugins.annotation.annotations.line1.xMin =
+        currentXMin;
+    scatterChart.options.plugins.annotation.annotations.line1.xMax =
+        currentXMax;
+    scatterChart.options.plugins.annotation.annotations.line1.label.content =
+        "🌐 " + labelYWorldAvg;
+
+    scatterChart.options.plugins.annotation.annotations.line2.yMin =
+        currentYMin;
+    scatterChart.options.plugins.annotation.annotations.line2.yMax =
+        currentYMax;
+    scatterChart.options.plugins.annotation.annotations.line2.xMin =
+        labelXWorldAvg;
+    scatterChart.options.plugins.annotation.annotations.line2.xMax =
+        labelXWorldAvg;
+    scatterChart.options.plugins.annotation.annotations.line2.label.content =
+        "🌐 " + labelXWorldAvg;
 
     scatterChart.update();
 }
