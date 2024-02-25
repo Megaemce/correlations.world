@@ -212,11 +212,6 @@ function correlationCoefficient(key1, key2, jsonData) {
         -Infinity
     );
 
-    console.log("current x min", currentXMin);
-    console.log("current x max", currentXMax);
-    console.log("current y min", currentYMin);
-    console.log("current y max", currentYMax);
-
     // the main calculation
     let numerator = 0;
     let xSquaredSum = 0;
