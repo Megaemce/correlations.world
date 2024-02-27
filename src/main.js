@@ -467,7 +467,7 @@ function showScatterChart() {
             },
             scales: {
                 x: {
-                    type: "linear",
+                    type: () => { return currentXMax < 500000 ? "linear" : "logarithmic"},
                     position: "bottom",
                     title: {
                         display: true,
@@ -480,7 +480,7 @@ function showScatterChart() {
                     },
                 },
                 y: {
-                    type: "linear",
+                    type: () => { return currentYMax < 500000 ? "linear" : "logarithmic"},
                     position: "left",
                     title: {
                         display: true,
@@ -524,7 +524,7 @@ function showStatsChart() {
                 tooltip: {
                     enabled: true, // Disable tooltips
                     callbacks: {
-                        // modify oryginal behavior based on label. Mostly fix number of digits
+                        // modify original behavior based on label. Mostly fix number of digits
                         label: function (context) {
                             let result = context.dataset.label + ": ";
 
