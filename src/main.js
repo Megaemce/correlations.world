@@ -467,7 +467,9 @@ function showScatterChart() {
             },
             scales: {
                 x: {
-                    type: () => { return currentXMax < 500000 ? "linear" : "logarithmic"},
+                    type: () => {
+                        return currentXMax < 500000 ? "linear" : "logarithmic";
+                    },
                     position: "bottom",
                     title: {
                         display: true,
@@ -480,7 +482,9 @@ function showScatterChart() {
                     },
                 },
                 y: {
-                    type: () => { return currentYMax < 500000 ? "linear" : "logarithmic"},
+                    type: () => {
+                        return currentYMax < 500000 ? "linear" : "logarithmic";
+                    },
                     position: "left",
                     title: {
                         display: true,
@@ -646,6 +650,15 @@ function showStatsChart() {
                                     break;
                                 case "SexualPartners":
                                     result += context.parsed.y + " per life";
+                                    break;
+                                case "MaleYearsSchooling":
+                                    result += context.parsed.y + " years";
+                                    break;
+                                case "FemaleYearsSchooling":
+                                    result += context.parsed.y + " years";
+                                    break;
+                                case "YearsSchooling":
+                                    result += context.parsed.y + " years";
                                     break;
                                 default:
                                     result += context.parsed.y;

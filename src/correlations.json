@@ -2,6 +2,9 @@
  {
    "Country": "Afghanistan",
    "Population": 42239854,
+   "YearsSchooling": 1.7,
+   "MaleYearsSchooling": 2.8,
+   "FemaleYearsSchooling": 0.6,
    "Fertility": 4.4,
    "IQ": 82.12,
    "Income": 474,
@@ -42,6 +45,9 @@
  {
    "Country": "Albania",
    "Population": 2832439,
+   "YearsSchooling": 9.4,
+   "MaleYearsSchooling": 9.8,
+   "FemaleYearsSchooling": 9,
    "Fertility": 1.4,
    "IQ": 81.75,
    "Income": 3513,
@@ -82,6 +88,9 @@
  {
    "Country": "Algeria",
    "Population": 45606480,
+   "YearsSchooling": 8,
+   "MaleYearsSchooling": 9,
+   "FemaleYearsSchooling": 7,
    "Fertility": 2.8,
    "IQ": 76,
    "Income": 3684,
@@ -122,6 +131,9 @@
  {
    "Country": "American Samoa",
    "Population": 43914,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.2,
    "IQ": null,
    "Income": null,
@@ -162,6 +174,9 @@
  {
    "Country": "Andorra",
    "Population": 80088,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.1,
    "IQ": 95.2,
    "Income": null,
@@ -202,6 +217,9 @@
  {
    "Country": "Angola",
    "Population": 36684202,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 5.1,
    "IQ": 75.1,
    "Income": null,
@@ -242,6 +260,9 @@
  {
    "Country": "Antigua and Barbuda",
    "Population": 94298,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.6,
    "IQ": 70.48,
    "Income": null,
@@ -282,6 +303,9 @@
  {
    "Country": "Argentina",
    "Population": 45773884,
+   "YearsSchooling": 9.7,
+   "MaleYearsSchooling": 9.6,
+   "FemaleYearsSchooling": 9.9,
    "Fertility": 1.9,
    "IQ": 86.63,
    "Income": 8795,
@@ -322,6 +346,9 @@
  {
    "Country": "Armenia",
    "Population": 2777970,
+   "YearsSchooling": 10.6,
+   "MaleYearsSchooling": 10.6,
+   "FemaleYearsSchooling": 10.6,
    "Fertility": 1.6,
    "IQ": 88.82,
    "Income": null,
@@ -362,6 +389,9 @@
  {
    "Country": "Aruba",
    "Population": 106277,
+   "YearsSchooling": 8.4,
+   "MaleYearsSchooling": 8.6,
+   "FemaleYearsSchooling": 8.2,
    "Fertility": 1.2,
    "IQ": null,
    "Income": null,
@@ -402,6 +432,9 @@
  {
    "Country": "Australia",
    "Population": 26439111,
+   "YearsSchooling": 12.3,
+   "MaleYearsSchooling": 12.3,
+   "FemaleYearsSchooling": 12.2,
    "Fertility": 1.6,
    "IQ": 99.24,
    "Income": 42948,
@@ -442,6 +475,9 @@
  {
    "Country": "Austria",
    "Population": 8958960,
+   "YearsSchooling": 11.3,
+   "MaleYearsSchooling": 11.9,
+   "FemaleYearsSchooling": 10.8,
    "Fertility": 1.5,
    "IQ": 98.38,
    "Income": 42635,
@@ -482,6 +518,9 @@
  {
    "Country": "Azerbaijan",
    "Population": 10412651,
+   "YearsSchooling": 10.1,
+   "MaleYearsSchooling": 10.3,
+   "FemaleYearsSchooling": 9.9,
    "Fertility": 1.7,
    "IQ": 84.81,
    "Income": null,
@@ -522,6 +561,9 @@
  {
    "Country": "Bahamas",
    "Population": 412623,
+   "YearsSchooling": 11,
+   "MaleYearsSchooling": 10.7,
+   "FemaleYearsSchooling": 11.3,
    "Fertility": 1.4,
    "IQ": 86.99,
    "Income": null,
@@ -562,6 +604,9 @@
  {
    "Country": "Bahrain",
    "Population": 1485509,
+   "YearsSchooling": 8.5,
+   "MaleYearsSchooling": 8.7,
+   "FemaleYearsSchooling": 8.3,
    "Fertility": 1.8,
    "IQ": 83.6,
    "Income": 18839,
@@ -602,6 +647,9 @@
  {
    "Country": "Bangladesh",
    "Population": 172954319,
+   "YearsSchooling": 4,
+   "MaleYearsSchooling": 4.7,
+   "FemaleYearsSchooling": 3.3,
    "Fertility": 1.9,
    "IQ": 74.33,
    "Income": 936,
@@ -642,6 +690,9 @@
  {
    "Country": "Barbados",
    "Population": 281995,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.6,
    "IQ": 91.6,
    "Income": null,
@@ -682,6 +733,9 @@
  {
    "Country": "Belarus",
    "Population": 9498238,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.5,
    "IQ": 101.6,
    "Income": null,
@@ -722,6 +776,9 @@
  {
    "Country": "Belgium",
    "Population": 11686140,
+   "YearsSchooling": 11.5,
+   "MaleYearsSchooling": 11.6,
+   "FemaleYearsSchooling": 11.4,
    "Fertility": 1.6,
    "IQ": 97.49,
    "Income": 40526,
@@ -762,6 +819,9 @@
  {
    "Country": "Belize",
    "Population": 410825,
+   "YearsSchooling": 6.3,
+   "MaleYearsSchooling": 6.3,
+   "FemaleYearsSchooling": 6.2,
    "Fertility": 2,
    "IQ": 62.55,
    "Income": null,
@@ -802,6 +862,9 @@
  {
    "Country": "Benin",
    "Population": 13712828,
+   "YearsSchooling": 3,
+   "MaleYearsSchooling": 4.1,
+   "FemaleYearsSchooling": 1.9,
    "Fertility": 4.8,
    "IQ": 69.71,
    "Income": null,
@@ -842,6 +905,9 @@
  {
    "Country": "Bermuda",
    "Population": 64069,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.4,
    "IQ": 93.48,
    "Income": 108349,
@@ -882,6 +948,9 @@
  {
    "Country": "Bhutan",
    "Population": 787424,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.4,
    "IQ": 87.94,
    "Income": null,
@@ -922,6 +991,9 @@
  {
    "Country": "Bolivia",
    "Population": 12388571,
+   "YearsSchooling": 7.8,
+   "MaleYearsSchooling": 8.8,
+   "FemaleYearsSchooling": 6.9,
    "Fertility": 2.5,
    "IQ": 76.53,
    "Income": 1912,
@@ -962,6 +1034,9 @@
  {
    "Country": "Bosnia and Herzegovina",
    "Population": 3210847,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.3,
    "IQ": 88.54,
    "Income": null,
@@ -1002,6 +1077,9 @@
  {
    "Country": "Botswana",
    "Population": 2675352,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.7,
    "IQ": 69.45,
    "Income": null,
@@ -1042,6 +1120,9 @@
  {
    "Country": "Brazil",
    "Population": 216422446,
+   "YearsSchooling": 6.8,
+   "MaleYearsSchooling": 6.6,
+   "FemaleYearsSchooling": 6.9,
    "Fertility": 1.6,
    "IQ": 83.38,
    "Income": 7586,
@@ -1082,6 +1163,9 @@
  {
    "Country": "British Virgin Islands",
    "Population": 31538,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1,
    "IQ": 76.69,
    "Income": null,
@@ -1122,6 +1206,9 @@
  {
    "Country": "Brunei Darussalam",
    "Population": 452524,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.7,
    "IQ": 87.58,
    "Income": 29737,
@@ -1162,6 +1249,9 @@
  {
    "Country": "Bulgaria",
    "Population": 6687717,
+   "YearsSchooling": 10.7,
+   "MaleYearsSchooling": 10.7,
+   "FemaleYearsSchooling": 10.7,
    "Fertility": 1.6,
    "IQ": 90.99,
    "Income": 5703,
@@ -1202,6 +1292,9 @@
  {
    "Country": "Burkina Faso",
    "Population": 23251485,
+   "YearsSchooling": 1.3,
+   "MaleYearsSchooling": 1.9,
+   "FemaleYearsSchooling": 0.8,
    "Fertility": 4.6,
    "IQ": 73.8,
    "Income": null,
@@ -1242,6 +1335,9 @@
  {
    "Country": "Burundi",
    "Population": 13238559,
+   "YearsSchooling": 2.7,
+   "MaleYearsSchooling": 3.2,
+   "FemaleYearsSchooling": 2.2,
    "Fertility": 4.9,
    "IQ": 72.09,
    "Income": null,
@@ -1282,6 +1378,9 @@
  {
    "Country": "Cambodia",
    "Population": 16944826,
+   "YearsSchooling": 6,
+   "MaleYearsSchooling": 6.7,
+   "FemaleYearsSchooling": 5.4,
    "Fertility": 2.3,
    "IQ": 99.75,
    "Income": 776,
@@ -1322,6 +1421,9 @@
  {
    "Country": "Cameroon",
    "Population": 28647293,
+   "YearsSchooling": 5.8,
+   "MaleYearsSchooling": 6.7,
+   "FemaleYearsSchooling": 4.9,
    "Fertility": 4.3,
    "IQ": 67.76,
    "Income": 1234,
@@ -1362,6 +1464,9 @@
  {
    "Country": "Canada",
    "Population": 38781291,
+   "YearsSchooling": 12.8,
+   "MaleYearsSchooling": 12.9,
+   "FemaleYearsSchooling": 12.8,
    "Fertility": 1.5,
    "IQ": 99.52,
    "Income": 40207,
@@ -1400,8 +1505,11 @@
    "Religiosity": 27
  },
  {
-   "Country": "Capo Verde",
+   "Country": "Cape Verde",
    "Population": 598682,
+   "YearsSchooling": 6.6,
+   "MaleYearsSchooling": 6.9,
+   "FemaleYearsSchooling": 6.3,
    "Fertility": 1.9,
    "IQ": 52.5,
    "Income": null,
@@ -1442,6 +1550,9 @@
  {
    "Country": "Cayman Islands",
    "Population": 69310,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": null,
    "IQ": 82.24,
    "Income": null,
@@ -1482,6 +1593,9 @@
  {
    "Country": "Central African Republic",
    "Population": 5742315,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 5.8,
    "IQ": 62.55,
    "Income": null,
@@ -1522,6 +1636,9 @@
  {
    "Country": "Chad",
    "Population": 18278568,
+   "YearsSchooling": 1.5,
+   "MaleYearsSchooling": 2.3,
+   "FemaleYearsSchooling": 0.7,
    "Fertility": 6.1,
    "IQ": 78.87,
    "Income": 630,
@@ -1562,6 +1679,9 @@
  {
    "Country": "Chile",
    "Population": 19629590,
+   "YearsSchooling": 9.4,
+   "MaleYearsSchooling": 9.6,
+   "FemaleYearsSchooling": 9.3,
    "Fertility": 1.5,
    "IQ": 87.89,
    "Income": 10195,
@@ -1602,6 +1722,9 @@
  {
    "Country": "China",
    "Population": 1425671352,
+   "YearsSchooling": 7.4,
+   "MaleYearsSchooling": 7.9,
+   "FemaleYearsSchooling": 6.8,
    "Fertility": 1.2,
    "IQ": 104.1,
    "Income": 4654,
@@ -1642,6 +1765,9 @@
  {
    "Country": "Colombia",
    "Population": 52085168,
+   "YearsSchooling": 7.8,
+   "MaleYearsSchooling": 7.8,
+   "FemaleYearsSchooling": 7.9,
    "Fertility": 1.7,
    "IQ": 83.13,
    "Income": 5307,
@@ -1682,6 +1808,9 @@
  {
    "Country": "Comoros",
    "Population": 852075,
+   "YearsSchooling": 4.8,
+   "MaleYearsSchooling": 5.7,
+   "FemaleYearsSchooling": 4,
    "Fertility": 3.8,
    "IQ": 77.07,
    "Income": null,
@@ -1722,6 +1851,9 @@
  {
    "Country": "Congo",
    "Population": 6106869,
+   "YearsSchooling": 8.2,
+   "MaleYearsSchooling": 9.3,
+   "FemaleYearsSchooling": 7,
    "Fertility": 4,
    "IQ": 62.97,
    "Income": null,
@@ -1762,6 +1894,9 @@
  {
    "Country": "Congo (Dem. Republic)",
    "Population": 102262808,
+   "YearsSchooling": 6.9,
+   "MaleYearsSchooling": 8.6,
+   "FemaleYearsSchooling": 5.2,
    "Fertility": 6.1,
    "IQ": 64.92,
    "Income": 316,
@@ -1802,6 +1937,9 @@
  {
    "Country": "Cook Islands",
    "Population": 17044,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.2,
    "IQ": 83.96,
    "Income": null,
@@ -1842,6 +1980,9 @@
  {
    "Country": "Costa Rica",
    "Population": 5212173,
+   "YearsSchooling": 8.1,
+   "MaleYearsSchooling": 8.1,
+   "FemaleYearsSchooling": 8.1,
    "Fertility": 1.5,
    "IQ": 88.34,
    "Income": 7480,
@@ -1882,6 +2023,9 @@
  {
    "Country": "Croatia",
    "Population": 4008617,
+   "YearsSchooling": 11.1,
+   "MaleYearsSchooling": 11.6,
+   "FemaleYearsSchooling": 10.5,
    "Fertility": 1.4,
    "IQ": 95.75,
    "Income": 11642,
@@ -1922,6 +2066,9 @@
  {
    "Country": "Cuba",
    "Population": 11194449,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.5,
    "IQ": 83.9,
    "Income": 5538,
@@ -1962,6 +2109,9 @@
  {
    "Country": "Cyprus",
    "Population": 1260138,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.3,
    "IQ": 93.39,
    "Income": null,
@@ -2002,6 +2152,9 @@
  {
    "Country": "Czech Republic",
    "Population": 10495295,
+   "YearsSchooling": 12,
+   "MaleYearsSchooling": 12.3,
+   "FemaleYearsSchooling": 11.7,
    "Fertility": 1.7,
    "IQ": 94.92,
    "Income": 15552,
@@ -2042,6 +2195,9 @@
  {
    "Country": "Denmark",
    "Population": 5910913,
+   "YearsSchooling": 12.1,
+   "MaleYearsSchooling": 12.2,
+   "FemaleYearsSchooling": 12.1,
    "Fertility": 1.7,
    "IQ": 97.83,
    "Income": 53149,
@@ -2082,6 +2238,9 @@
  {
    "Country": "Dijbouti",
    "Population": 1136455,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.7,
    "IQ": 68.41,
    "Income": null,
@@ -2122,6 +2281,9 @@
  {
    "Country": "Dominica",
    "Population": 73040,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.6,
    "IQ": 66.03,
    "Income": 4964,
@@ -2162,6 +2324,9 @@
  {
    "Country": "Dominican Republic",
    "Population": 11332972,
+   "YearsSchooling": 5.7,
+   "MaleYearsSchooling": 5.7,
+   "FemaleYearsSchooling": 5.6,
    "Fertility": 2.2,
    "IQ": 82.05,
    "Income": null,
@@ -2202,6 +2367,9 @@
  {
    "Country": "East Timor",
    "Population": 1445006,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 3,
    "IQ": 74,
    "Income": 2073,
@@ -2242,6 +2410,9 @@
  {
    "Country": "Ecuador",
    "Population": 18190484,
+   "YearsSchooling": 8.1,
+   "MaleYearsSchooling": 8.2,
+   "FemaleYearsSchooling": 8,
    "Fertility": 2,
    "IQ": 78.26,
    "Income": 4159,
@@ -2282,6 +2453,9 @@
  {
    "Country": "Egypt",
    "Population": 112716598,
+   "YearsSchooling": 6.1,
+   "MaleYearsSchooling": 7.2,
+   "FemaleYearsSchooling": 5,
    "Fertility": 2.8,
    "IQ": 76.32,
    "Income": 2175,
@@ -2322,6 +2496,9 @@
  {
    "Country": "El Salvador",
    "Population": 6364943,
+   "YearsSchooling": 6.4,
+   "MaleYearsSchooling": 6.8,
+   "FemaleYearsSchooling": 6.1,
    "Fertility": 1.8,
    "IQ": 69.63,
    "Income": 2912,
@@ -2362,6 +2539,9 @@
  {
    "Country": "Equatorial Guine",
    "Population": 1714671,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 4.1,
    "IQ": 56,
    "Income": 7625,
@@ -2402,6 +2582,9 @@
  {
    "Country": "Eritrea",
    "Population": 3748901,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 3.7,
    "IQ": 68.77,
    "Income": null,
@@ -2442,6 +2625,9 @@
  {
    "Country": "Estonia",
    "Population": 1322765,
+   "YearsSchooling": 13.1,
+   "MaleYearsSchooling": 12.9,
+   "FemaleYearsSchooling": 13.3,
    "Fertility": 1.7,
    "IQ": 100.72,
    "Income": 13770,
@@ -2482,6 +2668,9 @@
  {
    "Country": "Eswatini",
    "Population": 1210822,
+   "YearsSchooling": 7.1,
+   "MaleYearsSchooling": 7.5,
+   "FemaleYearsSchooling": 6.8,
    "Fertility": 2.8,
    "IQ": 68.87,
    "Income": null,
@@ -2522,6 +2711,9 @@
  {
    "Country": "Ethiopia",
    "Population": 126527060,
+   "YearsSchooling": 1.6,
+   "MaleYearsSchooling": 2.3,
+   "FemaleYearsSchooling": 1,
    "Fertility": 4,
    "IQ": 68.42,
    "Income": 379,
@@ -2562,6 +2754,9 @@
  {
    "Country": "Fiji",
    "Population": 936375,
+   "YearsSchooling": 9.1,
+   "MaleYearsSchooling": 9.2,
+   "FemaleYearsSchooling": 9.1,
    "Fertility": 2.4,
    "IQ": 83.96,
    "Income": null,
@@ -2602,6 +2797,9 @@
  {
    "Country": "Finland",
    "Population": 5545475,
+   "YearsSchooling": 12,
+   "MaleYearsSchooling": 12,
+   "FemaleYearsSchooling": 12,
    "Fertility": 1.4,
    "IQ": 101.2,
    "Income": 42706,
@@ -2642,6 +2840,9 @@
  {
    "Country": "France",
    "Population": 64756584,
+   "YearsSchooling": 10.5,
+   "MaleYearsSchooling": 10.8,
+   "FemaleYearsSchooling": 10.3,
    "Fertility": 1.8,
    "IQ": 96.69,
    "Income": 37610,
@@ -2682,6 +2883,9 @@
  {
    "Country": "French Polynesia",
    "Population": 309304,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.7,
    "IQ": null,
    "Income": null,
@@ -2722,6 +2926,9 @@
  {
    "Country": "Gabon",
    "Population": 2436566,
+   "YearsSchooling": 8.2,
+   "MaleYearsSchooling": 9,
+   "FemaleYearsSchooling": 7.4,
    "Fertility": 3.4,
    "IQ": 62.97,
    "Income": null,
@@ -2762,6 +2969,9 @@
  {
    "Country": "Gambia",
    "Population": 2773168,
+   "YearsSchooling": 4.6,
+   "MaleYearsSchooling": 5.8,
+   "FemaleYearsSchooling": 3.4,
    "Fertility": 4.5,
    "IQ": 52.68,
    "Income": 648,
@@ -2802,6 +3012,9 @@
  {
    "Country": "Georgia",
    "Population": 3728282,
+   "YearsSchooling": 12.7,
+   "MaleYearsSchooling": 12.7,
+   "FemaleYearsSchooling": 12.7,
    "Fertility": 2.1,
    "IQ": 84.5,
    "Income": 2901,
@@ -2842,6 +3055,9 @@
  {
    "Country": "Germany",
    "Population": 83294633,
+   "YearsSchooling": 13.5,
+   "MaleYearsSchooling": 13.9,
+   "FemaleYearsSchooling": 13.2,
    "Fertility": 1.5,
    "IQ": 100.74,
    "Income": 39911,
@@ -2882,6 +3098,9 @@
  {
    "Country": "Ghana",
    "Population": 34121985,
+   "YearsSchooling": 6.4,
+   "MaleYearsSchooling": 7.7,
+   "FemaleYearsSchooling": 5.3,
    "Fertility": 3.5,
    "IQ": 58.16,
    "Income": 1166,
@@ -2922,6 +3141,9 @@
  {
    "Country": "Greece",
    "Population": 10341277,
+   "YearsSchooling": 10.3,
+   "MaleYearsSchooling": 10.6,
+   "FemaleYearsSchooling": 10,
    "Fertility": 1.4,
    "IQ": 90.77,
    "Income": 21101,
@@ -2962,6 +3184,9 @@
  {
    "Country": "Greenland",
    "Population": 56643,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.9,
    "IQ": 98.89,
    "Income": 24486,
@@ -3002,6 +3227,9 @@
  {
    "Country": "Grenada",
    "Population": 126183,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2,
    "IQ": 79.34,
    "Income": null,
@@ -3042,6 +3270,9 @@
  {
    "Country": "Guatemala",
    "Population": 18092026,
+   "YearsSchooling": 5,
+   "MaleYearsSchooling": 5.5,
+   "FemaleYearsSchooling": 4.6,
    "Fertility": 2.3,
    "IQ": 47.72,
    "Income": 2830,
@@ -3082,6 +3313,9 @@
  {
    "Country": "Guinea",
    "Population": 14190612,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 4.2,
    "IQ": 53.48,
    "Income": null,
@@ -3122,6 +3356,9 @@
  {
    "Country": "Guinea-Bissau",
    "Population": 2150842,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 3.8,
    "IQ": null,
    "Income": null,
@@ -3162,6 +3399,9 @@
  {
    "Country": "Guyana",
    "Population": 813834,
+   "YearsSchooling": 8.6,
+   "MaleYearsSchooling": 8.6,
+   "FemaleYearsSchooling": 8.7,
    "Fertility": 2.3,
    "IQ": 83.23,
    "Income": null,
@@ -3202,6 +3442,9 @@
  {
    "Country": "Haiti",
    "Population": 11724763,
+   "YearsSchooling": 4.1,
+   "MaleYearsSchooling": 4.6,
+   "FemaleYearsSchooling": 3.6,
    "Fertility": 2.7,
    "IQ": 82.1,
    "Income": null,
@@ -3242,6 +3485,9 @@
  {
    "Country": "Honduras",
    "Population": 10593798,
+   "YearsSchooling": 5.7,
+   "MaleYearsSchooling": 5.7,
+   "FemaleYearsSchooling": 5.8,
    "Fertility": 2.3,
    "IQ": 62.16,
    "Income": null,
@@ -3282,6 +3528,9 @@
  {
    "Country": "Hong Kong",
    "Population": 7491609,
+   "YearsSchooling": 10.9,
+   "MaleYearsSchooling": 11.4,
+   "FemaleYearsSchooling": 10.5,
    "Fertility": 0.8,
    "IQ": 105.37,
    "Income": 35304,
@@ -3322,6 +3571,9 @@
  {
    "Country": "Hungary",
    "Population": 10156239,
+   "YearsSchooling": 11.4,
+   "MaleYearsSchooling": 11.7,
+   "FemaleYearsSchooling": 11.1,
    "Fertility": 1.6,
    "IQ": 99.24,
    "Income": 11391,
@@ -3362,6 +3614,9 @@
  {
    "Country": "Iceland",
    "Population": 375318,
+   "YearsSchooling": 12.2,
+   "MaleYearsSchooling": 12.4,
+   "FemaleYearsSchooling": 12,
    "Fertility": 1.7,
    "IQ": 98.26,
    "Income": 47106,
@@ -3402,6 +3657,9 @@
  {
    "Country": "India",
    "Population": 1428627663,
+   "YearsSchooling": 5.4,
+   "MaleYearsSchooling": 6.6,
+   "FemaleYearsSchooling": 4.1,
    "Fertility": 2,
    "IQ": 76.24,
    "Income": 1163,
@@ -3442,6 +3700,9 @@
  {
    "Country": "Indonesia",
    "Population": 277534122,
+   "YearsSchooling": 8,
+   "MaleYearsSchooling": 8.5,
+   "FemaleYearsSchooling": 7.5,
    "Fertility": 2.1,
    "IQ": 78.49,
    "Income": 2355,
@@ -3482,6 +3743,9 @@
  {
    "Country": "Iran",
    "Population": 89172767,
+   "YearsSchooling": 5.4,
+   "MaleYearsSchooling": 6.4,
+   "FemaleYearsSchooling": 4.4,
    "Fertility": 1.7,
    "IQ": 80.01,
    "Income": 4545,
@@ -3522,6 +3786,9 @@
  {
    "Country": "Iraq",
    "Population": 45504560,
+   "YearsSchooling": 4.4,
+   "MaleYearsSchooling": 5.1,
+   "FemaleYearsSchooling": 3.7,
    "Fertility": 3.4,
    "IQ": 89.28,
    "Income": 3757,
@@ -3562,6 +3829,9 @@
  {
    "Country": "Ireland",
    "Population": 5056935,
+   "YearsSchooling": 10.8,
+   "MaleYearsSchooling": 10.6,
+   "FemaleYearsSchooling": 10.9,
    "Fertility": 1.8,
    "IQ": 95.13,
    "Income": 43903,
@@ -3602,6 +3872,9 @@
  {
    "Country": "Israel",
    "Population": 9174520,
+   "YearsSchooling": 11.6,
+   "MaleYearsSchooling": 11.5,
+   "FemaleYearsSchooling": 11.7,
    "Fertility": 2.9,
    "IQ": 92.43,
    "Income": 29009,
@@ -3642,6 +3915,9 @@
  {
    "Country": "Italy",
    "Population": 58870762,
+   "YearsSchooling": 9.8,
+   "MaleYearsSchooling": 10,
+   "FemaleYearsSchooling": 9.6,
    "Fertility": 1.3,
    "IQ": 94.23,
    "Income": 32104,
@@ -3682,6 +3958,9 @@
  {
    "Country": "Ivory Coast",
    "Population": 28873034,
+   "YearsSchooling": 3.6,
+   "MaleYearsSchooling": 4.6,
+   "FemaleYearsSchooling": 2.5,
    "Fertility": 4.3,
    "IQ": 58.16,
    "Income": 1289,
@@ -3722,6 +4001,9 @@
  {
    "Country": "Jamaica",
    "Population": 2825544,
+   "YearsSchooling": 9.7,
+   "MaleYearsSchooling": 9.5,
+   "FemaleYearsSchooling": 9.9,
    "Fertility": 1.3,
    "IQ": 75.08,
    "Income": null,
@@ -3762,6 +4044,9 @@
  {
    "Country": "Japan",
    "Population": 123294513,
+   "YearsSchooling": 12.5,
+   "MaleYearsSchooling": 12.7,
+   "FemaleYearsSchooling": 12.2,
    "Fertility": 1.3,
    "IQ": 106.48,
    "Income": 40964,
@@ -3802,6 +4087,9 @@
  {
    "Country": "Jordan",
    "Population": 11337052,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.7,
    "IQ": 80.7,
    "Income": null,
@@ -3842,6 +4130,9 @@
  {
    "Country": "Kazakhstan",
    "Population": 19606633,
+   "YearsSchooling": 10.6,
+   "MaleYearsSchooling": 10.6,
+   "FemaleYearsSchooling": 10.5,
    "Fertility": 3,
    "IQ": 88.89,
    "Income": 6380,
@@ -3882,6 +4173,9 @@
  {
    "Country": "Kenya",
    "Population": 55100586,
+   "YearsSchooling": 7.5,
+   "MaleYearsSchooling": 8.2,
+   "FemaleYearsSchooling": 6.8,
    "Fertility": 3.2,
    "IQ": 75.2,
    "Income": 939,
@@ -3922,6 +4216,9 @@
  {
    "Country": "Kiribati",
    "Population": 133515,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 3.2,
    "IQ": 83.96,
    "Income": null,
@@ -3962,6 +4259,9 @@
  {
    "Country": "Kosovo",
    "Population": 1964327,
+   "YearsSchooling": 9.2,
+   "MaleYearsSchooling": 10.5,
+   "FemaleYearsSchooling": 7.9,
    "Fertility": 1.52,
    "IQ": null,
    "Income": null,
@@ -4002,6 +4302,9 @@
  {
    "Country": "Kuwait",
    "Population": 4310108,
+   "YearsSchooling": 7.3,
+   "MaleYearsSchooling": 7,
+   "FemaleYearsSchooling": 7.5,
    "Fertility": 2.1,
    "IQ": 78.64,
    "Income": 37088,
@@ -4042,6 +4345,9 @@
  {
    "Country": "Kyrgyzstan",
    "Population": 6735347,
+   "YearsSchooling": 10.3,
+   "MaleYearsSchooling": 10.3,
+   "FemaleYearsSchooling": 10.2,
    "Fertility": 2.9,
    "IQ": 79.09,
    "Income": null,
@@ -4082,6 +4388,9 @@
  {
    "Country": "Laos",
    "Population": 7633779,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.4,
    "IQ": 80.99,
    "Income": null,
@@ -4122,6 +4431,9 @@
  {
    "Country": "Latvia",
    "Population": 1830211,
+   "YearsSchooling": 12.3,
+   "MaleYearsSchooling": 12.2,
+   "FemaleYearsSchooling": 12.4,
    "Fertility": 1.6,
    "IQ": 94.79,
    "Income": null,
@@ -4162,6 +4474,9 @@
  {
    "Country": "Lebanon",
    "Population": 5353930,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.1,
    "IQ": 81.7,
    "Income": null,
@@ -4202,6 +4517,9 @@
  {
    "Country": "Lesotho",
    "Population": 2330318,
+   "YearsSchooling": 6.5,
+   "MaleYearsSchooling": 5.6,
+   "FemaleYearsSchooling": 7.3,
    "Fertility": 2.9,
    "IQ": 68.87,
    "Income": null,
@@ -4242,6 +4560,9 @@
  {
    "Country": "Liberia",
    "Population": 5418377,
+   "YearsSchooling": 4.2,
+   "MaleYearsSchooling": 5.7,
+   "FemaleYearsSchooling": 2.7,
    "Fertility": 4,
    "IQ": 45.07,
    "Income": null,
@@ -4282,6 +4603,9 @@
  {
    "Country": "Libya",
    "Population": 6888388,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.4,
    "IQ": 80.92,
    "Income": null,
@@ -4322,6 +4646,9 @@
  {
    "Country": "Liechtenstein",
    "Population": 39584,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.53,
    "IQ": 101.07,
    "Income": null,
@@ -4362,6 +4689,9 @@
  {
    "Country": "Lithuania",
    "Population": 2718352,
+   "YearsSchooling": 13,
+   "MaleYearsSchooling": 13.1,
+   "FemaleYearsSchooling": 13,
    "Fertility": 1.6,
    "IQ": 95.89,
    "Income": 11330,
@@ -4402,6 +4732,9 @@
  {
    "Country": "Luxembourg",
    "Population": 654768,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.4,
    "IQ": 99.87,
    "Income": 71296,
@@ -4442,6 +4775,9 @@
  {
    "Country": "Macao",
    "Population": 704149,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.1,
    "IQ": 99.82,
    "Income": 44072,
@@ -4482,6 +4818,9 @@
  {
    "Country": "Madagascar",
    "Population": 30325732,
+   "YearsSchooling": 4.2,
+   "MaleYearsSchooling": 4.5,
+   "FemaleYearsSchooling": 3.9,
    "Fertility": 3.7,
    "IQ": 76.79,
    "Income": null,
@@ -4522,6 +4861,9 @@
  {
    "Country": "Malawi",
    "Population": 20931751,
+   "YearsSchooling": 4.8,
+   "MaleYearsSchooling": 5.9,
+   "FemaleYearsSchooling": 3.7,
    "Fertility": 3.8,
    "IQ": 69.7,
    "Income": null,
@@ -4562,6 +4904,9 @@
  {
    "Country": "Malaysia",
    "Population": 34308525,
+   "YearsSchooling": 9.9,
+   "MaleYearsSchooling": 10.4,
+   "FemaleYearsSchooling": 9.4,
    "Fertility": 1.8,
    "IQ": 87.58,
    "Income": 7665,
@@ -4602,6 +4947,9 @@
  {
    "Country": "Maldives",
    "Population": 521021,
+   "YearsSchooling": 5.5,
+   "MaleYearsSchooling": 5.6,
+   "FemaleYearsSchooling": 5.5,
    "Fertility": 1.8,
    "IQ": 80.54,
    "Income": null,
@@ -4642,6 +4990,9 @@
  {
    "Country": "Mali",
    "Population": 23293698,
+   "YearsSchooling": 1.5,
+   "MaleYearsSchooling": 2,
+   "FemaleYearsSchooling": 1,
    "Fertility": 5.8,
    "IQ": 59.76,
    "Income": null,
@@ -4682,6 +5033,9 @@
  {
    "Country": "Malta",
    "Population": 535064,
+   "YearsSchooling": 9.6,
+   "MaleYearsSchooling": 10.2,
+   "FemaleYearsSchooling": 9.1,
    "Fertility": 1.2,
    "IQ": 91.27,
    "Income": null,
@@ -4722,6 +5076,9 @@
  {
    "Country": "Marshall Islands",
    "Population": 41996,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.73,
    "IQ": 83.96,
    "Income": null,
@@ -4762,6 +5119,9 @@
  {
    "Country": "Mauritania",
    "Population": 4862989,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 4.3,
    "IQ": 59.76,
    "Income": null,
@@ -4802,6 +5162,9 @@
  {
    "Country": "Mauritius",
    "Population": 1300557,
+   "YearsSchooling": 7.9,
+   "MaleYearsSchooling": 8.4,
+   "FemaleYearsSchooling": 7.4,
    "Fertility": 1.4,
    "IQ": 86.56,
    "Income": 7812,
@@ -4842,6 +5205,9 @@
  {
    "Country": "Mexico",
    "Population": 128455567,
+   "YearsSchooling": 6.4,
+   "MaleYearsSchooling": 6.7,
+   "FemaleYearsSchooling": 6.2,
    "Fertility": 1.8,
    "IQ": 87.73,
    "Income": 8845,
@@ -4882,6 +5248,9 @@
  {
    "Country": "Micronesia",
    "Population": 115224,
+   "YearsSchooling": 8.6,
+   "MaleYearsSchooling": 9,
+   "FemaleYearsSchooling": 8.1,
    "Fertility": 2.7,
    "IQ": 83.96,
    "Income": null,
@@ -4922,6 +5291,9 @@
  {
    "Country": "Moldova",
    "Population": 3435931,
+   "YearsSchooling": 10.3,
+   "MaleYearsSchooling": 10.4,
+   "FemaleYearsSchooling": 10.2,
    "Fertility": 1.8,
    "IQ": 89.98,
    "Income": null,
@@ -4962,6 +5334,9 @@
  {
    "Country": "Monaco",
    "Population": 36297,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": null,
    "IQ": 104.51,
    "Income": null,
@@ -5002,6 +5377,9 @@
  {
    "Country": "Mongolia",
    "Population": 3447157,
+   "YearsSchooling": 9.4,
+   "MaleYearsSchooling": 9.1,
+   "FemaleYearsSchooling": 9.6,
    "Fertility": 2.7,
    "IQ": 91.03,
    "Income": 2241,
@@ -5042,6 +5420,9 @@
  {
    "Country": "Montenegro",
    "Population": 626408,
+   "YearsSchooling": 11.1,
+   "MaleYearsSchooling": 11.8,
+   "FemaleYearsSchooling": 10.5,
    "Fertility": 1.7,
    "IQ": 85.78,
    "Income": 6056,
@@ -5082,6 +5463,9 @@
  {
    "Country": "Morocco",
    "Population": 37840044,
+   "YearsSchooling": 4.1,
+   "MaleYearsSchooling": 5,
+   "FemaleYearsSchooling": 3.3,
    "Fertility": 2.3,
    "IQ": 67.03,
    "Income": 2567,
@@ -5122,6 +5506,9 @@
  {
    "Country": "Mozambique",
    "Population": 33897354,
+   "YearsSchooling": 3.6,
+   "MaleYearsSchooling": 4.5,
+   "FemaleYearsSchooling": 2.7,
    "Fertility": 4.5,
    "IQ": 72.5,
    "Income": null,
@@ -5162,6 +5549,9 @@
  {
    "Country": "Myanmar",
    "Population": 54577997,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.1,
    "IQ": 91.18,
    "Income": 660,
@@ -5202,6 +5592,9 @@
  {
    "Country": "Namibia",
    "Population": 2604172,
+   "YearsSchooling": 7.8,
+   "MaleYearsSchooling": 7.8,
+   "FemaleYearsSchooling": 7.8,
    "Fertility": 3.2,
    "IQ": 66.19,
    "Income": null,
@@ -5242,7 +5635,10 @@
  {
    "Country": "Nauru",
    "Population": 10834,
-   "Fertility": 3.5,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
+   "Fertility": 3.4,
    "IQ": null,
    "Income": null,
    "PenisLength": null,
@@ -5282,6 +5678,9 @@
  {
    "Country": "Nepal",
    "Population": 30896590,
+   "YearsSchooling": 3.5,
+   "MaleYearsSchooling": 4.8,
+   "FemaleYearsSchooling": 2.3,
    "Fertility": 2,
    "IQ": 42.99,
    "Income": 595,
@@ -5322,6 +5721,9 @@
  {
    "Country": "Netherlands",
    "Population": 17618299,
+   "YearsSchooling": 11.5,
+   "MaleYearsSchooling": 11.8,
+   "FemaleYearsSchooling": 11.2,
    "Fertility": 1.6,
    "IQ": 100.74,
    "Income": 45337,
@@ -5362,6 +5764,9 @@
  {
    "Country": "New Caledonia",
    "Population": 292991,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2,
    "IQ": 93.92,
    "Income": null,
@@ -5402,6 +5807,9 @@
  {
    "Country": "New Zealand",
    "Population": 5228100,
+   "YearsSchooling": 13.7,
+   "MaleYearsSchooling": 13.8,
+   "FemaleYearsSchooling": 13.7,
    "Fertility": 1.8,
    "IQ": 98.57,
    "Income": 30141,
@@ -5442,6 +5850,9 @@
  {
    "Country": "Nicaragua",
    "Population": 7046310,
+   "YearsSchooling": 5.4,
+   "MaleYearsSchooling": 5.4,
+   "FemaleYearsSchooling": 5.4,
    "Fertility": 2.3,
    "IQ": 52.69,
    "Income": null,
@@ -5482,6 +5893,9 @@
  {
    "Country": "Niger",
    "Population": 27202843,
+   "YearsSchooling": 1.1,
+   "MaleYearsSchooling": 1.5,
+   "FemaleYearsSchooling": 0.8,
    "Fertility": 6.7,
    "IQ": 70.82,
    "Income": 434,
@@ -5522,6 +5936,9 @@
  {
    "Country": "Nigeria",
    "Population": 223804632,
+   "YearsSchooling": 5.3,
+   "MaleYearsSchooling": 6.1,
+   "FemaleYearsSchooling": 4.5,
    "Fertility": 5.1,
    "IQ": 67.76,
    "Income": 1752,
@@ -5562,6 +5979,9 @@
  {
    "Country": "Niue",
    "Population": 1935,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.4,
    "IQ": null,
    "Income": null,
@@ -5602,6 +6022,9 @@
  {
    "Country": "North Macedonia",
    "Population": 2085679,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.4,
    "IQ": 81.91,
    "Income": null,
@@ -5642,6 +6065,9 @@
  {
    "Country": "North Korea",
    "Population": 26160821,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.8,
    "IQ": 98.82,
    "Income": null,
@@ -5682,6 +6108,9 @@
  {
    "Country": "Northern Mariana Islands",
    "Population": 49796,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": null,
    "IQ": 81.36,
    "Income": null,
@@ -5722,6 +6151,9 @@
  {
    "Country": "Norway",
    "Population": 5474360,
+   "YearsSchooling": 12.7,
+   "MaleYearsSchooling": 12.6,
+   "FemaleYearsSchooling": 12.7,
    "Fertility": 1.5,
    "IQ": 97.13,
    "Income": 75130,
@@ -5762,6 +6194,9 @@
  {
    "Country": "Oman",
    "Population": 4644384,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.5,
    "IQ": 78.7,
    "Income": 15328,
@@ -5802,6 +6237,9 @@
  {
    "Country": "Pakistan",
    "Population": 240485658,
+   "YearsSchooling": 3.8,
+   "MaleYearsSchooling": 4.9,
+   "FemaleYearsSchooling": 2.6,
    "Fertility": 3.3,
    "IQ": 80,
    "Income": 985,
@@ -5842,6 +6280,9 @@
  {
    "Country": "Palau",
    "Population": 18058,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 0.85,
    "IQ": null,
    "Income": null,
@@ -5882,6 +6323,9 @@
  {
    "Country": "Palestine",
    "Population": 5371230,
+   "YearsSchooling": 8.7,
+   "MaleYearsSchooling": 8.8,
+   "FemaleYearsSchooling": 8.6,
    "Fertility": 3.4,
    "IQ": 77.69,
    "Income": null,
@@ -5922,6 +6366,9 @@
  {
    "Country": "Panama",
    "Population": 4468087,
+   "YearsSchooling": 9.4,
+   "MaleYearsSchooling": 9.2,
+   "FemaleYearsSchooling": 9.6,
    "Fertility": 2.3,
    "IQ": 79,
    "Income": null,
@@ -5962,6 +6409,9 @@
  {
    "Country": "Papua New Guinea",
    "Population": 10329931,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 3.1,
    "IQ": 78.49,
    "Income": null,
@@ -6002,6 +6452,9 @@
  {
    "Country": "Paraguay",
    "Population": 6861524,
+   "YearsSchooling": 7.8,
+   "MaleYearsSchooling": 7.8,
+   "FemaleYearsSchooling": 7.8,
    "Fertility": 2.4,
    "IQ": 84.04,
    "Income": null,
@@ -6042,6 +6495,9 @@
  {
    "Country": "Peru",
    "Population": 34352719,
+   "YearsSchooling": 8.9,
+   "MaleYearsSchooling": 9.5,
+   "FemaleYearsSchooling": 8.3,
    "Fertility": 2.1,
    "IQ": 81.44,
    "Income": null,
@@ -6082,6 +6538,9 @@
  {
    "Country": "Philippines",
    "Population": 117337368,
+   "YearsSchooling": 8.2,
+   "MaleYearsSchooling": 8.2,
+   "FemaleYearsSchooling": 8.2,
    "Fertility": 2.7,
    "IQ": 81.64,
    "Income": 2330,
@@ -6122,6 +6581,9 @@
  {
    "Country": "Poland",
    "Population": 41026067,
+   "YearsSchooling": 10.9,
+   "MaleYearsSchooling": 11.1,
+   "FemaleYearsSchooling": 10.7,
    "Fertility": 1.5,
    "IQ": 96.35,
    "Income": 10505,
@@ -6162,6 +6624,9 @@
  {
    "Country": "Portugal",
    "Population": 10247605,
+   "YearsSchooling": 7.2,
+   "MaleYearsSchooling": 7.3,
+   "FemaleYearsSchooling": 7.2,
    "Fertility": 1.4,
    "IQ": 92.77,
    "Income": 19253,
@@ -6202,6 +6667,9 @@
  {
    "Country": "Puerto Rico",
    "Population": 3260314,
+   "YearsSchooling": 11.8,
+   "MaleYearsSchooling": 11.6,
+   "FemaleYearsSchooling": 12,
    "Fertility": 1.3,
    "IQ": 81.99,
    "Income": 16583,
@@ -6242,6 +6710,9 @@
  {
    "Country": "Qatar",
    "Population": 2716391,
+   "YearsSchooling": 9.5,
+   "MaleYearsSchooling": 8.8,
+   "FemaleYearsSchooling": 10.4,
    "Fertility": 1.8,
    "IQ": 80.78,
    "Income": 58617,
@@ -6282,6 +6753,9 @@
  {
    "Country": "Romania",
    "Population": 19892812,
+   "YearsSchooling": 9.2,
+   "MaleYearsSchooling": 9.7,
+   "FemaleYearsSchooling": 8.7,
    "Fertility": 1.7,
    "IQ": 86.88,
    "Income": 7109,
@@ -6322,6 +6796,9 @@
  {
    "Country": "Russia",
    "Population": 144444359,
+   "YearsSchooling": 10.4,
+   "MaleYearsSchooling": 10.5,
+   "FemaleYearsSchooling": 10.4,
    "Fertility": 1.5,
    "IQ": 96.29,
    "Income": 8241,
@@ -6362,6 +6839,9 @@
  {
    "Country": "Rwanda",
    "Population": 14094683,
+   "YearsSchooling": 3,
+   "MaleYearsSchooling": 3.7,
+   "FemaleYearsSchooling": 2.4,
    "Fertility": 3.7,
    "IQ": 69.95,
    "Income": null,
@@ -6402,6 +6882,9 @@
  {
    "Country": "Saint Kitts And Nevis",
    "Population": 47755,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.5,
    "IQ": 70.48,
    "Income": null,
@@ -6442,6 +6925,9 @@
  {
    "Country": "Saint Lucia",
    "Population": 180251,
+   "YearsSchooling": 9.4,
+   "MaleYearsSchooling": 9.1,
+   "FemaleYearsSchooling": 9.6,
    "Fertility": 1.4,
    "IQ": 73.68,
    "Income": null,
@@ -6482,6 +6968,9 @@
  {
    "Country": "Saint Vincent And The Grenadines",
    "Population": 103698,
+   "YearsSchooling": 9.3,
+   "MaleYearsSchooling": 9.1,
+   "FemaleYearsSchooling": 9.6,
    "Fertility": 1.8,
    "IQ": 63.42,
    "Income": null,
@@ -6522,6 +7011,9 @@
  {
    "Country": "Samoa",
    "Population": 225681,
+   "YearsSchooling": 9.7,
+   "MaleYearsSchooling": 9.3,
+   "FemaleYearsSchooling": 10.2,
    "Fertility": 3.8,
    "IQ": 83.96,
    "Income": null,
@@ -6562,6 +7054,9 @@
  {
    "Country": "Sao Tome And Principe",
    "Population": 231856,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 3.7,
    "IQ": 65.22,
    "Income": null,
@@ -6602,6 +7097,9 @@
  {
    "Country": "San Marino",
    "Population": 33642,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.1,
    "IQ": null,
    "Income": null,
@@ -6642,6 +7140,9 @@
  {
    "Country": "Saudi Arabia",
    "Population": 36947025,
+   "YearsSchooling": 9.2,
+   "MaleYearsSchooling": 10.3,
+   "FemaleYearsSchooling": 8.1,
    "Fertility": 2.4,
    "IQ": 76.36,
    "Income": 17468,
@@ -6682,6 +7183,9 @@
  {
    "Country": "Senegal",
    "Population": 17763163,
+   "YearsSchooling": 2.5,
+   "MaleYearsSchooling": 3.2,
+   "FemaleYearsSchooling": 1.8,
    "Fertility": 4.3,
    "IQ": 77.37,
    "Income": null,
@@ -6722,6 +7226,9 @@
  {
    "Country": "Serbia",
    "Population": 7149077,
+   "YearsSchooling": 10.4,
+   "MaleYearsSchooling": 10.3,
+   "FemaleYearsSchooling": 10.4,
    "Fertility": 1.5,
    "IQ": 89.6,
    "Income": 4876,
@@ -6762,6 +7269,9 @@
  {
    "Country": "Seychelles",
    "Population": 107660,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.3,
    "IQ": 78.76,
    "Income": null,
@@ -6802,6 +7312,9 @@
  {
    "Country": "Sierra Leone",
    "Population": 8791092,
+   "YearsSchooling": 2.5,
+   "MaleYearsSchooling": 3.5,
+   "FemaleYearsSchooling": 1.7,
    "Fertility": 3.8,
    "IQ": 45.07,
    "Income": 412,
@@ -6842,6 +7355,9 @@
  {
    "Country": "Singapore",
    "Population": 6014723,
+   "YearsSchooling": 11,
+   "MaleYearsSchooling": 11.7,
+   "FemaleYearsSchooling": 10.4,
    "Fertility": 1,
    "IQ": 105.89,
    "Income": 41100,
@@ -6882,6 +7398,9 @@
  {
    "Country": "Slovakia",
    "Population": 5795199,
+   "YearsSchooling": 12.2,
+   "MaleYearsSchooling": 12.4,
+   "FemaleYearsSchooling": 12,
    "Fertility": 1.6,
    "IQ": 96.32,
    "Income": 22060,
@@ -6922,6 +7441,9 @@
  {
    "Country": "Slovenia",
    "Population": 2119675,
+   "YearsSchooling": 11.2,
+   "MaleYearsSchooling": 11.6,
+   "FemaleYearsSchooling": 11,
    "Fertility": 1.6,
    "IQ": 98.6,
    "Income": null,
@@ -6962,6 +7484,9 @@
  {
    "Country": "Solomon Islands",
    "Population": 740424,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 3.9,
    "IQ": 83.96,
    "Income": null,
@@ -7002,6 +7527,9 @@
  {
    "Country": "Somalia",
    "Population": 18143378,
+   "YearsSchooling": 3.5,
+   "MaleYearsSchooling": 5.1,
+   "FemaleYearsSchooling": 2,
    "Fertility": 6.1,
    "IQ": 67.67,
    "Income": 396,
@@ -7042,6 +7570,9 @@
  {
    "Country": "South Africa",
    "Population": 60414495,
+   "YearsSchooling": 7.2,
+   "MaleYearsSchooling": 7.6,
+   "FemaleYearsSchooling": 7,
    "Fertility": 2.3,
    "IQ": 68.87,
    "Income": 5941,
@@ -7082,6 +7613,9 @@
  {
    "Country": "South Korea",
    "Population": 51784059,
+   "YearsSchooling": 11.7,
+   "MaleYearsSchooling": 12.7,
+   "FemaleYearsSchooling": 10.8,
    "Fertility": 0.9,
    "IQ": 102.35,
    "Income": 22805,
@@ -7122,6 +7656,9 @@
  {
    "Country": "South Sudan",
    "Population": 11088796,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 4.3,
    "IQ": 58.61,
    "Income": null,
@@ -7162,6 +7699,9 @@
  {
    "Country": "Spain",
    "Population": 47519628,
+   "YearsSchooling": 9.7,
+   "MaleYearsSchooling": 10,
+   "FemaleYearsSchooling": 9.5,
    "Fertility": 1.3,
    "IQ": 93.9,
    "Income": 26463,
@@ -7202,6 +7742,9 @@
  {
    "Country": "Sri Lanka",
    "Population": 21893579,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2,
    "IQ": 86.62,
    "Income": 2442,
@@ -7242,6 +7785,9 @@
  {
    "Country": "Sudan",
    "Population": 48109006,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 4.3,
    "IQ": 78.87,
    "Income": 1168,
@@ -7282,6 +7828,9 @@
  {
    "Country": "Suriname",
    "Population": 623236,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.3,
    "IQ": 90.29,
    "Income": null,
@@ -7322,6 +7871,9 @@
  {
    "Country": "Sweden",
    "Population": 10612086,
+   "YearsSchooling": 12.5,
+   "MaleYearsSchooling": 12.3,
+   "FemaleYearsSchooling": 12.7,
    "Fertility": 1.7,
    "IQ": 97,
    "Income": 49535,
@@ -7362,6 +7914,9 @@
  {
    "Country": "Switzerland",
    "Population": 8796669,
+   "YearsSchooling": 10.9,
+   "MaleYearsSchooling": 11.4,
+   "FemaleYearsSchooling": 10.5,
    "Fertility": 1.5,
    "IQ": 99.24,
    "Income": 70399,
@@ -7402,6 +7957,9 @@
  {
    "Country": "Syria",
    "Population": 23227014,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.7,
    "IQ": 74.41,
    "Income": 4532,
@@ -7442,6 +8000,9 @@
  {
    "Country": "Taiwan",
    "Population": 23923276,
+   "YearsSchooling": 10.8,
+   "MaleYearsSchooling": 11.3,
+   "FemaleYearsSchooling": 10.3,
    "Fertility": 1.2,
    "IQ": 106.47,
    "Income": null,
@@ -7482,6 +8043,9 @@
  {
    "Country": "Tajikistan",
    "Population": 10143543,
+   "YearsSchooling": 10.5,
+   "MaleYearsSchooling": 11.2,
+   "FemaleYearsSchooling": 9.9,
    "Fertility": 3.6,
    "IQ": 87.71,
    "Income": null,
@@ -7522,6 +8086,9 @@
  {
    "Country": "Tanzania",
    "Population": 67438106,
+   "YearsSchooling": 4.9,
+   "MaleYearsSchooling": 5.5,
+   "FemaleYearsSchooling": 4.3,
    "Fertility": 4.8,
    "IQ": 74.95,
    "Income": null,
@@ -7562,6 +8129,9 @@
  {
    "Country": "Thailand",
    "Population": 71801279,
+   "YearsSchooling": 6.3,
+   "MaleYearsSchooling": 6.6,
+   "FemaleYearsSchooling": 5.9,
    "Fertility": 1.3,
    "IQ": 88.87,
    "Income": 4260,
@@ -7602,6 +8172,9 @@
  {
    "Country": "Timor Leste",
    "Population": 1360596,
+   "YearsSchooling": 4.6,
+   "MaleYearsSchooling": 5.4,
+   "FemaleYearsSchooling": 3.8,
    "Fertility": 3,
    "IQ": 78.49,
    "Income": null,
@@ -7642,6 +8215,9 @@
  {
    "Country": "Togo",
    "Population": 9053799,
+   "YearsSchooling": 4.7,
+   "MaleYearsSchooling": 6.3,
+   "FemaleYearsSchooling": 3.2,
    "Fertility": 4.1,
    "IQ": 59.83,
    "Income": null,
@@ -7682,6 +8258,9 @@
  {
    "Country": "Tokelau",
    "Population": 1893,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.6,
    "IQ": null,
    "Income": null,
@@ -7722,6 +8301,9 @@
  {
    "Country": "Tonga",
    "Population": 107773,
+   "YearsSchooling": 10.8,
+   "MaleYearsSchooling": 10.8,
+   "FemaleYearsSchooling": 10.7,
    "Fertility": 3.2,
    "IQ": 83.96,
    "Income": null,
@@ -7762,6 +8344,9 @@
  {
    "Country": "Trinidad and Tobago",
    "Population": 1534937,
+   "YearsSchooling": 10.3,
+   "MaleYearsSchooling": 10.2,
+   "FemaleYearsSchooling": 10.5,
    "Fertility": 1.6,
    "IQ": 85.63,
    "Income": null,
@@ -7802,6 +8387,9 @@
  {
    "Country": "Tunisia",
    "Population": 12458223,
+   "YearsSchooling": 7,
+   "MaleYearsSchooling": 8.1,
+   "FemaleYearsSchooling": 5.9,
    "Fertility": 2,
    "IQ": 79.22,
    "Income": null,
@@ -7842,6 +8430,9 @@
  {
    "Country": "Turkey",
    "Population": 85816199,
+   "YearsSchooling": 7,
+   "MaleYearsSchooling": 8,
+   "FemaleYearsSchooling": 6.2,
    "Fertility": 1.9,
    "IQ": 86.8,
    "Income": 8840,
@@ -7882,6 +8473,9 @@
  {
    "Country": "Turkmenistan",
    "Population": 6516100,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 2.6,
    "IQ": 85.86,
    "Income": null,
@@ -7922,6 +8516,9 @@
  {
    "Country": "Turks And Caicos Islands",
    "Population": 46062,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.6,
    "IQ": 84.29,
    "Income": null,
@@ -7962,6 +8559,9 @@
  {
    "Country": "Tuvalu",
    "Population": 11396,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 3.1,
    "IQ": null,
    "Income": null,
@@ -8002,6 +8602,9 @@
  {
    "Country": "Uganda",
    "Population": 48582334,
+   "YearsSchooling": 6.4,
+   "MaleYearsSchooling": 6.8,
+   "FemaleYearsSchooling": 5.8,
    "Fertility": 4.4,
    "IQ": 76.42,
    "Income": null,
@@ -8042,6 +8645,9 @@
  {
    "Country": "Ukraine",
    "Population": 36744634,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.3,
    "IQ": 90.07,
    "Income": 2375,
@@ -8082,6 +8688,9 @@
  {
    "Country": "United Arab Emirates",
    "Population": 9516871,
+   "YearsSchooling": null,
+   "MaleYearsSchooling": null,
+   "FemaleYearsSchooling": null,
    "Fertility": 1.4,
    "IQ": 82.05,
    "Income": 38644,
@@ -8122,6 +8731,9 @@
  {
    "Country": "United Kingdom",
    "Population": 67736802,
+   "YearsSchooling": 12.2,
+   "MaleYearsSchooling": 12.4,
+   "FemaleYearsSchooling": 12,
    "Fertility": 1.6,
    "IQ": 99.12,
    "Income": 40698,
@@ -8162,6 +8774,9 @@
  {
    "Country": "United States",
    "Population": 339996563,
+   "YearsSchooling": 12.9,
+   "MaleYearsSchooling": 12.9,
+   "FemaleYearsSchooling": 12.9,
    "Fertility": 1.7,
    "IQ": 97.43,
    "Income": 49883,
@@ -8202,6 +8817,9 @@
  {
    "Country": "Uruguay",
    "Population": 3423108,
+   "YearsSchooling": 8.6,
+   "MaleYearsSchooling": 8.4,
+   "FemaleYearsSchooling": 8.7,
    "Fertility": 1.5,
    "IQ": 87.59,
    "Income": null,
@@ -8242,6 +8860,9 @@
  {
    "Country": "Uzbekistan",
    "Population": 35163944,
+   "YearsSchooling": 11.5,
+   "MaleYearsSchooling": 11.7,
+   "FemaleYearsSchooling": 11.4,
    "Fertility": 2.8,
    "IQ": 89.01,
    "Income": null,
@@ -8282,6 +8903,9 @@
  {
    "Country": "Vanuatu",
    "Population": 334506,
+   "YearsSchooling": 6.1,
+   "MaleYearsSchooling": 6.6,
+   "FemaleYearsSchooling": 5.7,
    "Fertility": 3.7,
    "IQ": 93.92,
    "Income": null,
@@ -8322,6 +8946,9 @@
  {
    "Country": "Venezuela",
    "Population": 28838499,
+   "YearsSchooling": 8.9,
+   "MaleYearsSchooling": 8.7,
+   "FemaleYearsSchooling": 9.2,
    "Fertility": 2.2,
    "IQ": 82.99,
    "Income": 8025,
@@ -8362,6 +8989,9 @@
  {
    "Country": "Vietnam",
    "Population": 98858950,
+   "YearsSchooling": 6.8,
+   "MaleYearsSchooling": 7.5,
+   "FemaleYearsSchooling": 6.2,
    "Fertility": 1.9,
    "IQ": 89.53,
    "Income": 1446,
@@ -8402,6 +9032,9 @@
  {
    "Country": "Yemen",
    "Population": 34449825,
+   "YearsSchooling": 1.5,
+   "MaleYearsSchooling": 2.5,
+   "FemaleYearsSchooling": 0.5,
    "Fertility": 3.6,
    "IQ": 62.86,
    "Income": null,
@@ -8442,6 +9075,9 @@
  {
    "Country": "Zambia",
    "Population": 20569737,
+   "YearsSchooling": 6.6,
+   "MaleYearsSchooling": 7.7,
+   "FemaleYearsSchooling": 5.6,
    "Fertility": 4.2,
    "IQ": 68.43,
    "Income": null,
@@ -8482,6 +9118,9 @@
  {
    "Country": "Zimbabwe",
    "Population": 16665409,
+   "YearsSchooling": 8.4,
+   "MaleYearsSchooling": 9.2,
+   "FemaleYearsSchooling": 7.6,
    "Fertility": 3.4,
    "IQ": 74.01,
    "Income": 843,
