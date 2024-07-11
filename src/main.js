@@ -351,6 +351,9 @@ function showRadarChart() {
                     angleLines: {
                         display: false,
                     },
+                    grid: {
+                        circular: true,
+                    },
                 },
             },
             elements: {
